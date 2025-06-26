@@ -14,7 +14,9 @@
       "Bash(git commit:*)",
       "Bash(git push:*)",
       "Bash(pandoc:*)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "Bash(chmod:*)",
+      "Bash(./check_toolkit.sh:*)"
     ],
     "deny": []
   }

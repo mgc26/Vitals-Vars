@@ -1,0 +1,10 @@
+# Publishing configuration for this issue
+publish: true
+issue_number: 1
+issue_title: "First-Case On-Time Starts"
+publish_date: "2024-01-15"
+toolkit_ready: true
+exclude_files:
+  - "*.tmp"
+  - ".DS_Store"
+  - "*.draft.*"

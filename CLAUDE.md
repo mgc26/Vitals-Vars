@@ -21,17 +21,27 @@ This is the **"Vitals & Variables"** project - a comprehensive GitHub repository
 ## Repository Structure (Current)
 
 ```
-(28) Vitals&Vars/
+(28) Vitals&Vars/ (PRIVATE - Main Working Repository)
 ├── README.md                    # Newsletter overview
 ├── LICENSE                      # MIT license with healthcare addendum
 ├── issues/                      # Self-contained newsletter issues
 │   ├── 00_launch/              # Launch announcement
-│   ├── 01_or_first_start_delay/ # First-case OR delays (complete)
-│   │   ├── README.md           # Self-contained overview
-│   │   ├── code/               # Analysis code and data
-│   │   ├── toolkit/            # Ready-to-use tools
-│   │   └── assets/             # Visualizations
+│   ├── 01_or_first_start_delay/ # First-case OR delays
+│   │   ├── README.md           # Full newsletter article
+│   │   ├── linkedin_post.md    # Social media drafts
+│   │   ├── notes.md            # Internal notes
+│   │   ├── code/               # Development code
+│   │   ├── assets/             # Visualizations
+│   │   ├── references/         # Research materials
+│   │   ├── _toolkit/           # PUBLIC: What gets published
+│   │   │   ├── README.md       # Toolkit overview (not full article)
+│   │   │   ├── sql/            # Production SQL queries
+│   │   │   ├── python/         # Analysis scripts & data
+│   │   │   ├── dashboards/     # BI templates
+│   │   │   └── guides/         # Implementation guides
+│   │   └── _meta.yaml          # Publishing configuration
 │   └── templates/               # Template for new issues
+├── _drafts/                     # GPT outputs, work in progress (git ignored)
 ├── backlog/                     # 50+ healthcare use cases
 │   ├── use_cases.md            # Complete list of problems
 │   ├── seasonal_planning.md    # Timing optimization
@@ -41,9 +51,24 @@ This is the **"Vitals & Variables"** project - a comprehensive GitHub repository
 │   ├── toolkit_templates/       # Tool templates
 │   ├── data_sources/           # Data access guide
 │   └── linkedin_post_template.md # Social media templates
+├── scripts/                     # Automation scripts
+│   └── publish_toolkit.py       # Push toolkit to public repo
 └── .github/                     # Automation
     ├── workflows/              # GitHub Actions
     └── ISSUE_TEMPLATE.md       # Issue submission template
+```
+
+### Public Repository Structure
+```
+vitals-vars-toolkits/ (PUBLIC - What Readers See)
+├── README.md                    # Welcome & overview
+├── 01_or_first_start_delay/     # Just the toolkit contents
+│   ├── README.md               # Toolkit overview
+│   ├── sql/                    # SQL queries
+│   ├── python/                 # Scripts & data
+│   ├── dashboards/             # BI templates
+│   └── guides/                 # Implementation docs
+└── 02_ed_boarding/             # Next toolkit...
 ```
 
 ## Current Status
@@ -118,6 +143,34 @@ Each newsletter issue follows this structure:
 2. **Following Templates**: Use templates in `issues/templates/` for new content
 3. **Asset Creation**: Place reusable assets in `resources/` directories
 4. **Quality Checks**: Follow quality assurance checklists before publishing
+
+### Publishing Toolkits
+
+**Important**: Only the `_toolkit/` folder contents get published to the public repository.
+
+To publish a toolkit:
+```bash
+cd scripts
+python publish_toolkit.py 01_or_first_start_delay
+```
+
+This will:
+- Copy only the `_toolkit/` folder contents
+- Push to the public `vitals-vars-toolkits` repository
+- Preserve the private repository's internal content
+
+**What goes in _toolkit/**:
+- Production-ready code and queries
+- Implementation guides
+- Dashboard templates
+- Quick start documentation
+
+**What stays private**:
+- Full newsletter article (README.md)
+- LinkedIn posts
+- Internal notes
+- Draft materials
+- References and research
 
 ## Key Tasks for Development
 
