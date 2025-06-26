@@ -78,8 +78,8 @@ Healthcare operations is hard. It doesn't have to be lonely.
 
 ## Stay Connected
 
-- **Subscribe**: [LinkedIn Newsletter Link]
-- **Submit a Challenge**: Have an operational pain point? [Tell us about it]
+- **Subscribe**: LinkedIn Newsletter (search "Vitals & Variables")
+- **Submit a Challenge**: Have an operational pain point? Reply in the comments or connect on LinkedIn
 - **Join the Conversation**: Comment and share what's working (or not) at your organization
 
 ---

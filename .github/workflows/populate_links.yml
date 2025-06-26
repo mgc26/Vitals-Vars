@@ -1,0 +1,158 @@
+name: Auto-Populate Content Links
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'Issue number to process (e.g., 01)'
+        required: true
+        type: string
+
+jobs:
+  populate-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          
+      - name: Install Dependencies
+        run: |
+          pip install pyyaml
+          
+      - name: Create Link Population Script
+        run: |
+          cat > populate_links.py << 'EOF'
+import os
+import re
+import yaml
+from pathlib import Path
+
+def load_link_config():
+    """Load link configuration from YAML"""
+    config = {
+        "placeholders": {
+            "{{REPO_URL}}": "https://github.com/${{ github.repository }}",
+            "{{ISSUE_URL}}": "https://github.com/${{ github.repository }}/tree/main/issues/{issue_dir}",
+            "{{TOOLKIT_URL}}": "https://github.com/${{ github.repository }}/tree/main/issues/{issue_dir}/toolkit",
+            "{{CODE_URL}}": "https://github.com/${{ github.repository }}/tree/main/issues/{issue_dir}/code",
+            "{{ASSETS_URL}}": "https://github.com/${{ github.repository }}/tree/main/issues/{issue_dir}/06_grab_and_go_asset",
+            "{{LINKEDIN_NEWSLETTER}}": "https://www.linkedin.com/newsletters/vitals-variables",
+            "{{READER_BRANCH}}": "https://github.com/${{ github.repository }}/tree/reader-issue-{issue_num}/reader_content"
+        },
+        "auto_links": {
+            # Auto-link references to other files
+            r'\[([^\]]+)\]\((\./[^)]+)\)': lambda m, base_url: f'[{m.group(1)}]({base_url}/{m.group(2).lstrip("./")})',
+            # Auto-link issue references
+            r'Issue #(\d+)': lambda m, base_url: f'[Issue #{m.group(1)}](https://github.com/${{ github.repository }}/tree/main/issues/{m.group(1).zfill(2)}_*)',
+        }
+    }
+    return config
+
+def process_markdown_file(file_path, issue_num, issue_dir):
+    """Process a single markdown file to populate links"""
+    with open(file_path, 'r') as f:
+        content = f.read()
+    
+    config = load_link_config()
+    original_content = content
+    
+    # Replace placeholders
+    for placeholder, url in config["placeholders"].items():
+        url = url.format(issue_num=issue_num, issue_dir=issue_dir)
+        content = content.replace(placeholder, url)
+    
+    # Process auto-links
+    base_url = f"https://github.com/${{ github.repository }}/tree/main/issues/{issue_dir}"
+    for pattern, replacer in config["auto_links"].items():
+        content = re.sub(pattern, lambda m: replacer(m, base_url), content)
+    
+    # Add footer links if not present
+    if "## Resources" not in content and file_path.name == "README.md":
+        footer = f"""
+
+## Resources
+
+- 📁 [View Complete Toolkit]({base_url}/toolkit)
+- 💻 [Access Code Samples]({base_url}/code)
+- 📊 [Download Assets]({base_url}/06_grab_and_go_asset)
+- 📰 [Subscribe to Newsletter](https://www.linkedin.com/newsletters/vitals-variables)
+"""
+        content += footer
+    
+    # Only write if content changed
+    if content != original_content:
+        with open(file_path, 'w') as f:
+            f.write(content)
+        return True
+    return False
+
+def main():
+    issue_num = "${{ github.event.inputs.issue_number }}"
+    
+    # Find issue directory
+    issue_dirs = list(Path("issues").glob(f"{issue_num}_*"))
+    if not issue_dirs:
+        print(f"Error: No directory found for issue {issue_num}")
+        exit(1)
+    
+    issue_dir = issue_dirs[0].name
+    issue_path = Path("issues") / issue_dir
+    
+    # Process all markdown files
+    modified_files = []
+    for md_file in issue_path.rglob("*.md"):
+        if process_markdown_file(md_file, issue_num, issue_dir):
+            modified_files.append(str(md_file))
+    
+    # Generate summary
+    print(f"## Link Population Summary")
+    print(f"")
+    print(f"Issue: #{issue_num}")
+    print(f"Directory: {issue_dir}")
+    print(f"")
+    print(f"### Modified Files ({len(modified_files)}):")
+    for file in modified_files:
+        print(f"- {file}")
+    
+    # Create link reference file
+    reference_file = issue_path / "LINKS.md"
+    with open(reference_file, 'w') as f:
+        f.write(f"# Issue #{issue_num} - Quick Links Reference\n\n")
+        f.write(f"## Direct Links\n\n")
+        f.write(f"- **Issue Home**: https://github.com/${{ github.repository }}/tree/main/issues/{issue_dir}\n")
+        f.write(f"- **Reader Version**: https://github.com/${{ github.repository }}/tree/reader-issue-{issue_num}/reader_content\n")
+        f.write(f"- **Toolkit**: https://github.com/${{ github.repository }}/tree/main/issues/{issue_dir}/toolkit\n")
+        f.write(f"- **Code Samples**: https://github.com/${{ github.repository }}/tree/main/issues/{issue_dir}/code\n")
+        f.write(f"- **Assets**: https://github.com/${{ github.repository }}/tree/main/issues/{issue_dir}/06_grab_and_go_asset\n")
+        f.write(f"\n## Sharing Links\n\n")
+        f.write(f"### LinkedIn Post Template:\n")
+        f.write(f"```\n")
+        f.write(f"New Vitals & Variables issue! 🏥📊\n\n")
+        f.write(f"This week: [Issue Title]\n\n")
+        f.write(f"Get the toolkit: https://github.com/${{ github.repository }}/tree/reader-issue-{issue_num}/reader_content\n")
+        f.write(f"```\n")
+
+if __name__ == "__main__":
+    main()
+EOF
+
+      - name: Run Link Population
+        run: |
+          python populate_links.py >> $GITHUB_STEP_SUMMARY
+          
+      - name: Commit Changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          
+          if git diff --quiet; then
+            echo "No link changes needed"
+          else
+            git add .
+            git commit -m "Auto-populate links for Issue #${{ github.event.inputs.issue_number }}"
+            git push
+          fi

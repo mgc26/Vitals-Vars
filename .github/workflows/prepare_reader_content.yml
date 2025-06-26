@@ -1,0 +1,117 @@
+name: Prepare Reader-Facing Content
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'Issue number to prepare (e.g., 01)'
+        required: true
+        type: string
+      
+jobs:
+  prepare-reader-content:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Create Reader Branch
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          
+          ISSUE_NUM="${{ github.event.inputs.issue_number }}"
+          BRANCH_NAME="reader-issue-${ISSUE_NUM}"
+          
+          # Create or update reader branch
+          git checkout -B $BRANCH_NAME
+          
+      - name: Copy Essential Content
+        run: |
+          ISSUE_NUM="${{ github.event.inputs.issue_number }}"
+          ISSUE_DIR=$(find issues -type d -name "${ISSUE_NUM}_*" | head -1)
+          
+          # Create temporary reader directory
+          mkdir -p reader_content
+          
+          # Copy only what readers need:
+          # 1. Main README
+          cp "$ISSUE_DIR/README.md" reader_content/
+          
+          # 2. Toolkit assets
+          if [ -d "$ISSUE_DIR/toolkit" ]; then
+            cp -r "$ISSUE_DIR/toolkit" reader_content/
+          fi
+          
+          # 3. Grab-and-go assets
+          if [ -d "$ISSUE_DIR/06_grab_and_go_asset" ]; then
+            mkdir -p reader_content/assets
+            cp -r "$ISSUE_DIR/06_grab_and_go_asset"/* reader_content/assets/
+          fi
+          
+          # 4. Any SQL/Python scripts from code directory
+          if [ -d "$ISSUE_DIR/code" ]; then
+            mkdir -p reader_content/code
+            find "$ISSUE_DIR/code" -name "*.sql" -o -name "*.py" | xargs -I {} cp {} reader_content/code/
+          fi
+          
+      - name: Clean Internal Content
+        run: |
+          # Remove any internal notes, drafts, or work-in-progress markers
+          find reader_content -name "*.draft.md" -delete
+          find reader_content -name "*INTERNAL*" -delete
+          find reader_content -name ".DS_Store" -delete
+          
+      - name: Generate Reader README
+        run: |
+          ISSUE_NUM="${{ github.event.inputs.issue_number }}"
+          ISSUE_DIR=$(find issues -type d -name "${ISSUE_NUM}_*" | head -1)
+          ISSUE_TITLE=$(basename "$ISSUE_DIR" | sed "s/${ISSUE_NUM}_//g" | tr '_' ' ' | sed 's/\b\(.\)/\u\1/g')
+          
+          cat > reader_content/README.md << EOF
+# Vitals & Variables - Issue #${ISSUE_NUM}: ${ISSUE_TITLE}
+
+Welcome! This repository contains all the resources from this issue of the Vitals & Variables newsletter.
+
+## 📁 What's Included
+
+- **Main Analysis**: The complete newsletter content
+- **Code Samples**: Ready-to-use SQL queries and Python scripts
+- **Toolkit**: Templates, checklists, and implementation guides
+- **Assets**: Dashboards, visualizations, and other resources
+
+## 🚀 Quick Start
+
+1. Read the main analysis in the newsletter
+2. Browse the \`/toolkit\` folder for implementation resources
+3. Check \`/code\` for ready-to-run queries and scripts
+4. Use \`/assets\` for templates and dashboards
+
+## 📧 Stay Connected
+
+- Subscribe to the newsletter: [LinkedIn Newsletter](https://www.linkedin.com/newsletters/vitals-variables)
+- Questions? Connect on LinkedIn: [Your LinkedIn Profile]
+
+---
+*Vitals & Variables: Turning frontline headaches into data-backed fixes*
+EOF
+          
+      - name: Commit Reader Content
+        run: |
+          ISSUE_NUM="${{ github.event.inputs.issue_number }}"
+          BRANCH_NAME="reader-issue-${ISSUE_NUM}"
+          
+          git add reader_content/
+          git commit -m "Prepare reader content for Issue #${ISSUE_NUM}"
+          git push origin $BRANCH_NAME
+          
+      - name: Create Reader URL
+        run: |
+          ISSUE_NUM="${{ github.event.inputs.issue_number }}"
+          BRANCH_NAME="reader-issue-${ISSUE_NUM}"
+          
+          echo "## 🎉 Reader Content Prepared!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Shareable Link:" >> $GITHUB_STEP_SUMMARY
+          echo "https://github.com/${{ github.repository }}/tree/${BRANCH_NAME}/reader_content" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "This link contains only the content readers need - no internal files!" >> $GITHUB_STEP_SUMMARY
