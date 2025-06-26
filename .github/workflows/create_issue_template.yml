@@ -1,0 +1,311 @@
+name: Create New Issue Template
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'New issue number (e.g., 02)'
+        required: true
+        type: string
+      issue_title:
+        description: 'Issue title (e.g., nurse_staffing_optimization)'
+        required: true
+        type: string
+      issue_description:
+        description: 'Brief description of the issue topic'
+        required: false
+        type: string
+
+jobs:
+  create-template:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Create Issue Structure
+        run: |
+          ISSUE_NUM="${{ github.event.inputs.issue_number }}"
+          ISSUE_TITLE="${{ github.event.inputs.issue_title }}"
+          ISSUE_DESC="${{ github.event.inputs.issue_description }}"
+          ISSUE_DIR="issues/${ISSUE_NUM}_${ISSUE_TITLE}"
+          
+          # Create directory structure
+          mkdir -p "$ISSUE_DIR"/{01_frame_the_pain,02_surface_the_signals,03_test_the_levers,04_size_the_prize,05_monday_playbook,06_grab_and_go_asset,code,toolkit,data}
+          
+      - name: Generate Main README Template
+        run: |
+          ISSUE_NUM="${{ github.event.inputs.issue_number }}"
+          ISSUE_TITLE="${{ github.event.inputs.issue_title }}"
+          ISSUE_DESC="${{ github.event.inputs.issue_description }}"
+          ISSUE_DIR="issues/${ISSUE_NUM}_${ISSUE_TITLE}"
+          READABLE_TITLE=$(echo "$ISSUE_TITLE" | tr '_' ' ' | sed 's/\b\(.\)/\u\1/g')
+          
+          cat > "$ISSUE_DIR/README.md" << 'EOF'
+# Issue #${{ github.event.inputs.issue_number }}: {{READABLE_TITLE}}
+
+*{{ISSUE_DESCRIPTION}}*
+
+---
+
+## 1. Frame the Pain
+
+[Start with a compelling statistic or story that anchors the problem]
+
+**The Reality:** 
+- [Key stat 1]
+- [Key stat 2]
+- [Impact statement]
+
+## 2. Surface the Signals
+
+[Descriptive analysis - what patterns do we see?]
+
+### Key Findings:
+- **Pattern 1**: [Description]
+- **Pattern 2**: [Description]
+- **Pattern 3**: [Description]
+
+[Include a simple visualization or table here]
+
+## 3. Test the Levers
+
+[What interventions could work?]
+
+### Intervention Analysis:
+1. **[Intervention Name]**
+   - Expected Impact: [X%]
+   - Implementation Effort: [Low/Medium/High]
+   - Time to Value: [Timeframe]
+
+2. **[Intervention Name]**
+   - Expected Impact: [X%]
+   - Implementation Effort: [Low/Medium/High]
+   - Time to Value: [Timeframe]
+
+## 4. Size the Prize
+
+[Quantify the opportunity]
+
+**If we achieve a [X%] improvement:**
+- Annual savings: $[Amount]
+- Time saved: [Hours] per [period]
+- Quality impact: [Metric improvement]
+
+## 5. Monday Playbook
+
+Your action plan for next week:
+
+### Quick Win (Day 1-2):
+- [ ] [Specific action]
+- [ ] [Specific action]
+
+### Build Momentum (Day 3-4):
+- [ ] [Specific action]
+- [ ] [Specific action]
+
+### Scale Success (Day 5):
+- [ ] [Specific action]
+- [ ] [Specific action]
+
+## 6. Grab-and-Go Toolkit
+
+Ready-to-use resources:
+
+- 📊 **[Dashboard Template]**: {{ASSETS_URL}}/dashboard_template.pbix
+- 📝 **[SQL Queries]**: {{CODE_URL}}/analysis_queries.sql
+- ✅ **[Implementation Checklist]**: {{TOOLKIT_URL}}/implementation_checklist.md
+- 📈 **[ROI Calculator]**: {{TOOLKIT_URL}}/roi_calculator.xlsx
+
+---
+
+## Resources
+
+- 📁 [View Complete Toolkit]({{TOOLKIT_URL}})
+- 💻 [Access Code Samples]({{CODE_URL}})
+- 📊 [Download Assets]({{ASSETS_URL}})
+- 📰 [Subscribe to Newsletter]({{LINKEDIN_NEWSLETTER}})
+
+---
+
+*Have questions or success stories? Connect on LinkedIn and share your experience!*
+EOF
+          
+          # Replace placeholders
+          sed -i "s|{{READABLE_TITLE}}|$READABLE_TITLE|g" "$ISSUE_DIR/README.md"
+          sed -i "s|{{ISSUE_DESCRIPTION}}|${ISSUE_DESC:-Description pending}|g" "$ISSUE_DIR/README.md"
+          
+      - name: Create Section Templates
+        run: |
+          ISSUE_DIR="issues/${{ github.event.inputs.issue_number }}_${{ github.event.inputs.issue_title }}"
+          
+          # Frame the Pain template
+          cat > "$ISSUE_DIR/01_frame_the_pain/README.md" << 'EOF'
+# Frame the Pain
+
+## Anchor Statistics
+- [ ] Find 2-3 compelling statistics
+- [ ] Verify data sources
+- [ ] Calculate local impact
+
+## Story Elements
+- [ ] Real-world scenario
+- [ ] Stakeholder quotes
+- [ ] Cost implications
+
+## Resources
+- [Data source 1]
+- [Data source 2]
+EOF
+
+          # Surface the Signals template
+          cat > "$ISSUE_DIR/02_surface_the_signals/README.md" << 'EOF'
+# Surface the Signals
+
+## Analysis Plan
+- [ ] Data collection
+- [ ] Descriptive statistics
+- [ ] Pattern identification
+- [ ] Visualization creation
+
+## Key Patterns to Explore
+1. Temporal patterns
+2. Department/unit variations
+3. Root cause indicators
+
+## Visualization Ideas
+- [ ] Time series plot
+- [ ] Distribution chart
+- [ ] Correlation matrix
+EOF
+
+          # Test the Levers template
+          cat > "$ISSUE_DIR/03_test_the_levers/README.md" << 'EOF'
+# Test the Levers
+
+## Intervention Framework
+1. **Quick Wins** (< 1 week implementation)
+2. **Medium-term** (1-4 weeks)
+3. **Strategic** (> 1 month)
+
+## Evaluation Criteria
+- Implementation effort
+- Expected impact
+- Time to value
+- Risk assessment
+
+## Testing Approach
+- [ ] Literature review
+- [ ] Benchmark analysis
+- [ ] Pilot design
+EOF
+
+          # Continue with other sections...
+          
+      - name: Create Code Templates
+        run: |
+          ISSUE_DIR="issues/${{ github.event.inputs.issue_number }}_${{ github.event.inputs.issue_title }}"
+          
+          # SQL template
+          cat > "$ISSUE_DIR/code/analysis_template.sql" << 'EOF'
+-- Issue #${{ github.event.inputs.issue_number }}: Analysis Queries
+-- Description: [Add description]
+-- Author: [Your name]
+-- Date: $(date +%Y-%m-%d)
+
+-- Query 1: Basic Metrics
+SELECT 
+    -- Add your analysis
+FROM 
+    -- Your tables
+WHERE 
+    -- Your conditions
+;
+
+-- Query 2: Trend Analysis
+-- Add more queries as needed
+EOF
+
+          # Python template
+          cat > "$ISSUE_DIR/code/analysis_template.py" << 'EOF'
+#!/usr/bin/env python3
+"""
+Issue #${{ github.event.inputs.issue_number }}: Analysis Script
+Description: [Add description]
+Author: [Your name]
+Date: $(date +%Y-%m-%d)
+"""
+
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+def main():
+    """Main analysis function"""
+    # Load data
+    
+    # Perform analysis
+    
+    # Generate visualizations
+    
+    # Export results
+    pass
+
+if __name__ == "__main__":
+    main()
+EOF
+
+      - name: Create Toolkit Templates
+        run: |
+          ISSUE_DIR="issues/${{ github.event.inputs.issue_number }}_${{ github.event.inputs.issue_title }}"
+          
+          # Implementation checklist
+          cat > "$ISSUE_DIR/toolkit/implementation_checklist.md" << 'EOF'
+# Implementation Checklist
+
+## Pre-Implementation
+- [ ] Stakeholder buy-in obtained
+- [ ] Current state documented
+- [ ] Success metrics defined
+- [ ] Timeline established
+
+## Implementation Phase
+- [ ] Communication plan executed
+- [ ] Training materials prepared
+- [ ] Pilot group identified
+- [ ] Feedback mechanism established
+
+## Post-Implementation
+- [ ] Metrics tracking initiated
+- [ ] Lessons learned documented
+- [ ] Scale-up plan created
+- [ ] Success stories captured
+EOF
+
+      - name: Commit Template
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          
+          ISSUE_DIR="issues/${{ github.event.inputs.issue_number }}_${{ github.event.inputs.issue_title }}"
+          git add "$ISSUE_DIR"
+          git commit -m "Create template for Issue #${{ github.event.inputs.issue_number }}: ${{ github.event.inputs.issue_title }}"
+          git push
+          
+      - name: Create Summary
+        run: |
+          ISSUE_NUM="${{ github.event.inputs.issue_number }}"
+          ISSUE_TITLE="${{ github.event.inputs.issue_title }}"
+          ISSUE_DIR="issues/${ISSUE_NUM}_${ISSUE_TITLE}"
+          
+          echo "## ✅ Issue Template Created!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Issue Details:" >> $GITHUB_STEP_SUMMARY
+          echo "- Number: #${ISSUE_NUM}" >> $GITHUB_STEP_SUMMARY
+          echo "- Title: ${ISSUE_TITLE}" >> $GITHUB_STEP_SUMMARY
+          echo "- Path: ${ISSUE_DIR}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Next Steps:" >> $GITHUB_STEP_SUMMARY
+          echo "1. Navigate to \`${ISSUE_DIR}\`" >> $GITHUB_STEP_SUMMARY
+          echo "2. Fill in the README.md template" >> $GITHUB_STEP_SUMMARY
+          echo "3. Add your analysis code and assets" >> $GITHUB_STEP_SUMMARY
+          echo "4. Run the publishing workflow when ready" >> $GITHUB_STEP_SUMMARY

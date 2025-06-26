@@ -59,7 +59,7 @@ Every issue follows the same proven framework:
 ## Coming Up
 
 ### Next Issue: First-Case OR Delays
-*Publishing: [Date]*
+*Publishing: November 1, 2024*
 
 The morning domino effect that costs the average hospital $2.4M annually. We'll show you why 23-minute delays have become "normal" and the surprisingly simple fixes that cut them by 60%.
 
@@ -78,8 +78,8 @@ Healthcare operations is hard. It doesn't have to be lonely.
 
 ## Stay Connected
 
-- **Subscribe**: [LinkedIn Newsletter Link]
-- **Submit a Challenge**: Have an operational pain point? [Tell us about it]
+- **Subscribe**: {{LINKEDIN_NEWSLETTER}}
+- **Submit a Challenge**: Have an operational pain point? Reply in the comments or connect on LinkedIn
 - **Join the Conversation**: Comment and share what's working (or not) at your organization
 
 ---
@@ -96,4 +96,4 @@ Welcome to the community. Let's fix healthcare operations together.
 
 ---
 
-*Next issue: First-Case OR Delays - Why the first cut is the deepest (for your budget) | Publishing [Date]*
+*Next issue: First-Case OR Delays - Why the first cut is the deepest (for your budget) | Publishing November 1, 2024*
