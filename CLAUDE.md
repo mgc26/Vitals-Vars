@@ -4,7 +4,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is the **"Vitals & Variables"** project - a comprehensive GitHub repository supporting a LinkedIn newsletter/podcast series focused on healthcare operations analytics. The project aims to translate healthcare operational challenges into data-driven, actionable solutions.
+This is the **"Vitals & Variables"** project - a comprehensive GitHub repository supporting a LinkedIn Newsletter series focused on healthcare operations analytics. The project aims to translate healthcare operational challenges into data-driven, actionable solutions.
+
+### Publishing Workflow
+- **Primary Channel**: LinkedIn Newsletter (full articles published directly on LinkedIn)
+- **Repository Role**: Houses all code, toolkits, and supplementary materials
+- **Content Flow**: 
+  1. README.md contains the full newsletter article (copy/paste into LinkedIn Newsletter editor)
+  2. linkedin_post.md contains promotional teasers to drive traffic to the newsletter
+  3. GitHub repo serves as the download hub for all code and tools mentioned in the article
 
 ## Project Mission
 

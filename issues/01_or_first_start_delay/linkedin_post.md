@@ -10,7 +10,8 @@ You'll get a 6-step playbook, ROI math your CFO can't ignore, Python code for a 
 
 Ready to shave 17 minutes off tomorrow's knife time?
 
-👉 Read the full breakdown & grab the code: [GitHub Link]
+👉 Read the full issue: [Newsletter Link]
+🔧 Grab the code & tools: [GitHub Link]
 
 #HealthcareAnalytics #OREfficiency #DataDriven
 
@@ -26,7 +27,9 @@ But here's what works: Yale boosted their first-case on-time starts from 62% to 
 
 Issue #1 of Vitals & Variables breaks down the exact playbook, with ready-to-run SQL queries and Python analysis code.
 
-Stop bleeding OR minutes. Start here: [GitHub Link]
+Stop bleeding OR minutes. Start here: [Newsletter Link]
+
+Get the code: [GitHub Link]
 
 #HealthcareOps #HospitalEfficiency #VitalsAndVariables
 
@@ -38,7 +41,7 @@ That OR dashboard in your surgeon lounge? Time to make it personal.
 
 Top performers hit 90% first-case on-time starts. The average? 65%. If you're below 85%, you're leaving money and capacity on the table.
 
-In Vitals & Variables Issue #2, I break down how to move the needle:
+In Vitals & Variables Issue #1, I break down how to move the needle:
 • Text alerts at T-30 (simple but works)
 • Public scorecards (peer pressure is powerful)  
 • Night-before room checks (no more 7:28 scrambles)
@@ -46,6 +49,8 @@ In Vitals & Variables Issue #2, I break down how to move the needle:
 
 Plus: SQL queries to pull your data and Python code to track progress.
 
-Your CFO will thank you: [GitHub Link]
+Your CFO will thank you: [Newsletter Link]
+
+Tools & code: [GitHub Link]
 
 #SurgeonLeadership #ORManagement #Healthcare
