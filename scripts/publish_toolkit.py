@@ -96,7 +96,7 @@ def main():
         if prepare_toolkit(issue_name, source_repo, temp_dir):
             publish_to_github(issue_name, temp_dir, public_repo_path)
             print(f"\n✨ Successfully published {issue_name}")
-            print(f"🔗 View at: https://github.com/yourusername/vitals-vars-toolkits/tree/main/{issue_name}")
+            print(f"🔗 View at: https://github.com/mgc26/vitals-vars-toolkits/tree/main/{issue_name}")
         
     finally:
         # Cleanup
