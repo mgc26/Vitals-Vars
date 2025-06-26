@@ -18,9 +18,9 @@ Grab these files and start using them tomorrow:
 ### `/code/` - Analysis Code & Data
 Dive deeper with analysis tools:
 - **`/sql/`** - 7 SQL queries for delay analysis (Epic/Cerner compatible)
-- **`/notebooks/`** - Jupyter notebooks for deeper analysis (coming soon)
-- **`/scripts/`** - Python/R scripts for automation (coming soon)
-- **`/data/`** - Sample datasets for testing (coming soon)
+- **`/notebooks/`** - Jupyter notebook for complete delay analysis
+- **`/scripts/`** - Python script for automated analysis
+- **`/data/`** - Sample dataset with 20 OR cases
 
 ### `/assets/` - Visualizations & Resources
 - Charts and diagrams from the analysis
@@ -96,8 +96,8 @@ Have improvements or success stories? We'd love to hear them:
 
 This is part of the **Vitals & Variables** newsletter series - bi-weekly data-driven solutions for healthcare operations.
 
-- 🔗 [Subscribe to the newsletter](https://linkedin.com/newsletters/vitals-variables)
-- 💬 [Join the discussion](https://github.com/vitals-variables/discussions)
+- 🔗 Subscribe to the newsletter on LinkedIn (search "Vitals & Variables")
+- 💬 Join the discussion in the issues section
 - 📧 Questions? Open an issue in this repository
 
 ## 📄 License

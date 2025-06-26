@@ -78,7 +78,7 @@ Every issue follows our proven framework:
 
 ## Stay Connected
 
-- 🔗 **Subscribe**: [LinkedIn Newsletter](https://www.linkedin.com/newsletters/vitals-variables)
+- 🔗 **Subscribe**: LinkedIn Newsletter (search "Vitals & Variables")
 - 💬 **Discuss**: Share what's working (or not) in the issues
 - 📧 **Contribute**: Have a challenge? Open an issue
 

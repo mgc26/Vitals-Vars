@@ -24,7 +24,7 @@ jobs:
           ISSUE_DIR="issues/${{ github.event.inputs.issue_number || '01' }}_*"
           
           # Check required directories exist
-          for dir in 01_frame_the_pain 02_surface_the_signals 03_test_the_levers 04_size_the_prize 05_monday_playbook 06_grab_and_go_asset; do
+          for dir in code toolkit assets; do
             if [ ! -d "$ISSUE_DIR/$dir" ]; then
               echo "Error: Missing required directory $dir"
               exit 1
@@ -51,7 +51,7 @@ jobs:
       - name: Verify Grab-and-Go Assets
         run: |
           ISSUE_DIR="issues/${{ github.event.inputs.issue_number || '01' }}_*"
-          ASSET_DIR="$ISSUE_DIR/06_grab_and_go_asset"
+          ASSET_DIR="$ISSUE_DIR/toolkit"
           
           # Check for at least one asset
           if [ -z "$(ls -A $ASSET_DIR)" ]; then
