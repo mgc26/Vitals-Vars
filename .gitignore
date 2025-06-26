@@ -40,3 +40,6 @@ ENV/
 *.tmp
 *.temp
 ~$*
+
+# Draft content (not for public repo)
+_drafts/

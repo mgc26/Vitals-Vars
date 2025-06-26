@@ -1,109 +1,123 @@
-# First-Case OR Delays: Data-Driven Solutions
+# Your 7:30 Knife Time is Actually 7:47
 
-Welcome! This repository contains everything you need to analyze and reduce first-case operating room delays at your hospital.
+*Vitals & Variables Issue #1: First-Case On-Time Starts*
 
-## 🎯 The Problem
+## The Hook
 
-First-case OR delays average 23 minutes nationally, creating a domino effect that costs hospitals $2.4M annually per OR suite. This toolkit provides proven solutions that can reduce delays by 60% in 8 weeks.
+Your 7:30 knife time is actually 7:47—here's how to win those 17 minutes back and save seven-figures.
 
-## 📁 What's In This Repository
+## 1. Frame the Pain
 
-### `/toolkit/` - Ready-to-Use Tools
-Grab these files and start using them tomorrow:
-- **`evening_checklist.md`** - Equipment readiness checklist (reduces equipment delays by 35%)
-- **`morning_huddle_template.md`** - 8-minute huddle format (reduces communication delays by 52%)
-- **`patient_callback_script.md`** - Pre-surgery patient calls (reduces patient delays by 45%)
-- **`README.md`** - Implementation guide for all tools
+OR minutes run $22-$150 a pop—yet half of first cases still drift late, bleeding cash and goodwill.
 
-### `/code/` - Analysis Code & Data
-Dive deeper with analysis tools:
-- **`/sql/`** - 7 SQL queries for delay analysis (Epic/Cerner compatible)
-- **`/notebooks/`** - Jupyter notebook for complete delay analysis
-- **`/scripts/`** - Python script for automated analysis
-- **`/data/`** - Sample dataset with 20 OR cases
+Nationally, median first-case-on-time start (FCOTS) is just **65%**, far from the 88-90% benchmark of top performers. At one 10-room suite, running 15 minutes late with 50% FCOTS torched **$1.56M** a year in dead overhead.
 
-### `/assets/` - Visualizations & Resources
-- Charts and diagrams from the analysis
-- PowerPoint slides for presentations
+And the root cause? Mostly human: surgeon stroll-ins, missing labs, gear gremlins. Every late wheel-in jams the whole day, spikes overtime, and tanks patient satisfaction. That's real money and morale circling the drain.
 
-## 🚀 Quick Start Guide
+## 2. Surface the Signals
 
-### Option 1: Just Fix It (No Analysis Needed)
-1. Download the [evening checklist](./toolkit/evening_checklist.md)
-2. Print copies for each OR
-3. Have evening staff complete tonight
-4. See results tomorrow morning
+Crunch the delay codes and you'll see a Pareto cliff:
+- **Surgeon-related factors** drive ≈52% of delays
+- **Pre-op process gaps** ~18%
+- **Room-setup flubs** ~13%
+- **Anesthesia holds** 7-15%
 
-### Option 2: Analyze Your Data First
-1. Run the [SQL queries](./code/sql/delay_tracking_queries.sql) on your data
-2. Identify your biggest delay sources
-3. Implement targeted solutions from the toolkit
-4. Track improvements weekly
+In one 3,604-case audit, 55% of first cases were late (median 12 min)—631 hours of OR time vaporized.
 
-### Option 3: Full Implementation
-1. Week 1: Implement evening checklist + morning huddle
-2. Week 2: Add patient callbacks
-3. Week 3: Begin data tracking
-4. Week 4+: Refine and expand
+The takeaway: fix surgeon punctuality and pre-op readiness first; everything else is noise by comparison.
 
-## 📊 Expected Results
+## 3. Test the Levers
 
-Based on implementations at 10+ hospitals:
-- **Time saved**: 2.5 hours/OR/day
-- **Revenue gain**: $300K/OR/year
-- **Overtime reduction**: $180K/year (8-OR suite)
-- **ROI**: 3-week payback period
+Quality-improvement war stories prove which levers actually move the needle:
 
-## 💡 The Science Behind It
+| Lever | Intervention | Result |
+|-------|-------------|--------|
+| **Dedicated "first-case facilitator"** | RN + text nudges | Yale New Haven Children's: FCOTS 62→77%, delay mins –33%, $4K/week freed |
+| **Mandatory 07:15 huddle** | Extra pre-op staff | SickKids Toronto: FCOTS 6→60% in 9 months |
+| **Surgeon bonus** | $1–2K for ≥90% on-time | MetroHealth: 57% FCOTS lift, $751K saved |
+| **Real-time readiness dashboard** | Visual status board | John Muir: Tripled FCOTS, crushed hidden delays |
 
-Our analysis of 10,000+ first cases revealed:
-- **35%** of delays: Equipment not ready
-- **25%** of delays: Staff communication gaps
-- **20%** of delays: Patient preparation issues
-- **12%** of delays: Anesthesia workflow
-- **8%** of delays: Surgeon arrival
+Notice the pattern: visibility + accountability + quick feedback loops.
 
-The tools in this repository target the top 80% of delay causes.
+## 4. Size the Prize
 
-## 🛠️ Technical Requirements
+Do the math:
+- 10 ORs × 15 late minutes = **150 lost minutes per morning**
+- At $100/min (middle of the cost range) that's **$15K/day**, **$3.8M annually**—more than the hospital's MRI budget
+- Boosting FCOTS from 50% to 85% reclaims two full surgical days per month
+- Enough capacity for ~120 extra cases a year without a brick of new real estate
 
-### For Basic Tools
-- No technical requirements (just print and use)
+CFOs love when "quality" prints money.
 
-### For SQL Analysis
-- Read access to your OR management system
-- Basic SQL knowledge (queries are well-commented)
-- Excel for results visualization
+## 5. Monday Playbook
 
-### For Advanced Analysis
-- Python 3.7+ or R 4.0+
-- Jupyter notebooks (optional)
-- Tableau/Power BI (optional)
+1. **Declare the metric**: FCOTS % at wheels-in, goal 85%+ within 90 days.
 
-## 📈 Success Stories
+2. **Daily 15-min huddle (14:00)**: Review this morning's misses, clear tomorrow's landmines.
 
-> "We were skeptical that such simple changes could work. But after 6 weeks, our first-case delays dropped from 28 minutes to 11 minutes. The surgeons actually thanked us!"
-> — Maria Rodriguez, OR Director, 450-bed Academic Medical Center
+3. **Golden-Patient Checklist**: One nurse owns "patient green across the board" by 06:30.
 
-## 🤝 Contributing
+4. **Night-Before Room Ready**: Charge RN signs off that every first-case tray & gadget is in the room—no 07:28 scavenger hunts.
 
-Have improvements or success stories? We'd love to hear them:
-- Open an issue with your results
-- Submit pull requests with enhancements
-- Share what worked (or didn't) at your facility
+5. **Surgeon Scorecards**: Weekly email + lounge leaderboard; tie bonus if politics allow.
 
-## 📬 Stay Connected
+6. **Real-Time Dashboard**: Traffic-light board shows patient, surgeon, anesthesia, equipment status at T-30. Red light? escalate.
 
-This is part of the **Vitals & Variables** newsletter series - bi-weekly data-driven solutions for healthcare operations.
+7. **Celebrate Wins**: Coffee tokens for 100% on-time mornings; public shout-outs keep momentum.
 
-- 🔗 Subscribe to the newsletter on LinkedIn (search "Vitals & Variables")
-- 💬 Join the discussion in the issues section
-- 📧 Questions? Open an issue in this repository
+## 6. Grab-and-Go Asset
 
-## 📄 License
+### Quick Run Chart Analysis
 
-These tools are provided free for use in healthcare settings. See LICENSE file for details.
+Drop this into `analysis.py` to visualize your FCOTS trend:
+
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Load your EMR extract
+df = pd.read_csv('fcots_daily.csv', parse_dates=['date'])
+df['on_time_flag'] = (df['delay_minutes'] <= 0)
+
+# Calculate daily on-time percentage
+daily = df.groupby('date')['on_time_flag'].mean() * 100
+
+# Create run chart
+plt.figure(figsize=(10, 4))
+plt.plot(daily.index, daily.values, marker='o', markersize=4)
+plt.axhline(85, linestyle='--', color='green', label='Target: 85%')
+plt.title('First-Case On-Time %')
+plt.ylabel('% On-Time')
+plt.xlabel('Date')
+plt.legend()
+plt.tight_layout()
+plt.show()
+```
+
+Point it at a CSV with columns: `date, delay_minutes` and watch your trendline bend north.
+
+### Get the Full Toolkit
+
+Visit our [GitHub repo](https://github.com/yourusername/vitals-and-vars) for:
+- Complete analysis code with mock data generator
+- SQL queries for common EMR systems
+- Dashboard templates (Tableau/Power BI)
+- Implementation checklist
 
 ---
 
-*Making healthcare operations a little less mysterious, one variable at a time.*
+## References
+
+1. Restini C. et al. [Assessing Root Causes of First Case On-Time Start Delay](https://pubmed.ncbi.nlm.nih.gov/xxxxx/) - orthopedics QI study, 2022.
+2. Pashankar D. et al. [A Quality-Improvement Project to Improve First Case On-Time Starts in the Pediatric OR](https://pubmed.ncbi.nlm.nih.gov/xxxxx/) - Yale New Haven Children's Hospital, 2020.
+3. Cox Bauer C. et al. [Evaluation of First-Case Start Tardiness in High-Volume Hospitals](https://pubmed.ncbi.nlm.nih.gov/xxxxx/), 2016.
+4. Hicks K. et al. "Enumerating the Causes and Burden of First-Case OR Delays." Am J Surg 219(3):486-489, 2020.
+5. Halim U. et al. "Strategies to Improve Operating Room Start Times." J Med Syst 42(9):160, 2018.
+6. [John Muir Health Case Study](https://www.healthcatalyst.com/success-story/john-muir-health-or-efficiency) - HealthCatalyst, 2021.
+7. Plante Moran. [First-Case On-Time Starts: A Proven Strategy to Improve OR Efficiency](https://www.plantemoran.com/), 2023.
+8. Knox C. et al. "Increasing First Case On-Time Starts Using an Electronic Readiness Dashboard." Periop Care & OR Mgmt 35:100412, 2024.
+
+---
+
+*Next Issue: ED Boarding - When Your Waiting Room Becomes a Ward*
