@@ -99,7 +99,7 @@ Point it at a CSV with columns: `date, delay_minutes` and watch your trendline b
 
 ### Get the Full Toolkit
 
-Visit our [GitHub repo](https://github.com/yourusername/vitals-and-vars) for:
+Visit our GitHub repo [Add link] for:
 - Complete analysis code with mock data generator
 - SQL queries for common EMR systems
 - Dashboard templates (Tableau/Power BI)
@@ -109,13 +109,13 @@ Visit our [GitHub repo](https://github.com/yourusername/vitals-and-vars) for:
 
 ## References
 
-1. Restini C. et al. [Assessing Root Causes of First Case On-Time Start Delay](https://pubmed.ncbi.nlm.nih.gov/xxxxx/) - orthopedics QI study, 2022.
-2. Pashankar D. et al. [A Quality-Improvement Project to Improve First Case On-Time Starts in the Pediatric OR](https://pubmed.ncbi.nlm.nih.gov/xxxxx/) - Yale New Haven Children's Hospital, 2020.
-3. Cox Bauer C. et al. [Evaluation of First-Case Start Tardiness in High-Volume Hospitals](https://pubmed.ncbi.nlm.nih.gov/xxxxx/), 2016.
+1. Restini C. et al. "Assessing Root Causes of First Case On-Time Start Delay" - orthopedics QI study, 2022.
+2. Pashankar D. et al. "A Quality-Improvement Project to Improve First Case On-Time Starts in the Pediatric OR" - Yale New Haven Children's Hospital, 2020.
+3. Cox Bauer C. et al. "Evaluation of First-Case Start Tardiness in High-Volume Hospitals", 2016.
 4. Hicks K. et al. "Enumerating the Causes and Burden of First-Case OR Delays." Am J Surg 219(3):486-489, 2020.
 5. Halim U. et al. "Strategies to Improve Operating Room Start Times." J Med Syst 42(9):160, 2018.
-6. [John Muir Health Case Study](https://www.healthcatalyst.com/success-story/john-muir-health-or-efficiency) - HealthCatalyst, 2021.
-7. Plante Moran. [First-Case On-Time Starts: A Proven Strategy to Improve OR Efficiency](https://www.plantemoran.com/), 2023.
+6. John Muir Health Case Study - "Data-Driven Operations: Timely Data to Triple First Case On-Time Starts" - HealthCatalyst, 2021.
+7. Plante Moran. "First-Case On-Time Starts: A Proven Strategy to Improve OR Efficiency", 2023.
 8. Knox C. et al. "Increasing First Case On-Time Starts Using an Electronic Readiness Dashboard." Periop Care & OR Mgmt 35:100412, 2024.
 
 ---

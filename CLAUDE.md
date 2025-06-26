@@ -89,6 +89,12 @@ Each newsletter issue follows this structure:
 - **Format**: Markdown with supporting assets
 - **Deliverables**: Analysis, toolkits (SQL scripts, dashboard templates), implementation guides
 - **Complexity**: Scales from quick wins to deep dives based on problem complexity
+- **Citations & References**: 
+  - Never make up URLs or create fake links
+  - Never falsely attribute quotes or studies
+  - Use placeholder text like `[Citation needed]` or `[Add link]` when URL is unknown
+  - Include author names and publication years when known, but don't invent publication details
+  - Better to say "studies show" than to fabricate specific citations
 
 ## Technical Stack
 
