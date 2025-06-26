@@ -109,14 +109,21 @@ Visit our GitHub repo [Add link] for:
 
 ## References
 
-1. Restini C. et al. "Assessing Root Causes of First Case On-Time Start Delay" - orthopedics QI study, 2022.
-2. Pashankar D. et al. "A Quality-Improvement Project to Improve First Case On-Time Starts in the Pediatric OR" - Yale New Haven Children's Hospital, 2020.
-3. Cox Bauer C. et al. "Evaluation of First-Case Start Tardiness in High-Volume Hospitals", 2016.
-4. Hicks K. et al. "Enumerating the Causes and Burden of First-Case OR Delays." Am J Surg 219(3):486-489, 2020.
-5. Halim U. et al. "Strategies to Improve Operating Room Start Times." J Med Syst 42(9):160, 2018.
-6. John Muir Health Case Study - "Data-Driven Operations: Timely Data to Triple First Case On-Time Starts" - HealthCatalyst, 2021.
-7. Plante Moran. "First-Case On-Time Starts: A Proven Strategy to Improve OR Efficiency", 2023.
-8. Knox C. et al. "Increasing First Case On-Time Starts Using an Electronic Readiness Dashboard." Periop Care & OR Mgmt 35:100412, 2024.
+1. Saul, B., Ketelaar, E., Yaish, A., Wagner, M., Comrie, R., Brannan, G.D., Restini, C. and Balancio, M., 2022. Assessing Root Causes of First Case On-time Start (FCOTS) delay in the orthopedic department at a busy level II community teaching hospital. Spartan Medical Research Journal, 7(2), p.36719.
+
+2. Pashankar, D.S., Zhao, A.M., Bathrick, R., Taylor, C., Boules, H., Cowles, R.A. and Grossman, M., 2020. A quality improvement project to improve first case on-time starts in the pediatric operating room. Pediatric Quality & Safety, 5(4), p.e305.
+
+3. Cox Bauer, C.M., Greer, D.M., Vander Wyst, K.B. and Kamelle, S.A., 2016. First-case operating room delays: patterns across urban hospitals of a single health care system. Journal of Patient-Centered Research and Reviews, 3(3), pp.125-135.
+
+4. Hicks, K.B., Glaser, K., Scott, C., Sparks, D. and McHenry, C.R., 2020. Enumerating the causes and burden of first case operating room delays. The American Journal of Surgery, 219(3), pp.486-489.
+
+5. Halim, U.A., Khan, M.A. and Ali, A.M., 2018. Strategies to improve start time in the operating theatre: a systematic review. Journal of Medical Systems, 42, pp.1-11.
+
+6. John Muir Health Case Study - "Data-Driven Operations: Timely Data to Triple First Case On-Time Starts" - HealthCatalyst, 2021. https://www.healthcatalyst.com/learn/success-stories/operating-room-efficiency-john-muir-health
+
+7. Plante Moran. "First-Case On-Time Starts: A Proven Strategy to Improve OR Efficiency", 2023. https://www.plantemoran.com/explore-our-thinking/areas-of-focus/reimagining-the-future-of-healthcare-systems
+
+8. Knox, C., Harper, J., McMillan, L., Vining, B. and White, T., 2024. Increasing first case on time starts in the operating room using an electronic readiness dashboard: A quality improvement project. Perioperative Care and Operating Room Management, 35, p.100412.
 
 ---
 
