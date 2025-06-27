@@ -21,15 +21,38 @@ jobs:
       
       - name: Validate Issue Structure
         run: |
-          ISSUE_NUM="${{ github.event.inputs.issue_number || '01' }}"
-          ISSUE_DIR="issues/${ISSUE_NUM}_*"
+          # If triggered manually, use the input. Otherwise, detect from changed files
+          if [ -n "${{ github.event.inputs.issue_number }}" ]; then
+            ISSUE_NUM="${{ github.event.inputs.issue_number }}"
+          else
+            # Try to detect issue number from changed files
+            CHANGED_FILE=$(git diff --name-only HEAD HEAD~1 | grep "issues/.*/README.md" | head -1)
+            if [ -n "$CHANGED_FILE" ]; then
+              ISSUE_DIR=$(dirname "$CHANGED_FILE")
+              ISSUE_NUM=$(echo "$ISSUE_DIR" | sed 's/issues\/\([0-9]*\)_.*/\1/')
+            else
+              ISSUE_NUM="01"  # Default fallback
+            fi
+          fi
+          
+          echo "Processing issue number: $ISSUE_NUM"
+          
+          # Find the actual directory using glob expansion
+          ISSUE_DIR=$(ls -d issues/${ISSUE_NUM}_* 2>/dev/null | head -1)
+          
+          if [ -z "$ISSUE_DIR" ]; then
+            echo "Error: Issue directory not found for issue number ${ISSUE_NUM}"
+            exit 1
+          fi
+          
+          echo "Found issue directory: $ISSUE_DIR"
           
           # Skip directory validation for launch issue (00)
           if [ "$ISSUE_NUM" != "00" ]; then
             # Check required directories exist for new structure
             for dir in code _toolkit assets; do
               if [ ! -d "$ISSUE_DIR/$dir" ]; then
-                echo "Error: Missing required directory $dir"
+                echo "Error: Missing required directory $ISSUE_DIR/$dir"
                 exit 1
               fi
             done
@@ -57,7 +80,13 @@ jobs:
       - name: Verify Grab-and-Go Assets
         run: |
           ISSUE_NUM="${{ github.event.inputs.issue_number || '01' }}"
-          ISSUE_DIR="issues/${ISSUE_NUM}_*"
+          # Find the actual directory using glob expansion
+          ISSUE_DIR=$(ls -d issues/${ISSUE_NUM}_* 2>/dev/null | head -1)
+          
+          if [ -z "$ISSUE_DIR" ]; then
+            echo "Error: Issue directory not found for issue number ${ISSUE_NUM}"
+            exit 1
+          fi
           
           # Skip asset validation for launch issue (00)
           if [ "$ISSUE_NUM" != "00" ]; then
@@ -118,7 +147,14 @@ jobs:
       
       - name: Generate Issue Summary
         run: |
-          ISSUE_DIR="issues/${{ github.event.inputs.issue_number || '01' }}_*"
+          ISSUE_NUM="${{ github.event.inputs.issue_number || '01' }}"
+          # Find the actual directory using glob expansion
+          ISSUE_DIR=$(ls -d issues/${ISSUE_NUM}_* 2>/dev/null | head -1)
+          
+          if [ -z "$ISSUE_DIR" ]; then
+            echo "Error: Issue directory not found for issue number ${ISSUE_NUM}"
+            exit 1
+          fi
           
           echo "# Issue Publishing Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
