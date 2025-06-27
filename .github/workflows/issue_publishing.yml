@@ -27,7 +27,7 @@ jobs:
           # Skip directory validation for launch issue (00)
           if [ "$ISSUE_NUM" != "00" ]; then
             # Check required directories exist for new structure
-            for dir in code toolkit assets; do
+            for dir in code _toolkit assets; do
               if [ ! -d "$ISSUE_DIR/$dir" ]; then
                 echo "Error: Missing required directory $dir"
                 exit 1
@@ -61,7 +61,7 @@ jobs:
           
           # Skip asset validation for launch issue (00)
           if [ "$ISSUE_NUM" != "00" ]; then
-            ASSET_DIR="$ISSUE_DIR/toolkit"
+            ASSET_DIR="$ISSUE_DIR/_toolkit"
             
             # Check for at least one asset
             if [ -z "$(ls -A $ASSET_DIR)" ]; then
@@ -125,7 +125,7 @@ jobs:
           echo "## Issue Details" >> $GITHUB_STEP_SUMMARY
           echo "- Path: $ISSUE_DIR" >> $GITHUB_STEP_SUMMARY
           echo "- Word Count: $(wc -w < $ISSUE_DIR/README.md)" >> $GITHUB_STEP_SUMMARY
-          echo "- Assets: $(ls -1 $ISSUE_DIR/toolkit | wc -l)" >> $GITHUB_STEP_SUMMARY
+          echo "- Assets: $(ls -1 $ISSUE_DIR/_toolkit | wc -l)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "## Validation Status" >> $GITHUB_STEP_SUMMARY
           echo "✅ All checks passed" >> $GITHUB_STEP_SUMMARY
@@ -153,7 +153,7 @@ jobs:
             
             ## Quick Links:
             - [View Issue](../issues/${issueNumber}_*)
-            - [Download Assets](../issues/${issueNumber}_*/toolkit)
+            - [Download Assets](../issues/${issueNumber}_*/_toolkit)
             `;
             
             github.rest.issues.create({
