@@ -1,0 +1,20 @@
+# Publishing configuration for Issue 02
+issue_number: 2
+title: "ED Boarding: From 8-Hour Waits to 2-Hour Transfers"
+short_title: "ED Boarding"
+publish: true
+target_date: "2024-01-12"  # Two weeks after Issue 01
+complexity: "medium"
+implementation_time: "4-8 weeks"
+annual_impact: "$1.1M"
+tags:
+  - emergency_department
+  - patient_flow
+  - capacity_management
+  - winter_surge
+  - boarding
+key_metrics:
+  - boarding_hours
+  - discharge_before_noon
+  - ED_throughput
+  - LWBS_rate

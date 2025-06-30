@@ -4,37 +4,81 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is the **"Vitals & Variables"** project - a comprehensive GitHub repository supporting a LinkedIn newsletter/podcast series focused on healthcare operations analytics. The project aims to translate healthcare operational challenges into data-driven, actionable solutions.
+This is the **"Vitals & Variables"** project - a comprehensive GitHub repository supporting a LinkedIn Newsletter series focused on healthcare operations analytics. The project aims to translate healthcare operational challenges into data-driven, actionable solutions.
+
+### Publishing Workflow
+- **Primary Channel**: LinkedIn Newsletter (full articles published directly on LinkedIn)
+- **Repository Role**: Houses all code, toolkits, and supplementary materials
+- **Content Flow**: 
+  1. README.md contains the full newsletter article (copy/paste into LinkedIn Newsletter editor)
+  2. linkedin_post.md contains promotional teasers to drive traffic to the newsletter
+  3. GitHub repo serves as the download hub for all code and tools mentioned in the article
 
 ## Project Mission
 
 "Turning frontline headaches into data-backed fixes—every other Friday."
 
-## Repository Structure (Planned)
+## Repository Structure (Current)
 
 ```
-(28) Vitals&Vars/
-├── README.md                    # Newsletter overview + blueprint
-├── issues/                      # Each newsletter issue
-│   ├── 00_launch/              # Launch issue
-│   ├── 01_or_first_start_delay/ # Current issue (OR delays)
-│   └── templates/               # Issue creation templates
+(28) Vitals&Vars/ (PRIVATE - Main Working Repository)
+├── README.md                    # Newsletter overview
+├── LICENSE                      # MIT license with healthcare addendum
+├── issues/                      # Self-contained newsletter issues
+│   ├── 00_launch/              # Launch announcement
+│   ├── 01_or_first_start_delay/ # First-case OR delays
+│   │   ├── README.md           # Full newsletter article
+│   │   ├── linkedin_post.md    # Social media drafts
+│   │   ├── notes.md            # Internal notes
+│   │   ├── code/               # Development code
+│   │   ├── assets/             # Visualizations
+│   │   ├── references/         # Research materials
+│   │   ├── _toolkit/           # PUBLIC: What gets published
+│   │   │   ├── README.md       # Toolkit overview (not full article)
+│   │   │   ├── sql/            # Production SQL queries
+│   │   │   ├── python/         # Analysis scripts & data
+│   │   │   ├── dashboards/     # BI templates
+│   │   │   └── guides/         # Implementation guides
+│   │   └── _meta.yaml          # Publishing configuration
+│   └── templates/               # Template for new issues
+├── _drafts/                     # GPT outputs, work in progress (git ignored)
 ├── backlog/                     # 50+ healthcare use cases
-├── resources/                   # Reusable assets and templates
+│   ├── use_cases.md            # Complete list of problems
+│   ├── seasonal_planning.md    # Timing optimization
+│   └── complexity_matrix.md    # Quick wins vs deep dives
+├── resources/                   # Shared resources
 │   ├── analysis_templates/      # Reusable analysis patterns
-│   ├── toolkit_templates/       # SQL, Python, dashboard starters
-│   └── data_sources/           # Common healthcare datasets guide
-└── .github/                     # Automation and workflows
+│   ├── toolkit_templates/       # Tool templates
+│   ├── data_sources/           # Data access guide
+│   └── linkedin_post_template.md # Social media templates
+├── scripts/                     # Automation scripts
+│   └── publish_toolkit.py       # Push toolkit to public repo
+└── .github/                     # Automation
     ├── workflows/              # GitHub Actions
-    └── ISSUE_TEMPLATE.md       # Issue templates
+    └── ISSUE_TEMPLATE.md       # Issue submission template
+```
+
+### Public Repository Structure
+```
+vitals-vars-toolkits/ (PUBLIC - What Readers See)
+├── README.md                    # Welcome & overview
+├── 01_or_first_start_delay/     # Just the toolkit contents
+│   ├── README.md               # Toolkit overview
+│   ├── sql/                    # SQL queries
+│   ├── python/                 # Scripts & data
+│   ├── dashboards/             # BI templates
+│   └── guides/                 # Implementation docs
+└── 02_ed_boarding/             # Next toolkit...
 ```
 
 ## Current Status
 
-The project currently has:
-- Word documents about OR delays in `Issues/1_OR_FirstStartDelay/`
-- An implementation punch list (IMPLEMENTATION_PUNCHLIST.md) outlining the development phases
-- This CLAUDE.md file
+The project has been fully structured with:
+- Complete repository framework with self-contained issues
+- Launch issue (00) and First-case OR delays issue (01) ready for publication
+- 50+ healthcare use cases organized in backlog
+- Templates and resources for creating future issues
+- LinkedIn-friendly structure where each issue can be shared independently
 
 ## Development Phases
 
@@ -78,6 +122,12 @@ Each newsletter issue follows this structure:
 - **Format**: Markdown with supporting assets
 - **Deliverables**: Analysis, toolkits (SQL scripts, dashboard templates), implementation guides
 - **Complexity**: Scales from quick wins to deep dives based on problem complexity
+- **Citations & References**: 
+  - Never make up URLs or create fake links
+  - Never falsely attribute quotes or studies
+  - Use placeholder text like `[Citation needed]` or `[Add link]` when URL is unknown
+  - Include author names and publication years when known, but don't invent publication details
+  - Better to say "studies show" than to fabricate specific citations
 
 ## Technical Stack
 
@@ -93,6 +143,34 @@ Each newsletter issue follows this structure:
 2. **Following Templates**: Use templates in `issues/templates/` for new content
 3. **Asset Creation**: Place reusable assets in `resources/` directories
 4. **Quality Checks**: Follow quality assurance checklists before publishing
+
+### Publishing Toolkits
+
+**Important**: Only the `_toolkit/` folder contents get published to the public repository.
+
+To publish a toolkit:
+```bash
+cd scripts
+python publish_toolkit.py 01_or_first_start_delay
+```
+
+This will:
+- Copy only the `_toolkit/` folder contents
+- Push to the public `vitals-vars-toolkits` repository
+- Preserve the private repository's internal content
+
+**What goes in _toolkit/**:
+- Production-ready code and queries
+- Implementation guides
+- Dashboard templates
+- Quick start documentation
+
+**What stays private**:
+- Full newsletter article (README.md)
+- LinkedIn posts
+- Internal notes
+- Draft materials
+- References and research
 
 ## Key Tasks for Development
 
