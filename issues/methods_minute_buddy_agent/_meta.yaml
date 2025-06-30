@@ -1,0 +1,42 @@
+# Publishing metadata for Methods Minute: Buddy Agent Workflow
+
+issue_number: "mm_01"  # Methods Minute 01
+title: "The Buddy Agent Workflow"
+subtitle: "Supercharging Healthcare Analytics with AI Collaboration"
+type: "methods_minute"  # Special edition type
+publish_date: "2025-01-06"  # Monday
+newsletter_url: ""  # To be filled after publishing
+status: "ready"
+
+# Content configuration
+content:
+  main_article: "README.md"
+  promotional: "linkedin_post.md"
+  toolkit_dir: "_toolkit/"
+  
+# Publishing targets
+publish_to:
+  - newsletter: true
+  - public_repo: true
+  - toolkit_only: true  # Only publish toolkit folder to public repo
+
+# Tags and categories
+tags:
+  - "ai-workflows"
+  - "prompt-engineering"
+  - "productivity"
+  - "claude-code"
+  - "gemini"
+  - "methods"
+  
+# Metrics to track
+metrics:
+  - "downloads"
+  - "implementations"
+  - "workflow-variations"
+  
+# Related content
+related:
+  next_issue: "02_ed_boarding"
+  references:
+    - "BUDDY_AGENT_DRIVER.md"
