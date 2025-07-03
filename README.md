@@ -14,20 +14,29 @@ Each newsletter issue is self-contained in its own directory, making it easy to 
 vitals-variables/
 ├── issues/                      # All newsletter issues
 │   ├── 00_launch/              # Welcome & introduction
-│   └── 01_or_first_start_delay/ # First-case OR delays
+│   ├── 01_or_first_start_delay/ # First-case OR delays
+│   └── 02_ed_boarding/         # ED boarding crisis
 │       ├── README.md           # Complete issue overview
-│       ├── code/               # Analysis code & data
-│       │   ├── data/          # Sample datasets
-│       │   ├── notebooks/     # Jupyter notebooks
-│       │   ├── scripts/       # Python/R scripts
-│       │   └── sql/          # SQL queries
-│       ├── toolkit/           # Ready-to-use tools
+│       ├── _toolkit/           # Ready-to-use tools
+│       │   ├── sql/           # Boarding queries
+│       │   ├── python/        # Predictive models
+│       │   ├── guides/        # Implementation plans
+│       │   └── dashboards/    # Monitoring templates
+│       ├── refs/              # Research & references
 │       └── assets/           # Charts & visualizations
 ├── backlog/                   # Future topics
 └── resources/                # Shared resources
 ```
 
 ## 📚 Published Issues
+
+### [Issue #02: ED Boarding](./issues/02_ed_boarding/)
+*From 8-hour waits to 2-hour transfers*
+- 🎯 Problem: 20% of elderly patients wait >8 hours; staffed beds down 16%
+- 💡 Solution: Real-time dashboards, discharge teams, AI predictive analytics
+- 📊 Impact: 30-65% reduction in boarding, $800K-$2.2M annual savings
+- 🔗 [Direct link for sharing](./issues/02_ed_boarding/)
+- 📦 [Download toolkit](https://github.com/mgc26/vitals-vars-toolkits/tree/main/02_ed_boarding)
 
 ### [Issue #01: First-Case OR Delays](./issues/01_or_first_start_delay/)
 *The morning domino effect that costs $2.4M annually*
@@ -85,10 +94,11 @@ Every issue follows our proven framework:
 ## Upcoming Topics
 
 Check our [backlog](./backlog/) for the full list of 50+ topics, including:
-- ED boarding solutions
+- Length of stay outliers
 - Discharge timing optimization  
 - Prior authorization workflows
 - Staffing-to-demand matching
+- No-show prediction models
 - And many more...
 
 ---

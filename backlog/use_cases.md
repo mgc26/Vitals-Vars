@@ -64,10 +64,11 @@
     - Fix: Standardization, real-time feedback
 
 ### Throughput
-12. **ED boarding - admitted patients** ⭐⭐
-    - Average: 4-8 hours
-    - Winter peaks: 12+ hours
-    - Solutions: Discharge timing, surge protocols
+12. **ED boarding - admitted patients** ✅ [COMPLETED - Issue #02]
+    - Average: 6.9 hours (90th percentile: 17.4 hours)
+    - Crisis level: 20% elderly wait >8 hours
+    - Solutions: Real-time dashboards, AI predictive analytics, discharge teams
+    - Toolkit published: https://github.com/mgc26/vitals-vars-toolkits/tree/main/02_ed_boarding
 
 13. **Lab/imaging turnaround**
     - Current TAT: 60-120 minutes
