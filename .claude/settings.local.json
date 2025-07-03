@@ -12,8 +12,6 @@
       "Bash(git config:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git push:*)",
-      "Bash(pandoc:*)",
       "Bash(cp:*)",
       "Bash(chmod:*)",
       "Bash(./check_toolkit.sh:*)",
@@ -23,8 +21,7 @@
       "Bash(./scripts/check_toolkit.sh:*)",
       "Bash(git pull:*)",
       "Bash(./complete_publish.sh)",
-      "Bash(./fix_git_push.sh)",
-      "Bash(cd:*)"
+      "Bash(./fix_git_push.sh)"
     ],
     "deny": []
   }
