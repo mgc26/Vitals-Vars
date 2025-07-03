@@ -23,7 +23,8 @@
       "Bash(./scripts/check_toolkit.sh:*)",
       "Bash(git pull:*)",
       "Bash(./complete_publish.sh)",
-      "Bash(./fix_git_push.sh)"
+      "Bash(./fix_git_push.sh)",
+      "Bash(cd:*)"
     ],
     "deny": []
   }
