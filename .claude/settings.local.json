@@ -17,7 +17,13 @@
       "Bash(cp:*)",
       "Bash(chmod:*)",
       "Bash(./check_toolkit.sh:*)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(gemini:*)",
+      "Bash(cd:*)",
+      "Bash(./scripts/check_toolkit.sh:*)",
+      "Bash(git pull:*)",
+      "Bash(./complete_publish.sh)",
+      "Bash(./fix_git_push.sh)"
     ],
     "deny": []
   }

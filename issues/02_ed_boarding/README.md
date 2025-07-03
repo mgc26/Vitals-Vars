@@ -1,162 +1,137 @@
 # ED Boarding: From 8-Hour Waits to 2-Hour Transfers
 
-*Every winter, the same story: admitted patients stuck in ED beds for 8, 12, sometimes 16 hours. Your nurses are burning out, satisfaction scores are tanking, and actual emergencies have nowhere to go. But here's what the data shows—it's not about having more beds.*
+**TL;DR (75 words)**  
+Winter boarding isn't seasonal anymore—it's systemic failure bleeding hospitals $800K-$2.2M annually in lost capacity and overtime. What actually works? Real-time dashboards, dedicated discharge teams, and AI predicting tomorrow's bed crunch today. Results: 30-65% reduction in boarding, waits from 8 hours to <2 hours, virtual capacity of 13-16 beds. The gap between basic fixes and transformation is closing fast.
+
+---
+
+*Every winter, the same story gets worse: 20% of elderly patients now wait over 8 hours for admission. Staffed hospital beds dropped 16% in just one year. Your nurses are burning out, satisfaction scores are tanking, and actual emergencies have nowhere to go. But here's what the data shows—it's not just about having more beds.*
 
 ---
 
 ## 1. Frame the Pain 📊
 
-ED boarding isn't just uncomfortable—it's expensive and dangerous:
+- **Waits**: Median 6.9 hours (90th percentile: 17.4 hours). Behavioral health: 20+ hours at 90th percentile
+- **Beds**: Staffed capacity crashed 802K → 674K (-16%) in one year  
+- **Cost**: $219/hour ($137 lost capacity + $82 overtime). Daily cost doubles for boarded patients
+- **Risk**: 36% of elderly wait >3 hours (was 22% in 2017). Each boarding hour = +0.8 days inpatient LOS
+- **Future**: National occupancy hitting unsafe 85% by 2032; ED volume +5% annually, +28% for 65+
 
-- **The Numbers**: Average boarding time nationally: 6.8 hours (peaks at 12+ during flu season)
-- **The Cost**: Each boarded hour costs $137 in lost ED capacity + $82 in overtime
-- **The Risk**: Boarded patients have 23% higher adverse event rates
-- **The Scale**: Medium hospital (200 beds) = 3,650 annual boarding hours = $800K direct loss
-
-**Translation**: That's 10 patients boarding for 1 hour every single day—or more realistically, 2-3 patients stuck for 4-6 hours while your waiting room backs up.
+**Translation**: This isn't seasonal surge—it's systemic collapse. Your fixes aren't keeping pace.
 
 ## 2. Surface the Signals 📈
 
-Let me show you what's really happening with boarding patterns:
+### The Monday Morning Squeeze
 
-### The Morning Admission Spike
-```
-Hour    Admissions    Beds Available    Boarding Hours
-7am     12           2                 48
-8am     18           1                 85  
-9am     22           0                 132
-10am    25           3                 115
-```
+| Hour | Admits | Beds Free | Boarding Hours |
+|------|--------|-----------|----------------|
+| 7:00 | 12     | 2         | 48             |
+| 8:00 | 18     | 1         | 85             |
+| 9:00 | 22     | 0         | 132            |
 
-### The Hidden Pattern
-Your worst boarding isn't random—it's predictable:
-- **Monday/Tuesday**: 40% higher than baseline
-- **7am-noon**: 65% of daily boarding hours
-- **Post-weekend**: Sunday admits + Monday surge = perfect storm
+- **Monday/Tuesday**: +40% boarding vs baseline
+- **7am-noon**: 65% of daily boarding hours  
+- **Behavioral Health**: 90th percentile = 20+ hours
 
-### The Discharge Delay
-Here's the kicker—while 25 patients need beds at 9am:
-- Only 15% of discharges happen before noon
-- Average discharge time: 2:47pm
-- But 73% of discharge orders are written by 10am
-
-**The Gap**: 5-hour lag between decision and departure.
+### Root Causes Beyond Discharge
+- **Staffing**: Beds exist, no nurses to staff them
+- **Finance**: Elective surgeries > ED admits
+- **Discharge Lag**: 5 hours from order → departure
 
 ## 3. Test the Levers 🔧
 
-We tested three interventions across 6 hospitals:
+### Basic (Limited Impact)
+*"Discharge by 10am" posters → 11% dip for 2 weeks, then back to baseline*
 
-### A. "Discharge by 10am" Campaign
-- Posters, emails, physician scorecards
-- **Result**: 11% improvement for 2 weeks, then back to baseline
-- **Learning**: Awareness ≠ Action
+### Proven Winners
 
-### B. Dedicated Discharge Team
-- RN + Case Manager + Transporter from 7am-3pm
-- **Result**: 47% reduction in boarding hours
-- **Cost**: $312K annually
-- **ROI**: 2.1x in year one
+| Intervention | Impact | Cost/ROI |
+|---|---|---|
+| **Dedicated Discharge Team** (RN + CM + Transport) | -47% boarding hours | 2.1x ROI Year 1 |
+| **Real-Time Alerts** @ 2 hours | -31% boarding hours | $0 (existing systems) |
 
-### C. Real-Time Boarding Alerts
-- Text alerts to unit managers when ED boarding >2 hours
-- Auto-escalation to house supervisor at 4 hours
-- **Result**: 31% reduction in boarding hours
-- **Cost**: $0 (used existing systems)
-- **Surprise**: Unit managers didn't know ED was boarding
+### Game Changers
+
+| Intervention | Impact | ROI |
+|---|---|---|
+| **Command Center** (Johns Hopkins) | -30% boarding, -70% OR delays<br>13-16 virtual beds | 12-18 months |
+| **AI Bed Prediction** (UCHealth) | -65% ICU transfer time<br>84-96% accuracy | <18 months |
+| **Psych Command Center** (AdventHealth) | Behavioral boarding: 17h → 5h | Immediate |
 
 ## 4. Size the Prize 💰
 
 For a 200-bed hospital:
 
-### Direct Savings
-- **Reduced boarding**: 3,650 → 2,190 hours annually
-- **Financial impact**: $319K saved
-- **Overtime reduction**: 1.2 FTEs
+- **Basic (Alerts + Discharge Team)**: 3,650 → 2,190 boarding hours; +730 ED visits → **$804K/year**
+- **Advanced (Command Center + AI)**: 13-16 virtual beds → **$2.2M/year**, ROI ≤18 months
+- **Case Study**: McLaren Health achieved $40M ROI in 18 months
 
-### Revenue Capture
-- **ED throughput**: +730 additional visits
-- **Contribution margin**: $485K
-- **Surgical admits**: 8% increase in ED-to-OR
-
-### Quality Gains
-- **Patient satisfaction**: +12 percentile points
-- **Staff turnover**: -18% in ED nursing
-- **LWBS rate**: 4.2% → 2.8%
-
-**Total Annual Impact**: $1.1M + immeasurable gains in staff morale
+**Quality Gains**: LWBS 4.2% → 2.8% | Staff turnover -18% | Patient satisfaction +12-30 percentile points
 
 ## 5. Monday Playbook 🎯
 
-### Week 1: Measure Reality
-1. Pull your ED boarding hours by day/hour for last 90 days
-2. Match against discharge times from same period
-3. Calculate your "discharge lag" (order → gone time)
-4. Identify your worst boarding day/time combinations
+**Weeks 1-4: Foundation**
+1. Pull 90-day boarding data; separate behavioral health
+2. Launch 7am & 2pm huddles; >2h alert system
+3. Deploy discharge team pilot + pharmacy meds-to-go
+4. Weekend discharge planning coverage
 
-### Week 2: Quick Wins
-1. Implement 2x daily boarding huddles (7am, 2pm)
-2. Create "boarding dashboard" visible to all units
-3. Text alert system for >2 hour boarding
-4. Assign boarding buddy on each unit
+**Weeks 5-12: Technology**
+1. Deploy admission predictor (start with XGBoost + vitals)
+2. Next-day discharge forecast
+3. Build single "air traffic" dashboard
+4. Integrate key data feeds
 
-### Week 3-4: Build Infrastructure
-1. Morning discharge rounds start with "who can leave by noon?"
-2. Pharmacy med-to-go program for discharge meds
-3. Transport priority queue for discharges before admits
-4. Case management starts discharge planning on admission
+**Behavioral Health Track**
+- ED psych liaison + telepsychiatry fast-track
+- Regional bed marketplace
 
-### Week 5-8: Advanced Tactics
-1. Predictive model for tomorrow's discharge candidates
-2. Discharge lounge with RN coverage
-3. Home health coordination before 10am
-4. Automated family notification system
-
-### Measuring Success
-- Primary: Average boarding hours per admitted patient
-- Secondary: Discharge-before-noon rate
-- Balance: Readmission rates (should not increase)
+**Success Metrics**
+- Boarding <3h per admission
+- Discharge-before-noon >30%
+- Behavioral 90th percentile <8h
+- Staff turnover -15%
 
 ## 6. Grab-and-Go Toolkit 🛠️
 
-### What's in Your Toolkit
+| Asset | What It Does | Setup |
+|---|---|---|
+| `boarding_duration.sql` | Calculates boarding time + behavioral health flag | <15 min |
+| `discharge_lag.sql` | Measures gap from order → departure by unit | <20 min |
+| `capacity_calculator.py` | Staffing-adjusted bed availability | <30 min |
+| `eccq_tracker.sql` | CMS ECCQ compliance (>4h boarding) | <20 min |
+| `admission_predictor.py` | XGBoost model, 84-96% accuracy | 90 min |
+| `command_center_blueprint.xlsx` | Implementation roadmap + ROI calc | <45 min |
 
-#### SQL Queries
-- ED boarding duration calculator
-- Discharge lag analyzer  
-- Hourly capacity snapshot
-- Boarding cost calculator
+```text
+# requirements.txt
+pandas>=2.0.0
+numpy>=1.24.0
+xgboost>=2.0.0
+scikit-learn>=1.3.0
+matplotlib>=3.7.0
+```
 
-#### Python Analysis
-- Boarding pattern visualizer
-- Predictive discharge model
-- ROI calculator with your parameters
-- Automated daily boarding report
+**Plus**: Behavioral health protocols | Dashboard templates | Change management guides
 
-#### Implementation Guides
-- 90-day rollout plan
-- Huddle templates
-- Escalation protocols
-- Change management playbook
-
-#### Dashboard Templates
-- Real-time boarding monitor
-- Unit-level discharge tracker
-- Executive boarding summary
-
-**[Download the ED Boarding Toolkit →](https://github.com/mgc26/vitals-vars-toolkits/tree/main/02_ed_boarding)**
+**[Download the Enhanced ED Boarding Toolkit →](https://github.com/mgc26/vitals-vars-toolkits/tree/main/02_ed_boarding)**
 
 ---
 
 ## The Bottom Line
 
-ED boarding is a discharge problem masquerading as a capacity problem. You don't need more beds—you need to use the ones you have more intelligently. The hospitals crushing this problem all have one thing in common: they made boarding visible to everyone, not just the ED.
+ED boarding evolved from winter annoyance to existential crisis. Three truths separate winners from victims:
 
-Start with the Monday morning huddle. Make boarding hours as visible as patient falls. Watch what happens when medicine floors realize their delayed discharge is why the ED is on diversion.
+1. **System problem = system solution** (not ED-only fixes)
+2. **Technology isn't optional** (30-65% improvements proven)
+3. **Behavioral health needs its own pathway**
 
-Because every hour a patient boards in your ED is an hour someone else waits in pain in your waiting room.
+The gap between basic ($800K) and transformational ($2.2M) solutions is your competitive edge. Johns Hopkins proved it. UCHealth scaled it. McLaren banked $40M.
+
+Your move.
 
 ---
 
-*What's your worst boarding story? How many hours was your longest ED admission hold? Share your experiences in the comments.*
+*What's your boarding battle story? Drop it below.*
 
-**Next Issue**: Length of Stay Outliers—why 5% of your patients use 35% of your bed days (and how to predict them on day one)
+**Next Issue**: Length of Stay Outliers—5% of patients, 35% of bed days
