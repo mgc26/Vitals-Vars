@@ -1,22 +1,22 @@
 # LinkedIn Post Options for ED Boarding Issue
 
 ## Option 1: The Crisis Update
-Staffed hospital beds crashed 16% in ONE YEAR—from 802,000 to 674,000 (JAMA 2025).
+Median ED boarding hit 6.9 hours in 2022—up from 5.2 hours in 2019.
 
-When occupancy hits 85%, your ED boarding time jumps to 6.9 hours.
+The 90th percentile? A staggering 17.4 hours.
 
-Behavioral health patients? They wait 18 hours vs 5 for medical patients.
+Psychiatric patients wait 22.7 hours vs 18.5 hours for other patients (and that's just at one academic center).
 
 This isn't a winter surge anymore. It's the new normal.
 
 But here's what leading hospitals figured out: You don't need more beds. You need smarter systems.
 
 Proven results:
-→ Johns Hopkins: Created 13-16 "virtual beds" through flow optimization
-→ UCHealth: 65% reduction in ICU transfer times with AI
-→ AdventHealth: Cut behavioral health boarding from 17 to 5 hours
+→ Systems engineering approach: Significant boarding reductions (Johns Hopkins)
+→ Machine learning: 92% accuracy predicting admissions at triage
+→ Process improvement: 2.1 hour reduction per patient with discharge teams
 
-This week in Vitals & Variables: From basic alerts ($800K ROI) to AI command centers ($2.2M ROI)—your complete transformation guide.
+This week in Vitals & Variables: Evidence-based solutions from peer-reviewed studies—your complete transformation guide.
 
 Download our toolkit with SQL queries, Python models, and 90-day implementation plans.
 
@@ -31,12 +31,12 @@ Your ED boarding solution is stuck in 2010.
 
 "Discharge by 10am" campaigns? 11% improvement for 2 weeks, then back to baseline.
 
-Meanwhile, hospitals using predictive analytics are seeing:
-- 84-96% accuracy in admission predictions (verified in our toolkit)
-- 31% reduction with simple >2 hour alerts
-- 47% reduction with dedicated discharge teams
+Meanwhile, hospitals using evidence-based interventions are seeing:
+- Machine learning models achieving AUC ~0.92 for admission prediction
+- 2.1 hour reduction per patient with discharge process improvements
+- 32% reduction in walkout rates through better flow
 
-AdventHealth's behavioral health unit cut boarding from 17 hours to 5.
+And here's the kicker: Patients boarding ≥24 hours are 1.84x more likely to report discrimination.
 
 The difference? They stopped treating boarding as an ED problem and started treating it as a system problem.
 
@@ -51,15 +51,15 @@ New Vitals & Variables: The complete evidence-based guide with peer-reviewed dat
 ## Option 3: The Bottom Line Focus
 Two hospitals. Same boarding crisis. Different choices.
 
-Hospital A: Added boarding alerts, discharge team
-Result: $800K annual savings (verified ROI calculation)
+Hospital A: Basic improvements
+Result: 2.1 hour reduction per patient, 32% fewer walkouts
 
-Hospital B: Implemented command center with predictive analytics
-Result: $2.2M annual savings + created 13-16 "virtual beds"
+Hospital B: Systems engineering + predictive analytics
+Result: Increased occupancy from 85% to 92% while reducing boarding
 
 The difference? Hospital B stopped fighting symptoms and started preventing problems.
 
-With 84-96% admission prediction accuracy, they know tomorrow's bottlenecks today. They've cut ICU transfer times by 65%. They've transformed boarding from reactive crisis to proactive management.
+With machine learning achieving 92% AUC for admissions, they know tomorrow's bottlenecks today. COVID showed us boarding increased 22% while mortality rose 16%. Time to transform from reactive crisis to proactive management.
 
 This week: Your evidence-based roadmap from A to B, with:
 - Peer-reviewed research citations

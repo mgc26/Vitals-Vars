@@ -7,19 +7,19 @@
 - Stage: ✅ COMPLETE - Toolkit published to public repository
 
 ## Key Messages
-1. ED boarding has escalated to crisis levels (20% wait >8 hours, beds down 16%)
+1. ED boarding has escalated to crisis levels (median 6.9h in 2022, up from 5.2h in 2019)
 2. It's a system problem requiring system solutions, not just ED fixes
-3. Technology (AI/command centers) delivers 30-65% improvements with proven ROI
-4. Behavioral health needs specialized pathways (3x longer waits)
-5. Gap between basic ($800K) and transformational ($2.2M) solutions
+3. Evidence-based interventions work: 2.1h reduction per patient, ML achieves 92% AUC
+4. Racial disparities emerge under stress (Black patients board longer for critical illness)
+5. Patients boarding ≥24 hours report 1.84x more discrimination
 
-## Data Points Validated (from Gemini Research)
-- [x] Average boarding hours: 6.9 hours median (90th percentile: 17.4 hours)
-- [x] Behavioral health boarding: 20+ hours at 90th percentile
-- [x] Cost validated: $137 + $82 per hour, daily cost nearly doubles for boarded
-- [x] Elderly impact: 20% wait >8 hours (2024), 36% wait >3 hours
-- [x] Bed capacity: 802K → 674K (16% drop in one year)
-- [x] ROI examples: Johns Hopkins 12-18 months, McLaren $40M
+## Data Points Validated (from Peer-Reviewed Sources)
+- [x] Average boarding hours: 6.9 hours median, 17.4h at 90th percentile (Oskvarek et al. 2023)
+- [x] Psychiatric boarding: 22.7h Black vs 18.5h White patients (Ruffo et al. 2022)
+- [x] COVID impact: 22% increase in boarding, 16% increase in mortality (Griffin et al. 2023)
+- [x] Academic EDs: 42% rise in boarding hours Q1 2019 to Q4 2021 (Kilaru et al. 2023)
+- [x] Discrimination: 1.84x more likely if boarding ≥24 hours (Olson et al. 2024)
+- [x] ML accuracy: AUC ~0.92 for admission prediction (Hong et al. 2018)
 
 ## Toolkit Components to Build
 
