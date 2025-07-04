@@ -93,11 +93,38 @@ Every issue follows this framework:
 - **Dashboard Templates**: Provide both Tableau and Power BI formats when possible
 
 ### Citation Guidelines
-- Never make up URLs or create fake links
-- Never falsely attribute quotes or studies
-- Use placeholder text like `[Citation needed]` or `[Add link]` when URL is unknown
-- Include author names and publication years when known, but don't invent publication details
-- Better to say "studies show" than to fabricate specific citations
+**CRITICAL: We can NEVER accept fake/hallucinated peer-reviewed references or attributions.**
+
+- **Absolutely forbidden**:
+  - Making up author names, publication titles, or journal names
+  - Fabricating DOIs, URLs, or publication details
+  - Creating fictional statistics or research findings
+  - Falsely attributing quotes or data to real organizations
+  
+- **Required approach**:
+  - Only cite sources that you can verify exist
+  - If unsure about exact details, use general language ("research indicates", "industry estimates suggest")
+  - Mark unverifiable claims as estimates: "Industry estimates suggest..." or "Based on typical patterns..."
+  - Use placeholder text like `[Citation needed]` when a citation would strengthen the claim
+  
+- **For LinkedIn Newsletter format**:
+  - References should be in APA style
+  - URLs are often not clickable in LinkedIn, so omit them unless specifically requested
+  - Focus on author names, year, and publication title
+  - Number references and use superscript numbers in text
+
+### Data & Statistics Guidelines
+- **All statistics must be verifiable**:
+  - Only use data from real sources (government reports, peer-reviewed studies, industry whitepapers)
+  - If presenting estimates, clearly label them as such
+  - Never invent specific numbers or percentages
+  - Industry benchmarks should cite the source organization
+  
+- **Handling uncertainty**:
+  - "A typical 200-bed hospital" instead of fabricating specific hospital data
+  - "Industry estimates range from X to Y" instead of picking a specific unverified number
+  - "Based on reported outcomes" when referencing case studies
+  - "ROI will vary based on hospital size and implementation" as a disclaimer
 
 ### Python Analysis Scripts
 - Use pandas, numpy, matplotlib, seaborn for analysis
