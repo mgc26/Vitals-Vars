@@ -27,12 +27,11 @@ ED boarding has reached crisis proportions, driven by a perfect storm of capacit
 
 Your worst boarding follows predictable patterns. Here's a typical Monday morning cascade:
 
-| Hour | New Admits | Available Beds | Cumulative Boarding Hours |
-|------|------------|----------------|---------------------------|
-| 7:00 | 12         | 2              | 48                        |
-| 8:00 | 18         | 1              | 85                        |
-| 9:00 | 22         | 0              | 132                       |
-| 10:00| 25         | 3              | 115                       |
+**Monday Morning Boarding Cascade:**
+• 7:00 AM: 12 new admits, only 2 beds available → 48 cumulative boarding hours
+• 8:00 AM: 18 new admits, 1 bed available → 85 cumulative boarding hours
+• 9:00 AM: 22 new admits, 0 beds available → 132 cumulative boarding hours
+• 10:00 AM: 25 new admits, 3 beds available → 115 cumulative boarding hours
 
 **Key Patterns**:
 - **Monday Peaks**: Research confirms Monday sees the highest ED volumes and boarding accumulation (consistent finding across international studies)
@@ -59,19 +58,35 @@ We analyzed interventions across multiple hospitals and health systems. Here's w
 
 ### Proven Winners
 
-| Intervention | Verified Impact | Investment & ROI |
-|---|---|---|
-| **Dedicated Discharge Team** | 47% reduction in boarding hours | $312K annually; 2.1x ROI in Year 1 |
-| **Real-Time Boarding Alerts** | 31% reduction when >2 hour threshold | $0 (uses existing systems) |
-| **Weekend Discharge Rounds** | 25% increase in weekend discharges | Hospitalist coverage costs |
+**Proven Winners:**
+
+1. **Dedicated Discharge Team**
+   • Impact: 47% reduction in boarding hours
+   • Investment: $312K annually; 2.1x ROI in Year 1
+
+2. **Real-Time Boarding Alerts**
+   • Impact: 31% reduction when >2 hour threshold
+   • Investment: $0 (uses existing systems)
+
+3. **Weekend Discharge Rounds**
+   • Impact: 25% increase in weekend discharges
+   • Investment: Hospitalist coverage costs
 
 ### Transformation-Level Changes
 
-| System | Reported Outcomes | Timeline |
-|---|---|---|
-| **Johns Hopkins Command Center** | Significant boarding reductions; created 13-16 "virtual beds" through improved flow⁷ | 12-18 month ROI |
-| **UCHealth + AI (LeanTaaS)** | 65% reduction in ICU transfer times; high-accuracy admission prediction⁸ | <18 months to positive ROI |
-| **AdventHealth Behavioral Health** | Reduced psychiatric boarding from 17 hours to 5 hours (as of 2025)⁹ | Immediate impact |
+**Transformation-Level Changes:**
+
+1. **Johns Hopkins Command Center**
+   • Outcomes: Significant boarding reductions; created 13-16 "virtual beds" through improved flow⁷
+   • Timeline: 12-18 month ROI
+
+2. **UCHealth + AI (LeanTaaS)**
+   • Outcomes: 65% reduction in ICU transfer times; high-accuracy admission prediction⁸
+   • Timeline: <18 months to positive ROI
+
+3. **AdventHealth Behavioral Health**
+   • Outcomes: Reduced psychiatric boarding from 17 hours to 5 hours (as of 2025)⁹
+   • Timeline: Immediate impact
 
 ## 4. Size the Prize 💰
 
@@ -145,19 +160,17 @@ Here's your 90-day implementation roadmap:
 Everything you need to start Monday morning:
 
 ### SQL Queries & Analytics
-| File | Purpose | Time to Deploy |
-|---|---|---|
-| `boarding_duration.sql` | Calculate ED boarding times with behavioral health flags | 15 min |
-| `discharge_lag.sql` | Identify discharge bottlenecks by unit | 20 min |
-| `capacity_calculator.py` | Real-time staffing-adjusted bed availability | 30 min |
-| `eccq_tracker.sql` | Track CMS ECCQ compliance metrics | 20 min |
+**SQL Queries & Analytics:**
+• `boarding_duration.sql` - Calculate ED boarding times with behavioral health flags (15 min to deploy)
+• `discharge_lag.sql` - Identify discharge bottlenecks by unit (20 min to deploy)
+• `capacity_calculator.py` - Real-time staffing-adjusted bed availability (30 min to deploy)
+• `eccq_tracker.sql` - Track CMS ECCQ compliance metrics (20 min to deploy)
 
 ### Predictive Models
-| File | Purpose | Accuracy |
-|---|---|---|
-| `admission_predictor.py` | XGBoost model predicting admissions at triage | 84-96% |
-| `boarding_visualizer.py` | Heatmaps showing patterns by day/hour | Visual insights |
-| `roi_calculator.py` | Calculate your specific ROI potential | Customizable |
+**Predictive Models:**
+• `admission_predictor.py` - XGBoost model predicting admissions at triage (84-96% accuracy)
+• `boarding_visualizer.py` - Heatmaps showing patterns by day/hour (visual insights)
+• `roi_calculator.py` - Calculate your specific ROI potential (customizable)
 
 ### Implementation Resources
 - `90_day_implementation_plan.md` - Detailed rollout roadmap
@@ -177,7 +190,7 @@ python boarding_visualizer.py --days 90
 python roi_calculator.py --beds 200 --current_boarding_hours 3650
 ```
 
-**[Download the Complete Toolkit →](https://github.com/mgc26/vitals-vars-toolkits/tree/main/02_ed_boarding)**
+**Download the Complete Toolkit** - Available at github.com/mgc26/vitals-vars-toolkits/tree/main/02_ed_boarding
 
 ---
 
@@ -207,24 +220,24 @@ What's your next move?
 
 ## References
 
-1. Leuchter, R., Wachter, R. M., Jha, A. K., & Offodile, A. C. (2025). Understanding and addressing the US hospital bed shortage. *JAMA Network Open*, 8(1), e2451234. https://doi.org/10.1001/jamanetworkopen.2024.51234
+1. Leuchter, R., Wachter, R. M., Jha, A. K., & Offodile, A. C. (2025). Understanding and addressing the US hospital bed shortage. *JAMA Network Open*, 8(1), e2451234.
 
-2. Epic Systems Corporation. (2022). *Benchmarking report: ED boarding and hospital occupancy*. Epic Systems. https://www.epic.com/insights-library/
+2. Epic Systems Corporation. (2022). *Benchmarking report: ED boarding and hospital occupancy*. Epic Systems.
 
-3. Centers for Disease Control and Prevention. (2023). *Emergency department visits by persons aged 65 and over: United States, 2019-2021* (NCHS Data Brief No. 463). National Center for Health Statistics. https://www.cdc.gov/nchs/products/databriefs/db463.htm
+3. Centers for Disease Control and Prevention. (2023). *Emergency department visits by persons aged 65 and over: United States, 2019-2021* (NCHS Data Brief No. 463). National Center for Health Statistics.
 
-4. Agency for Healthcare Research and Quality. (2024). *Discharge delays and inefficiencies in U.S. hospitals* (AHRQ Publication No. 24-0015). https://www.ahrq.gov/research/findings/final-reports/discharge-delays/index.html
+4. Agency for Healthcare Research and Quality. (2024). *Discharge delays and inefficiencies in U.S. hospitals* (AHRQ Publication No. 24-0015).
 
-5. Premier Inc. (2023). *Emergency department boarding: A crisis of capacity and flow*. Premier Applied Sciences. https://www.premierinc.com/newsroom/education/emergency-department-boarding-whitepaper
+5. Premier Inc. (2023). *Emergency department boarding: A crisis of capacity and flow*. Premier Applied Sciences.
 
-6. Sg2. (2023). *Impact of ED boarding on hospital financial performance*. Vizient. https://www.vizientinc.com/what-we-do/operations-and-quality/sg2
+6. Sg2. (2023). *Impact of ED boarding on hospital financial performance*. Vizient.
 
 7. Johns Hopkins Medicine. (2023). *Johns Hopkins Hospital capacity command center: Two-year outcomes report*. Armstrong Institute for Patient Safety and Quality.
 
-8. LeanTaaS. (2023). *UCHealth case study: AI-powered patient flow optimization*. https://leantaas.com/resources/case-studies/uchealth-patient-flow/
+8. LeanTaaS. (2023). *UCHealth case study: AI-powered patient flow optimization*.
 
-9. Ray, C. (2025, January 15). How AdventHealth reduced behavioral health ED boarding by 70%. *Becker's Behavioral Health*. https://www.beckershospitalreview.com/behavioral-health/adventhealth-behavioral-health-boarding.html
+9. Ray, C. (2025, January 15). How AdventHealth reduced behavioral health ED boarding by 70%. *Becker's Behavioral Health*.
 
-10. American College of Emergency Physicians. (2023). *Emergency department boarding: A patient safety crisis* (Policy Statement). https://www.acep.org/patient-care/policy-statements/emergency-department-boarding/
+10. American College of Emergency Physicians. (2023). *Emergency department boarding: A patient safety crisis* (Policy Statement).
 
 *Note: Psychiatric boarding times (3-4x longer than medical patients) are consistently documented across multiple peer-reviewed studies including Nolan et al. (2022), Nordstrom et al. (2019), and Simpson et al. (2020). ROI projections based on industry benchmarks and reported single-institution outcomes. Results will vary based on hospital size, case mix, and implementation approach.*
