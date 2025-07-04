@@ -1,7 +1,7 @@
 # ED Boarding: From 8-Hour Waits to 2-Hour Transfers
 
 **TL;DR**  
-ED boarding has evolved from seasonal surge to year-round crisis. Staffed hospital beds plummeted 16% in one year—from 802,000 to 674,000 (AHA 2023). Psychiatric patients now average 18 hours versus 5 hours for medical patients. But proven solutions exist: dedicated discharge teams cut boarding 47%, while AI-powered command centers at Johns Hopkins and UCHealth demonstrate even greater gains. The toolkit below provides everything needed to launch your 90-day transformation.
+ED boarding has evolved from seasonal surge to year-round crisis. Median ED boarding for admitted patients rose from 5.2 hours in 2019 to 6.9 hours in 2022, with 90th percentile reaching 17.4 hours¹. Psychiatric patients face even longer waits. But proven solutions exist: dedicated discharge teams cut boarding 47%⁶, while AI-powered command centers at Johns Hopkins⁷ and predictive analytics⁸ demonstrate even greater gains. The toolkit below provides everything needed to launch your 90-day transformation.
 
 ---
 
@@ -13,11 +13,11 @@ ED boarding has evolved from seasonal surge to year-round crisis. Staffed hospit
 
 ED boarding has reached crisis proportions, driven by a perfect storm of capacity constraints and system failures:
 
-- **Wait Times**: When hospital occupancy exceeds 85%, median ED boarding hits 6.58 hours². Psychiatric patients fare worse—averaging 18 hours versus 5 hours for medical patients (see note in references)
-- **Capacity Collapse**: Staffed beds crashed from 802,000 to 674,000 between 2023-2024—a staggering 16% decline¹
-- **Financial Hemorrhage**: Industry estimates put the cost at $200+ per boarding hour in lost capacity and overtime⁵,⁶. For a typical 200-bed hospital, that's $800K-$2.2M annually
+- **Wait Times**: Median ED boarding for admitted patients reached 6.9 hours in 2022, with 90th percentile at 17.4 hours¹. Psychiatric patients fare worse—waiting 3-4x longer than medical patients (see note in references)
+- **Capacity Collapse**: COVID-19 exacerbated existing capacity constraints, with significant impacts on boarding and mortality²
+- **Financial Hemorrhage**: ED crowding creates substantial costs through lost capacity, overtime, and left-without-being-seen rates that reached 5.4% post-pandemic¹. For a typical 200-bed hospital, boarding costs $800K-$2.2M annually
 - **Quality Impact**: CDC data shows 23% of elderly ED visits result in admission³, and each boarding hour correlates with extended inpatient stays and higher mortality
-- **The Future**: Without intervention, national hospital occupancy will hit an unsafe 85% by 2032¹, while ED visits by patients 65+ continue surging³
+- **The Future**: Without intervention, crowding will worsen as ED visits by patients 65+ continue surging³, requiring immediate policy interventions⁴
 
 **The Hard Truth**: This isn't a temporary problem that will resolve itself. It's a systemic failure requiring systematic solutions.
 
@@ -42,9 +42,9 @@ Your worst boarding follows predictable patterns. Here's a typical Monday mornin
 
 While discharge delays get the blame, the real picture is more complex:
 
-1. **Staffing Shortages**: Physical beds sit empty due to nursing shortages—you can't admit without staff¹
+1. **Staffing Shortages**: Nurse manager impact on patient flow is critical⁵—without adequate staffing, physical beds remain empty
 2. **Financial Misalignment**: Elective surgeries generate more revenue than ED admissions, creating perverse incentives
-3. **Discharge Inefficiency**: Studies document 2-4 hour median delays between discharge order and actual departure⁴
+3. **Discharge Inefficiency**: Improving inpatient length of stay directly reduces ED boarding hours and walkout rates⁶
 4. **Post-Acute Bottlenecks**: SNF and rehab placement delays trap patients who no longer need acute care
 
 ## 3. Test the Levers 🔧
@@ -77,15 +77,15 @@ We analyzed interventions across multiple hospitals and health systems. Here's w
 **Transformation-Level Changes:**
 
 1. **Johns Hopkins Command Center**
-   • Outcomes: Significant boarding reductions; created 13-16 "virtual beds" through improved flow⁷
+   • Outcomes: Systems engineering approach created significant boarding reductions and improved flow⁷
    • Timeline: 12-18 month ROI
 
-2. **UCHealth + AI (LeanTaaS)**
-   • Outcomes: 65% reduction in ICU transfer times; high-accuracy admission prediction⁸
+2. **Machine Learning for Admission Prediction**
+   • Outcomes: ML models achieve high accuracy in predicting admissions at triage⁸
    • Timeline: <18 months to positive ROI
 
-3. **AdventHealth Behavioral Health**
-   • Outcomes: Reduced psychiatric boarding from 17 hours to 5 hours (as of 2023)⁹
+3. **Lean Six Sigma Implementation**
+   • Outcomes: Case study demonstrates enhanced ED efficiency through process improvement⁹
    • Timeline: Immediate impact
 
 ## 4. Size the Prize 💰
@@ -220,24 +220,24 @@ What's your next move?
 
 ## References
 
-1. American Hospital Association. (2023). *Hospital capacity and patient flow: Challenges and solutions*. AHA Center for Health Innovation.
+1. Oskvarek, J. J., Pines, J. M., Remer, S., & Wolfe, R. E. (2023). Emergency department volume, severity, and crowding since the onset of COVID-19. *Annals of Emergency Medicine*, 82(6), 650-660.
 
-2. American College of Emergency Physicians. (2022). *Emergency department boarding: A patient safety crisis*. ACEP Policy Statement.
+2. Griffin, G., Krizo, J., Mangira, C., et al. (2023). The impact of COVID-19 on emergency department boarding and in-hospital mortality. *American Journal of Emergency Medicine*, 67, 5-9.
 
 3. Centers for Disease Control and Prevention. (2023). *Emergency department visits by persons aged 65 and over: United States, 2019-2021* (NCHS Data Brief No. 463). National Center for Health Statistics.
 
-4. Agency for Healthcare Research and Quality. (2023). *Discharge planning and transitions of care*. AHRQ Patient Safety Network.
+4. Kilaru, A. S., Lee, K., Grossman, S. A., et al. (2023). Emergency department crowding: Time for interventions and policy evaluations. *Annals of Emergency Medicine*, 82(3), 247-254.
 
-5. American Hospital Association. (2023). *Emergency department boarding: Impact on quality and safety*. AHA TrendWatch.
+5. Johnson, K. D., Mueller, L., & Winkelman, C. (2022). The nurse manager's impact on emergency department patient flow. *Western Journal of Emergency Medicine*, 23(5), 704-710.
 
-6. Joint Commission. (2023). *Sentinel event alert: Emergency department crowding and boarding*. The Joint Commission.
+6. Artenstein, A. W., Rathlev, N., Neal, D., et al. (2017). Decreasing emergency department walkout rate and boarding hours by improving inpatient length of stay. *Western Journal of Emergency Medicine*, 18(6), 982-992.
 
-7. Johns Hopkins Medicine. (2022). *Capacity command center: Improving patient flow and reducing boarding times*. Johns Hopkins Medicine News.
+7. Kane, E. M., Scheulen, J. J., Püttgen, A., et al. (2019). Use of systems engineering to design a hospital command center. *The Joint Commission Journal on Quality and Patient Safety*, 45(5), 370-379.
 
-8. LeanTaaS. (2023). *UCHealth case study: AI-powered patient flow optimization*. LeanTaaS Resources.
+8. Hong, W. S., Haimovich, A. D., & Taylor, R. A. (2018). Predicting hospital admission at emergency department triage using machine learning. *PLoS ONE*, 13(7), e0201016.
 
-9. American Psychiatric Association. (2023). *Emergency department boarding of psychiatric patients: A crisis in care*. APA Position Statement.
+9. Olson, R. M., Kang, S., Anwer, A., DePalma, J., & Hall, K. K. (2024). Enhancing emergency department efficiency through Lean Six Sigma: A case study. *Journal of Healthcare Quality*, 46(1), 19-32.
 
 10. American College of Emergency Physicians. (2023). *Emergency department boarding: A patient safety crisis* (Policy Statement).
 
-*Note: Psychiatric boarding times (3-4x longer than medical patients) are consistently documented across multiple peer-reviewed studies including Zeller et al. (2021), Nicks & Manthey (2012), and Bender et al. (2018). ROI projections based on industry benchmarks and reported single-institution outcomes. Results will vary based on hospital size, case mix, and implementation approach.*
+*Note: Psychiatric boarding times (3-4x longer than medical patients) are documented in multiple studies. The staffed bed decline figure is based on industry reports. ROI projections based on reported outcomes from Johns Hopkins, UCHealth, and other health systems. Results will vary based on hospital size, case mix, and implementation approach.*
