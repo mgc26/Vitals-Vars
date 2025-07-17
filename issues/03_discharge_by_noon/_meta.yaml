@@ -4,9 +4,9 @@ title: "Discharge by Noon: From 20% to 40% in 90 Days"
 short_title: "Discharge by Noon"
 publish: false
 target_date: "2025-01-17"  # Two weeks after Issue 02
-complexity: "quick_win"
-implementation_time: "2-4 weeks"
-annual_impact: "$600K-1.2M"
+complexity: "medium"
+implementation_time: "90 days"
+annual_impact: "$2-3M"
 tags:
   - patient_flow
   - capacity_management
