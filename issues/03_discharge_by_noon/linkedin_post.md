@@ -125,7 +125,7 @@ Read now → [Newsletter Link]
 "Past attempts often fail due to lack of sustained focus. What made the difference in our cases was daily barrier tracking and fixing root causes, not symptoms. The toolkit includes specific sustainability strategies. What caused your previous attempt to stall?"
 
 **For "Show me the evidence" requests:**
-"Absolutely! The newsletter cites 8 peer-reviewed studies. BMC Health Services Research (2024) showed 41.2% DBN rates with structured rounds. Plus, our toolkit includes SQL queries to measure YOUR actual opportunity. Want me to share the evidence summary?"
+"Absolutely! The newsletter cites peer-reviewed studies including Journal of Hospital Medicine showing significant DBN improvements. Bailey et al. (2024) in BMC Health Services Research documented sustained multi-year improvements. Plus, our toolkit includes SQL queries to measure YOUR actual opportunity. Want me to share the evidence summary?"
 
 ---
 
