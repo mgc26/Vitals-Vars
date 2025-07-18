@@ -1,0 +1,26 @@
+# Publishing configuration for Issue 04
+issue_number: 4
+title: "Prior Authorization Delays: Turning 5-Day Denials into Same-Day Approvals"
+short_title: "Prior Authorization Delays"
+publish: false
+target_date: "2025-01-31"  # Two weeks after Issue 03
+complexity: "quick_win"
+implementation_time: "2-4 weeks"
+annual_impact: "$2-4M"
+tags:
+  - revenue_cycle
+  - prior_authorization
+  - quick_win
+  - denials_management
+  - patient_access
+key_metrics:
+  - authorization_turnaround_time
+  - denial_rate
+  - auth_abandonment_rate
+  - staff_time_per_auth
+  - first_pass_approval_rate
+departments:
+  - revenue_cycle
+  - patient_access
+  - clinical_departments
+  - case_management
