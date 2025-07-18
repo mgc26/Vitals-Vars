@@ -1,0 +1,28 @@
+# Publishing configuration for Issue 05
+issue_number: 5
+title: "Prior Authorization Part 2: The Payer's Guide to Provider Partnership"
+short_title: "Prior Auth: Payer Side"
+series: "Prior Authorization Mini-Series"
+series_part: 2
+publish: false
+target_date: "2025-02-14"  # Two weeks after Issue 04
+complexity: "medium"
+implementation_time: "4-8 weeks"
+annual_impact: "Reduced admin costs + improved member satisfaction"
+tags:
+  - prior_authorization
+  - payer_operations
+  - provider_relations
+  - administrative_efficiency
+  - member_experience
+key_metrics:
+  - auto_approval_rate
+  - provider_satisfaction_score
+  - administrative_cost_per_auth
+  - member_complaints
+  - clinical_appropriateness_rate
+departments:
+  - medical_management
+  - provider_relations
+  - operations
+  - clinical_review

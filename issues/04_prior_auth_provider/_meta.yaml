@@ -1,7 +1,9 @@
 # Publishing configuration for Issue 04
 issue_number: 4
-title: "Prior Authorization Delays: Turning 5-Day Denials into Same-Day Approvals"
-short_title: "Prior Authorization Delays"
+title: "Prior Authorization Part 1: The Provider's Playbook for Same-Day Approvals"
+short_title: "Prior Auth: Provider Side"
+series: "Prior Authorization Mini-Series"
+series_part: 1
 publish: false
 target_date: "2025-01-31"  # Two weeks after Issue 03
 complexity: "quick_win"
