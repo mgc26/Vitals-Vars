@@ -40,10 +40,10 @@ jobs:
           ISSUE_DIR="issues/${ISSUE_NUM}_${ISSUE_TITLE}"
           READABLE_TITLE=$(echo "$ISSUE_TITLE" | tr '_' ' ' | sed 's/\b\(.\)/\u\1/g')
           
-          cat > "$ISSUE_DIR/README.md" << 'EOF'
-# Issue #${{ github.event.inputs.issue_number }}: {{READABLE_TITLE}}
+          cat > "$ISSUE_DIR/README.md" << EOF
+# Issue #${ISSUE_NUM}: ${READABLE_TITLE}
 
-*{{ISSUE_DESCRIPTION}}*
+*${ISSUE_DESC}*
 
 ---
 
