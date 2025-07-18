@@ -170,4 +170,4 @@ Drop a comment or reach out – I'm collecting use cases for next week's deep di
 
 ---
 
-[Download the Buddy Agent implementation guide →](https://github.com/vitals-vars-toolkits/methods_minute_buddy_agent)
+[Download the Buddy Agent implementation guide →](https://github.com/mgc26/vitals-vars-toolkits/tree/main/methods_minute_buddy_agent)

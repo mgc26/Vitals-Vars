@@ -85,7 +85,7 @@
 - 📝 [Asset 2: e.g., "First-case readiness checklist"]
 - 💻 [Asset 3: e.g., "SQL queries for delay analysis"]
 
-[Download all assets →](./06_grab_and_go_asset/)
+[Download all assets →](#)
 
 ---
 
@@ -101,6 +101,6 @@ If you do nothing else after reading this: **[One specific action that takes <1 
 
 ---
 
-*Have a healthcare operations challenge you'd like to see tackled? [Submit it here](link)*
+*Have a healthcare operations challenge you'd like to see tackled? [Submit it here](#)*
 
 *Next issue: [Preview of next topic] | [Date]*

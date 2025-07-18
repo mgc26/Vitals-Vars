@@ -94,8 +94,8 @@ Have improvements or success stories? We'd love to hear them:
 
 This is part of the **Vitals & Variables** newsletter series - bi-weekly data-driven solutions for healthcare operations.
 
-- 🔗 [Subscribe to the newsletter](https://linkedin.com/newsletters/vitals-variables)
-- 💬 [Join the discussion](https://github.com/vitals-variables/discussions)
+- 🔗 [Subscribe to the newsletter](https://www.linkedin.com/newsletters/vitals-variables)
+- 💬 [Join the discussion](https://github.com/mgc26/Vitals-Vars/discussions)
 - 📧 Questions? Open an issue in this repository
 
 ## 📄 License
