@@ -1,0 +1,17 @@
+issue_number: "mm_02"
+type: "methods_minute" 
+status: "draft"
+publish_date: "2025-01-20"
+title: "The Compute-to-Data Rail: Leapfrogging Healthcare's Interoperability Paradigm"
+description: "Stop moving data. Start moving intelligence. How compute-to-data architectures can reduce integration timelines by 85% and costs by 60%."
+tags:
+  - compute-to-data
+  - data-architecture
+  - healthcare-interoperability
+  - federated-computing
+  - edge-analytics
+  - data-strategy
+  - integration-patterns
+author: "Mike Cairns"
+reading_time: "1 minute"
+toolkit_preview: "Architecture patterns, implementation guides, and ROI calculators for compute-to-data deployments"
