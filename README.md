@@ -12,23 +12,31 @@ Each newsletter issue is self-contained in its own directory, making it easy to 
 
 ```
 vitals-variables/
-├── issues/                      # All newsletter issues
-│   ├── 00_launch/              # Welcome & introduction
-│   ├── 01_or_first_start_delay/ # First-case OR delays
-│   └── 02_ed_boarding/         # ED boarding crisis
-│       ├── README.md           # Complete issue overview
-│       ├── _toolkit/           # Ready-to-use tools
-│       │   ├── sql/           # Boarding queries
-│       │   ├── python/        # Predictive models
-│       │   ├── guides/        # Implementation plans
-│       │   └── dashboards/    # Monitoring templates
-│       ├── refs/              # Research & references
-│       └── assets/           # Charts & visualizations
-├── backlog/                   # Future topics
-└── resources/                # Shared resources
+├── issues/                                # All newsletter issues
+│   ├── 00_launch/                        # Welcome & introduction
+│   ├── 01_or_first_start_delay/         # First-case OR delays
+│   ├── 02_ed_boarding/                  # ED boarding crisis
+│   │   ├── README.md                    # Complete issue overview
+│   │   ├── _toolkit/                    # Ready-to-use tools
+│   │   │   ├── sql/                    # Boarding queries
+│   │   │   ├── python/                 # Predictive models
+│   │   │   ├── guides/                 # Implementation plans
+│   │   │   └── dashboards/             # Monitoring templates
+│   │   ├── refs/                       # Research & references
+│   │   └── assets/                     # Charts & visualizations
+│   └── methods_minute_compute_to_data/  # Methods Minute: C2DR
+├── backlog/                             # Future topics
+└── resources/                          # Shared resources
 ```
 
 ## 📚 Published Issues
+
+### 🆕 [Methods Minute: Compute-to-Data Rail](./issues/methods_minute_compute_to_data/)
+*Leapfrogging Healthcare's Interoperability Paradigm*
+- 🎯 Problem: Traditional data integration takes 6-18 months and exposes PHI
+- 💡 Solution: Move compute functions to data, not data to compute
+- 📊 Impact: Days instead of months for deployment, PHI never moves
+- 🔗 [Direct link for sharing](./issues/methods_minute_compute_to_data/)
 
 ### [Issue #02: ED Boarding](./issues/02_ed_boarding/)
 *From 8-hour waits to 2-hour transfers*
@@ -98,6 +106,12 @@ Check our [backlog](./backlog/) for the full list of 50+ topics, including:
 - Discharge timing optimization  
 - Prior authorization workflows
 - Staffing-to-demand matching
+
+### Methods Minute Series
+Quick, focused insights on transformative healthcare IT concepts:
+- ✅ Compute-to-Data Rail (Published)
+- 🔜 The 3-Layer Analytics Stack That Actually Ships
+- 🔜 Buddy Agent Architecture for Healthcare AI
 - No-show prediction models
 - And many more...
 
