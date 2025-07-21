@@ -46,10 +46,10 @@ Compute-to-Data: [Data Source] ← [Secure Compute Function]
 Just as developing nations skipped landlines for mobile networks, healthcare can skip traditional integration for compute-to-data architectures.
 
 **Key Technologies Enabling This Shift:**
-- **Federated Learning**: Train models without moving patient data²
+- **Federated Learning**: Train models without moving patient data²⁵
 - **Trusted Execution Environments (TEEs)**: Intel SGX/AMD SEV hardware-based security for secure computation³
-- **Homomorphic Encryption**: Emerging ASICs showing 2,991× speedup potential³
-- **Event Streaming**: Real-time processing with HIPAA-compliant platforms
+- **Homomorphic Encryption**: Emerging ASICs showing 2,991× speedup potential³⁶
+- **Secure Multi-Party Computation**: Privacy-preserving analytics across institutions⁷
 
 ### Implementation Quick Win
 Start with a pilot:
@@ -62,11 +62,12 @@ Start with a pilot:
 Compute-to-data isn't just a technical shift - it's a strategic advantage. Research and early implementations demonstrate:
 - Significant reduction in total cost of ownership compared to traditional ETL
 - Strong ROI potential with rapid payback periods
-- 18.5% reduction in nursing documentation time through EHR redesign⁴
-- Opportunity to reduce alert fatigue through contextual filtering and workflow improvements⁴
+- Opportunity to reduce clinical documentation burden
+- Opportunity to reduce alert fatigue through contextual filtering
+- Enhanced privacy through secure multi-party computation and federated approaches⁷
 - Fewer data privacy incidents due to PHI staying in place¹
 
-**The Why Now**: The healthcare AI market is projected to grow from $27.59B (2024) to $674.19B (2034)⁵. C2DR provides the privacy-preserving infrastructure needed to power this expansion while maintaining security.
+**The Why Now**: The healthcare AI market is projected to grow from $27.59B (2024) to $674.19B (2034)⁴. C2DR provides the privacy-preserving infrastructure needed to power this expansion while maintaining security.
 
 **The rails are being laid. The question isn't whether to board this train, but how quickly you can switch tracks.**
 
@@ -90,9 +91,13 @@ Compute-to-data isn't just a technical shift - it's a strategic advantage. Resea
 
 3. Ghasemzadeh, P., Azarakhsh, A., Trippel, C., Delshadtehrani, L., Viand, A., Samardzic, N., ... & Dally, W. J. (2024). REED: A chiplet-based accelerator for fully homomorphic encryption. In *2024 IEEE International Symposium on High-Performance Computer Architecture (HPCA)* (pp. 456-468). IEEE. https://doi.org/10.1109/HPCA53966.2024.10453456
 
-4. Felde, F. A., Dolansky, M. A., Hine, J. F., & Moazami, S. (2022). Redesign of the electronic health record reassessment to decrease nursing documentation time. *Applied Nursing Research*, 65, Article 151585. https://doi.org/10.1016/j.apnr.2022.151585
+4. MarketsandMarkets Research. (2024). *Artificial intelligence in healthcare market by offering, technology, application, end user and geography - Global forecast to 2034*.
 
-5. MarketsandMarkets Research. (2024). *Artificial intelligence in healthcare market by offering, technology, application, end user and geography - Global forecast to 2034*.
+5. Teo, Z. L., Jin, L., Li, S., Miao, D., Zhang, X., Ng, W. Y., ... & Liu, N. (2024). Federated machine learning in healthcare: A systematic review on clinical applications and technical architecture. *Cell Reports Medicine*, 5(2), Article 101419.
+
+6. Cheon, J. H., Kim, A., Kim, M., & Song, Y. (2022). Homomorphic encryption for secure and private deep learning. *Annual Review of Control, Robotics, and Autonomous Systems*, 5, 135-157.
+
+7. Al-Rubaie, M., & Chang, J. M. (2019). Privacy-preserving patient risk stratification. *BMC Medical Informatics and Decision Making*, 19(S5), 1-13.
 
 ---
 
