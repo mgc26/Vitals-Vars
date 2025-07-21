@@ -95,17 +95,27 @@ Every issue follows this framework:
 ### Citation Guidelines
 **CRITICAL: We can NEVER accept fake/hallucinated peer-reviewed references or attributions.**
 
+**ZERO TOLERANCE POLICY: Any content containing fabricated or unverified references MUST NOT be published.**
+
 - **Absolutely forbidden**:
   - Making up author names, publication titles, or journal names
   - Fabricating DOIs, URLs, or publication details
   - Creating fictional statistics or research findings
   - Falsely attributing quotes or data to real organizations
+  - Publishing ANY reference that cannot be independently verified
   
 - **Required approach**:
   - Only cite sources that you can verify exist
+  - If you cannot find a reference online or verify its existence, DO NOT use it
+  - When in doubt, remove the claim rather than risk a false citation
   - If unsure about exact details, use general language ("research indicates", "industry estimates suggest")
   - Mark unverifiable claims as estimates: "Industry estimates suggest..." or "Based on typical patterns..."
   - Use placeholder text like `[Citation needed]` when a citation would strengthen the claim
+  
+- **Verification process before publishing**:
+  - Every academic reference must be verifiable through Google Scholar, PubMed, or publisher websites
+  - Every statistic must have a traceable source
+  - If a reference cannot be found, it must be removed along with any claims it supports
   
 - **For LinkedIn Newsletter format**:
   - References should be in APA style
