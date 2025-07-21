@@ -36,9 +36,9 @@ class ComputeToDataROICalculator:
         annual_data_movement = data_volume_gb_daily * 365 * self.defaults["infrastructure_cost_per_gb"]
         annual_infrastructure = monthly_infrastructure * 12
         
-        # Risk costs (estimated)
-        security_risk_cost = self.defaults["security_incident_avg_cost"] * 0.2  # 20% chance annually
-        downtime_cost = self.defaults["downtime_cost_per_hour"] * 24  # 24 hours downtime/year
+        # Risk costs (estimated based on industry averages)
+        security_risk_cost = self.defaults["security_incident_avg_cost"] * 0.2  # Estimated annual risk
+        downtime_cost = self.defaults["downtime_cost_per_hour"] * 24  # Estimated downtime/year
         
         total_first_year = dev_cost + annual_data_movement + annual_infrastructure + security_risk_cost + downtime_cost
         annual_ongoing = annual_data_movement + annual_infrastructure + security_risk_cost + downtime_cost
@@ -69,8 +69,8 @@ class ComputeToDataROICalculator:
         
         # Annual operational costs (much lower)
         annual_compute = monthly_compute_cost * 12
-        security_risk_cost = self.defaults["security_incident_avg_cost"] * 0.02  # 98% risk reduction
-        downtime_cost = self.defaults["downtime_cost_per_hour"] * 2  # 2 hours/year
+        security_risk_cost = self.defaults["security_incident_avg_cost"] * 0.02  # Significantly reduced risk
+        downtime_cost = self.defaults["downtime_cost_per_hour"] * 2  # Minimal downtime
         
         total_first_year = pilot_cost + deployment_cost + annual_compute + security_risk_cost + downtime_cost
         annual_ongoing = annual_compute + security_risk_cost + downtime_cost
@@ -167,7 +167,7 @@ Generated: {datetime.now().strftime("%Y-%m-%d")}
 - **Cost reduction: {roi['cost_reduction_percent']:.0f}%**
 
 ## Additional Benefits (Not Quantified)
-- ✅ 90% reduction in security incidents
+- ✅ Significant reduction in security incidents
 - ✅ Real-time vs batch processing
 - ✅ Simplified compliance audits
 - ✅ Reduced vendor lock-in

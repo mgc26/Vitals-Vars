@@ -1,7 +1,7 @@
 # 4-Week Compute-to-Data Pilot Roadmap
 
 ## Executive Summary
-Transform your data integration approach in 4 weeks. This roadmap guides you through a successful compute-to-data pilot that can reduce integration time by 85% and costs by 60%.
+Transform your data integration approach in 4 weeks. This roadmap guides you through a successful compute-to-data pilot that can significantly reduce integration time and costs.
 
 ---
 
@@ -134,13 +134,13 @@ def calculate_diabetes_control(context):
 
 ### Friday: Measurement & Analysis
 **Key Metrics to Track:**
-| Metric | Traditional | Compute-to-Data | Improvement |
-|--------|------------|-----------------|-------------|
-| Deployment Time | 6-8 weeks | 3 days | 93% faster |
-| Data Movement | 50GB/day | 0 | 100% reduction |
-| Query Latency | 30 seconds | 2 seconds | 93% faster |
-| Infrastructure Cost | $5,000/month | $500/month | 90% lower |
-| Security Incidents | 2-3/year | 0 | 100% reduction |
+| Metric | Traditional | Compute-to-Data | Target Improvement |
+|--------|------------|-----------------|-------------------|
+| Deployment Time | 6-8 weeks | Days | Significant reduction |
+| Data Movement | Large volumes | Minimal | Near-zero movement |
+| Query Latency | Batch processing | Real-time | Faster processing |
+| Infrastructure Cost | High | Lower | Cost reduction |
+| Security Risk | Data exposure | Data stays in place | Risk reduction |
 
 **Week 3 Deliverable:** Production deployment with initial metrics
 
@@ -165,17 +165,17 @@ Create these essential documents:
 **ROI Template:**
 ```
 Investment:
-- Pilot development: 160 hours × $150/hr = $24,000
-- Infrastructure setup: $2,000
-- Total Investment: $26,000
+- Pilot development: [Hours] × [Rate]
+- Infrastructure setup: [Cost]
+- Total Investment: [Total]
 
-Annual Savings:
-- Reduced integration time: $200,000
-- Lower infrastructure: $54,000
-- Avoided security incidents: $100,000
-- Total Annual Savings: $354,000
+Potential Annual Savings:
+- Reduced integration time
+- Lower infrastructure costs
+- Reduced security risk
+- Improved operational efficiency
 
-ROI: 1,362% | Payback: < 1 month
+Calculate your specific ROI based on actual metrics
 ```
 
 ### Friday: Expansion Roadmap
@@ -239,7 +239,7 @@ ROI: 1,362% | Payback: < 1 month
 
 By the end of Week 4, you should have:
 - [ ] One compute function in production
-- [ ] Measured 80%+ improvement in key metrics
+- [ ] Measured significant improvement in key metrics
 - [ ] Documented ROI and payback period
 - [ ] Trained team on the new approach
 - [ ] Executive approval for expansion

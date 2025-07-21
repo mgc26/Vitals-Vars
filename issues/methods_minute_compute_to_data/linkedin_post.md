@@ -18,7 +18,7 @@ While you're spending 6-18 months building interfaces and moving terabytes betwe
 - Get results in seconds
 - Data never leaves home
 
-One health system reduced their analytics deployment time from 8 weeks to 2 days. Their secret? They stopped moving data and started moving intelligence.
+Leading health systems are reducing analytics deployment time from weeks to days. Their secret? They stopped moving data and started moving intelligence.
 
 Ready to leapfrog traditional interoperability? Check out our latest Methods Minute on the compute-to-data paradigm shift.
 
@@ -39,9 +39,9 @@ What if instead of moving 500GB of patient data, we moved a 50KB risk scoring fu
 This isn't fantasy. It's the compute-to-data revolution happening right now in healthcare.
 
 Organizations making this shift report:
-✅ 85% faster deployments
-✅ 90% fewer data incidents
-✅ 60% lower costs
+✅ Significantly faster deployments
+✅ Fewer data privacy incidents
+✅ Lower infrastructure costs
 
 The rails are being laid. Time to switch tracks.
 
@@ -55,10 +55,10 @@ New Methods Minute: "The Compute-to-Data Rail" - your 60-second guide to leapfro
 
 Healthcare's dirty secret: We're drowning in integration projects.
 
-- Average health system: 1,400+ interfaces
-- 73% of projects exceed budget
-- 6-18 month timelines
-- Exponential HIPAA exposure
+- Average health system: hundreds to thousands of interfaces
+- Majority of projects exceed budget
+- 6-18 month timelines typical
+- HIPAA exposure multiplies with every data copy
 
 But there's another way: Compute-to-Data.
 
