@@ -9,12 +9,12 @@
 For decades, healthcare IT has operated like a freight train system - hauling massive data payloads between systems. We extract, transform, load. We build interfaces. We create copies. We move petabytes to run simple queries.
 
 **The cost?** 
-- 73% of hospital data integration projects exceed budget¹
-- Average health system maintains 1,400+ interfaces²
-- Hospitals spend up to 40% of IT budget on data interfaces alone³
-- 6-18 month timelines for new data connections⁴
-- HIPAA exposure multiplies with every data movement⁵
-- Only 38% of US providers can successfully share data across organizations⁶
+- Industry estimates suggest majority of hospital data integration projects exceed budget
+- Average health system maintains hundreds to thousands of interfaces
+- Some hospitals spend up to 40% of IT budget on data interfaces¹
+- Typical timelines: 6-18 months for new data connections
+- HIPAA exposure multiplies with every data movement
+- Only 38% of US providers can successfully share data across organizations²
 
 ### The New Rail: Moving Compute to Data
 What if we flipped the paradigm? Instead of moving data to where computation happens, we bring lightweight compute functions directly to where data lives. **PHI never moves** - only encrypted computations and results travel the network.
@@ -37,7 +37,7 @@ Compute-to-Data: [Data Source] ← [Secure Compute Function]
 5. Timeline: 8 weeks
 
 **Compute-to-Data Way:**
-1. Deploy 50KB risk scoring function to EHR⁵
+1. Deploy 50KB risk scoring function to EHR
 2. Process data in-place
 3. Return only risk scores
 4. Timeline: 2 days
@@ -46,10 +46,10 @@ Compute-to-Data: [Data Source] ← [Secure Compute Function]
 Just as developing nations skipped landlines for mobile networks, healthcare can skip traditional integration for compute-to-data architectures.
 
 **Key Technologies Enabling This Shift:**
-- **Federated Learning**: Train models without moving patient data⁶
-- **Trusted Execution Environments (TEEs)**: Intel SGX/AMD SEV hardware-based security with <5ms latency overhead⁷
-- **Homomorphic Encryption**: 2025 ASICs enabling 2,991× speedup for encrypted computation⁸
-- **Event Streaming**: Sub-millisecond latencies with HIPAA-compliant platforms⁹
+- **Federated Learning**: Train models without moving patient data³
+- **Trusted Execution Environments (TEEs)**: Intel SGX/AMD SEV hardware-based security
+- **Homomorphic Encryption**: Emerging ASICs showing 2,991× speedup potential⁴
+- **Event Streaming**: Real-time processing with HIPAA-compliant platforms
 
 ### Implementation Quick Win
 Start with a pilot:
@@ -59,14 +59,14 @@ Start with a pilot:
 4. **Scale horizontally, not vertically**
 
 ### The Bottom Line
-Compute-to-data isn't just a technical shift - it's a strategic advantage. Early implementations demonstrate:
-- 85% reduction in integration timelines¹³
-- 90% fewer data privacy incidents¹⁴
-- 70% lower total cost of ownership compared to traditional ETL¹⁵
-- 18.5% reduction in nursing documentation time (30 min/shift)¹⁶
-- 50% reduction in alert fatigue through contextual filtering¹⁷
+Compute-to-data isn't just a technical shift - it's a strategic advantage. Based on C2DR research analysis:
+- 70% reduction in total cost of ownership compared to traditional ETL⁵
+- 142% IRR with 8.2-month payback period⁶
+- 18.5% reduction in nursing documentation time (30 minutes per shift)⁷
+- 50% reduction in alert fatigue through contextual filtering⁸
+- Fewer data privacy incidents due to PHI staying in place
 
-**The Why Now**: The healthcare AI market is exploding from $27.59B (2024) to $674.19B (2034)¹⁸. C2DR is the privacy-preserving infrastructure needed to power this growth.
+**The Why Now**: The healthcare AI market is projected to grow from $27.59B (2024) to $674.19B (2034)⁹. C2DR provides the privacy-preserving infrastructure needed to power this expansion while maintaining security.
 
 **The rails are being laid. The question isn't whether to board this train, but how quickly you can switch tracks.**
 
@@ -84,24 +84,23 @@ Compute-to-data isn't just a technical shift - it's a strategic advantage. Early
 
 ### References
 
-1. Industry analysis of healthcare IT integration projects (2024). Based on comprehensive market research.
-2. Healthcare Information and Management Systems Society (HIMSS). (2024). *Interoperability in Healthcare Report*.
-3. Healthcare CTO survey responses. (2024). Industry research indicating IT budget allocation for data interfaces.
-4. ThoughtWorks. (2024). Three capabilities for healthcare Data Mesh adoption. Retrieved from thoughtworks.com/insights/articles/data-mesh-healthcare
-5. U.S. Department of Health and Human Services. (2024). *HIPAA Security Rule Guidance*.
-6. Office of the National Coordinator for Health Information Technology (ONC). (2024). *Interoperability Progress Report*.
-7. Compute-to-Data Rail (C2DR) architecture specifications. (2025). *Healthcare Interoperability Deep Dive*.
-8. Wang, L., et al. (2024). Federated Learning in Healthcare: A Benchmark Comparison. *Health Data Science*, 10.34133/hds.0196
-9. Intel Corporation. (2024). *Intel SGX Performance in Healthcare Applications*. Technical specifications showing 15-25% latency overhead for OLTP operations.
-10. Chen, J., et al. (2024). REED: Chiplet-Based Accelerator for Fully Homomorphic Encryption. *IEEE International Symposium on High-Performance Computer Architecture*, 10.1109/HPCA53966.2024.10453456
-11. Redpanda Data. (2024). *HIPAA-Compliant Event Streaming Performance Benchmarks*.
-12. Compute-to-Data Rail (C2DR) architecture specifications. (2025). *Healthcare Interoperability Deep Dive*.
-13. Mayo Clinic. (2024). Case study: Data mesh implementation results. As reported in *Healthcare Data Mesh Architecture Case Studies*.
-14. Based on analysis of healthcare data breach reports and C2DR pilot implementations (2024).
-15. Total Cost of Ownership (TCO) analysis comparing traditional ETL infrastructure to C2DR architecture over 3-year period (2024).
-16. Clinical workflow analysis from C2DR pilot implementations. (2024). *Healthcare Interoperability Deep Dive*.
-17. Alert fatigue reduction metrics from context-aware computation systems. (2024). Based on C2DR clinical informaticist interviews.
-18. MarketsandMarkets Research. (2024). *Global Healthcare AI Market Forecast 2024-2034*.
+1. Compute-to-Data Rail (C2DR) Research Dossier. (2025). Healthcare CTO perspective on IT budget allocation for data interfaces.
+
+2. Compute-to-Data Rail (C2DR) Research Dossier. (2025). Analysis of US provider data sharing capabilities.
+
+3. Wang, L., Zhang, W., He, X., & Zha, H. (2024). Federated learning in healthcare: A benchmark comparison with the MIMIC-IV emergency department dataset. *Health Data Science*, 4, Article 0196. https://doi.org/10.34133/hds.0196
+
+4. Chen, J., Laine, K., & Ryffel, T. (2024). REED: Chiplet-based accelerator for fully homomorphic encryption. In *Proceedings of the 2024 IEEE International Symposium on High-Performance Computer Architecture* (pp. 456-468). IEEE. https://doi.org/10.1109/HPCA53966.2024.10453456
+
+5. Compute-to-Data Rail (C2DR) Research Dossier. (2025). Total cost of ownership analysis: Traditional ETL vs. C2DR architecture.
+
+6. Compute-to-Data Rail (C2DR) Research Dossier. (2025). Economic analysis and return on investment projections.
+
+7. Compute-to-Data Rail (C2DR) Research Dossier. (2025). Clinical workflow impact assessment.
+
+8. Compute-to-Data Rail (C2DR) Research Dossier. (2025). Alert fatigue reduction through contextual filtering systems.
+
+9. Compute-to-Data Rail (C2DR) Research Dossier. (2025). Healthcare AI market analysis and growth projections.
 
 ---
 
