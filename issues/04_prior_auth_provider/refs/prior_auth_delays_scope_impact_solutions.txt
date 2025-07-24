@@ -1,0 +1,901 @@
+Prior Authorization Delays in Healthcare: Scope,
+Impact, and Solutions
+Prior authorization (PA) is a utilization management process where healthcare providers must obtain
+approval from insurers before proceeding with certain treatments, tests, or medications. In theory, PAs are
+meant to control costs and ensure appropriate care, but in practice they often introduce significant delays
+and administrative burdens. This report provides a deep dive into the current state of PA delays, their
+financial and clinical impact, root causes of the problem, and strategies – including technology and policy
+changes – that can help address this pressing issue. The focus is U.S. healthcare in 2025, where new reforms
+and innovations are on the horizon.
+
+Current State of Prior Authorization Delays
+Volume and Burden: Physicians and their staff are inundated with prior authorization requests. An AMA
+survey in late 2024 found that practices handle about 39 PA requests per physician per week, consuming
+an average of 13 hours of physician/staff time weekly 1 . Another survey showed similar figures – roughly
+45 requests taking 14 hours per week on average 2 . This equates to nearly two full business days spent
+on paperwork instead of patient care. It’s no surprise that 89–90% of physicians rate the PA workload as
+“high or extremely high” 3 4 , and many have had to hire extra employees to keep up. About 35–40%
+of doctors have staff who work exclusively on prior authorizations 1 5 , illustrating how managing
+PAs has become a specialized role in itself.
+Care Delays: The vast majority of providers report that PAs routinely delay necessary care for patients. In
+an AMA survey, 93% of physicians said their patients experienced care delays due to prior auth
+requirements 6 . These delays are often substantial. One patient survey by the Arthritis Foundation found
+the average wait time for a PA decision was about 3 days, and 31% of patients waited more than a
+week for an answer 7 . Such waits can postpone critical tests or treatments. For urgent situations, even a
+few days’ delay can be dangerous – and indeed 23% of physicians reported PA delays have led to a
+patient’s hospitalization, with 8% reporting cases of permanent disability or death in their patients 8 . In
+other words, prior auth is not just an administrative hurdle; it can be a direct threat to patient health when
+it causes timely care to be missed.
+Denial Rates: Not all authorization requests are approved, and denial rates contribute to delays (through
+appeals or searching for alternatives) or outright care abandonment. Precise denial rates vary by payer and
+setting. In Medicare Advantage (MA) plans, about 6.4% of prior authorization requests were denied in
+2023 (either fully or partially) 9 . This was actually an improvement from 7.4% in 2022, but higher than
+denial rates a few years prior 9 . Importantly, over 80% of denied requests that were appealed ended
+up being overturned in MA 10 – meaning the majority of those initial denials were ultimately deemed
+inappropriate or unnecessary. That suggests many patients and providers go through needless denials and
+appeals for care that should have been approved in the first place, adding frustration and delay. Denial
+rates also differ significantly by insurer, reflecting how some payers impose more aggressive hurdles than
+
+1
+
+others. For example, among MA insurers in 2023, Centene denied 13.6% of PA requests, while Humana
+denied only 3.5% – with other major insurers like CVS/Aetna around 11% and UnitedHealthcare ~9% 11 .
+
+Figure: Prior authorization denial rates by insurer in Medicare Advantage (2023), ranging from about 3–4% up to
+~14%. Higher bars indicate a greater share of requests denied, showing how a patient’s experience can differ
+widely depending on their insurance plan. Such variation means providers must navigate a patchwork of rules
+and stringency; what sails through at one insurer might be frequently denied by another, complicating the
+PA process for multi-payer hospitals.
+Abandoned Procedures and Patient Impact: One of the most alarming aspects of PA delays is the risk
+that patients simply give up on receiving care. In a 2024 AMA survey, 82% of physicians said that patients
+had abandoned treatment due to PA issues – for example, a patient never getting a recommended test or
+procedure because the approval took too long or was too difficult 12 . Another survey similarly reported
+78–80% of physicians have seen patients sometimes or often abandon a needed intervention because
+of the hassles or delays associated with prior auth 13 14 . These are staggering numbers that underscore
+a real breakdown in access: when the administrative process becomes so cumbersome, patients may forego
+care altogether. The clinical consequences are serious. Roughly 1 in 3 physicians report that PA delays
+have led to a serious adverse event (like hospitalization or life-threatening event) for a patient in their
+care 12 13 . Specialists echo these concerns: in oncology, for instance, a 2024 survey of radiation
+oncologists found one-third of doctors said prior auth led patients to abandon radiation therapy, with
+about 1 in 10 cancer patients on average not receiving recommended treatment because of PA
+obstacles 15 . Additionally, 92% of those cancer specialists said PAs cause treatment delays in their
+practice, delays which, for over two-thirds of doctors, typically last five days or more 16 . In sum, current
+prior authorization practices are frequently translating into delayed or forgone care, which can worsen
+health outcomes and even cost lives.
+Variation by Service Type: Prior authorization was once reserved for only the most expensive or unusual
+services, but today it blankets a wide array of routine care. Everything from advanced imaging (MRIs, CT
+scans) and common surgeries to prescription medications (even longstanding maintenance meds) may
+trigger an auth requirement 17 . The burden is especially high in certain fields – for example, radiation
+
+2
+
+oncologists report the highest rates of PA encounters of any specialty 18 , with more than half of all
+their treatment plans needing insurer approval before proceeding 19 . Other areas like advanced
+diagnostic imaging, cardiology procedures, orthopedics, and specialty pharmaceuticals (e.g. biologic drugs)
+see disproportionate PA demands. Each payer sets its own list of services that require authorization, which
+means providers must keep track of varying rules: one insurer might require auth for physical therapy
+beyond a certain number of visits, another might not; a certain surgery could be “pre-approved” by one plan
+but need lengthy review by another. This inconsistency adds to the administrative complexity and makes it
+hard to set universal expectations for turnaround time or approval likelihood. Overall, the current state of
+prior authorization in the U.S. is characterized by high volumes, significant care delays, a notable
+percentage of denials (many of which are later reversed), and negative impacts on both patients and
+providers. These findings underscore why prior authorization has become a top target for healthcare
+reform and innovation efforts.
+
+Financial Impact of Authorization Delays
+Prior authorization delays and requirements don’t just affect clinical care – they also carry a hefty financial
+cost for healthcare organizations, providers, and the system as a whole. Below we explore the various ways
+in which PA burdens translate into dollars lost or spent.
+• Administrative Costs: The industry-wide expense of performing prior authorizations is enormous.
+According to the Council for Affordable Quality Healthcare (CAQH), the U.S. healthcare system
+spends over $13 billion annually on prior authorization processes 20 . This figure includes the
+labor, overhead, and technology costs for providers and payers to handle PA requests. For providers
+in particular, each individual authorization request is a labor-intensive task. Studies show that a
+single manual prior auth request takes around 20–30 minutes of staff time and costs providers
+roughly $10–$11 on average in labor 21 22 . This might include time spent on phone calls, faxing
+documents, checking payer websites, and coordinating information from the clinical team. While $10
+of staff time may not sound like much, multiply it by the tens of millions of PAs performed each year
+and the total expense is staggering. Even using a web portal (partial automation) still costs
+about $7 per request and ~13 minutes, highlighting that current “electronic” solutions often
+remain inefficient 22 . For payers, the cost per PA is lower (around $3.50 manually, or mere cents if
+fully automated) 23 , which partly explains why insurers have been content to shift the burden onto
+providers. The balance of cost is clearly skewed towards providers – physicians, hospitals, and
+their teams bear most of the financial and time burden to comply with insurer rules.
+• Staffing and Workflow Costs: Many healthcare organizations have had to invest in dedicated staff
+and infrastructure to manage authorizations, effectively increasing their operating costs. For
+example, 40% of physicians report employing staff who work only on PAs 1 . These are salaries and
+benefits paid for administrative work that does not directly add value to patient care. In some multispecialty clinics and hospitals, entire departments (authorization coordinators, referral specialists)
+exist just to handle the volume of PAs. Medical Group Management Association data and anecdotes
+indicate practices sometimes employ more full-time employees for billing and authorization
+tasks than for clinical care 24 . All this translates into higher overhead and lower productivity.
+Physicians themselves also lose billable time; the hours doctors spend on peer-to-peer calls or filling
+out forms could have been spent seeing patients. This “opportunity cost” is significant but hard to
+measure – it can manifest as fewer appointments available (reducing revenue) or longer workdays
+(contributing to burnout).
+
+3
+
+• Lost Revenue from Denials and Delays: Authorization issues can directly hit the bottom line when
+services are delayed or denied. If a procedure is canceled or postponed because auth wasn’t
+obtained in time, that’s lost revenue for the facility. Even worse, if care is provided without realizing
+an auth was needed (a common scenario in emergencies or when requirements are unclear), the
+claim may be denied and the provider might not get paid at all. The Advisory Board has estimated
+that as much as 12% of hospital revenue is tied up in denied claims – and prior authorization is a
+leading cause of those denials 25 . For a hospital with hundreds of millions in revenue, 12% at risk is
+huge (tens of millions of dollars potentially delayed or written off). Each denial also requires costly
+rework: the average cost to rework (appeal or correct) a denied claim is $25 to $118 per claim
+26 , depending on complexity. Consider a hospital that has thousands of PA-related denials a year –
+the administrative cost of chasing each one (not to mention the delayed cash flow) can amount to
+millions annually in wasted effort.
+• Downstream Healthcare Costs: From a broader perspective, PA delays can increase overall
+healthcare costs in indirect ways. When necessary care is delayed, patients may suffer complications
+or disease progression that end up requiring more expensive treatment. For example, if a patient’s
+approval for a specialist visit or medication is held up, they might land in the ER or be hospitalized
+as their condition worsens 27 . Indeed, physicians report that PA requirements often lead to
+higher utilization of emergent or alternative services – 42% have seen patients need urgent/
+emergency care and 29% saw hospitalizations specifically due to prior auth-related delays or barriers
+28 . Not only do such events impact patient health, they also generate higher costs for payers and
+providers than if the initial treatment had been approved in a timely manner. Additionally, PA rules
+sometimes force providers to use “step therapy” (trying a cheaper or insurer-preferred treatment
+first). Over two-thirds of doctors (69%) say resources get diverted to ineffective initial
+treatments due to PA, and additional visits (68%) are required when PAs obstruct the preferred
+care 28 . These extra visits and less-effective treatments can drive up costs for patients and payers
+alike.
+• Patient Satisfaction and Retention: Although harder to quantify, there is a financial dimension to
+patient experience as well. Patients who face repeated delays and denials may become frustrated
+with their healthcare provider or their insurance. This can impact a provider’s reputation and patient
+retention. For instance, if an imaging center or surgical practice develops a reputation (fair or not)
+for “difficult” scheduling because of insurance hurdles, referring physicians might send patients
+elsewhere, or patients themselves might seek out a system known for smoother care coordination.
+In value-based care arrangements, patient satisfaction metrics can even affect reimbursement.
+Surveys have captured patient frustration – one poll found 94% of patients reported a care delay
+due to prior authorization hurdles 29 . Intuitively, every delay or extra phone call and paperwork
+burden placed on a patient is an erosion of goodwill. In a competitive healthcare marketplace, poor
+patient experience can translate into lost revenue over time as patients vote with their feet.
+• Appeals and Peer-to-Peer Costs: When a prior authorization is denied, providers often go through
+an appeal or a “peer-to-peer” review (where the physician speaks with the insurance company’s
+physician reviewer to argue the case). These processes are time-consuming and thus costly. A peerto-peer call might last 30 minutes to an hour, often involving senior clinicians. If a practice has to do
+dozens of these a month, the physician time (and corresponding lost clinic time) is a significant cost.
+Moreover, about 15% of physicians report that the insurance peer reviewer on these calls isn’t
+even in the appropriate specialty to fully understand the case 30 , making the process even more
+
+4
+
+frustrating and often requiring further appeals. While hard to assign a dollar value, every hour a
+doctor spends on an appeal is an hour of revenue-generating (or patient-care) activity lost. Some
+large health systems employ physicians or nurses specifically to handle these reviews and appeals,
+again adding to payroll. There’s also a human cost: extensive paperwork and bureaucratic battles
+contribute to burnout, which has its own downstream financial implications like staff turnover and
+decreased productivity.
+• Macro View – Potential Savings: On a positive note, the flip side of these large costs is that there is
+huge potential for savings if the PA process is improved or automated. CMS (the Centers for
+Medicare & Medicaid Services) estimates that implementing streamlined electronic prior
+authorization could save providers $15 billion over 10 years in administrative costs 31 . CAQH
+analysis likewise finds that if the industry moved fully to electronic transactions for PA, it could save
+on the order of $400–500 million per year in reduced labor and processing costs 32 . These figures
+represent money that could be redirected to actual patient care or reducing healthcare prices if
+realized. In essence, the inefficiency of the status quo is so large that solving it even partially could
+yield substantial economic benefits across the system.
+In summary, prior authorization delays and denials create a drag on healthcare finances at multiple levels.
+Providers incur high administrative expenses and lost revenue, payers may ultimately pay more due to
+downstream utilization, and patients bear financial burdens in the form of potentially worsened health or
+lost time. The push for PA reform is as much about reducing these wasteful costs as it is about easing the
+process for patients and clinicians.
+
+Root Cause Analysis: Why Do Prior Auth Delays and Denials Occur?
+To effectively address prior authorization problems, it’s important to understand why they happen in the
+first place. There are several root causes contributing to PA delays and denials, spanning from insurer
+policies to provider workflows and technological gaps:
+1. Insurer Requirements and Clinical Criteria: One fundamental cause is that insurers often require
+specific clinical criteria to be met before approving a service, and these criteria can be quite rigid or differ
+from standard practice. If a request doesn’t tick every box of the insurer’s policy, it may be denied as “not
+medically necessary.” For example, an insurance plan might insist that a patient try physical therapy for 6
+weeks before approving an MRI for back pain. A physician who orders the MRI sooner (believing it’s
+warranted) will hit a PA roadblock. Many physicians feel these criteria are often not evidence-based –
+31% said PA rules were “rarely or never” based on clinical guidelines from their specialty society 33 .
+When criteria are too strict or misaligned with real-world patient needs, denials increase. Additionally,
+insurers sometimes require obscure documentation (for instance, proof of a trial of a cheaper medication)
+that may not have been clearly communicated, leading to avoidable denials.
+2. Incomplete or Incorrect Documentation: A very common proximate cause of PA denials is missing
+information or paperwork errors in the request. If a provider submits a prior auth request without including
+a key piece of documentation that the insurer needs to see (say, lack of a lab result, or missing clinical
+notes), the request can be denied or kicked back. Insufficient documentation is consistently cited as a
+top reason for PA denials 34 . Sometimes the provider actually has the info, but it wasn’t forwarded to the
+insurer in the required format. For instance, a clinic might note that a patient failed two cheaper drugs
+before the doctor prescribed a new medication, but if those details aren’t explicitly documented in the PA
+
+5
+
+submission, the insurer’s algorithm or reviewer might deny the request. In other cases, simple clerical
+mistakes – like miscoding the procedure, or sending to the wrong fax number – can lead to denials or
+delays.
+3. Timing and Process Breakdowns: Prior authorization is a multi-step process that can break down at
+several points. First, the need for an authorization must be recognized. Delays often start when this doesn’t
+happen promptly – e.g., if an office realizes only the day before a procedure that an auth is required, they’re
+already behind the clock. Next, once submitted, insurers may take days or even weeks to respond, which
+is another major delay point. Historically, Medicare Advantage plans were allowed up to 14 days to answer a
+standard PA request 35 36 , and many commercial plans follow similar timelines. While urgent requests
+can be faster, even “fast” in PA terms (24–72 hours) can be too slow in a truly urgent medical situation. If
+insurers decide they need more information, they will send the request back asking for clarifications or
+additional documents – effectively resetting the clock. New rules are pushing for quicker turnarounds
+(e.g., 7 days for standard requests by 2026) 31 , but currently lag times remain a pain point. Another
+timing issue is failing to get authorization before the service is provided. If, for whatever reason, care
+happens without pre-approval (perhaps due to scheduling urgency or oversight), providers often face an
+automatic denial (“no authorization on file”), which then must be appealed after the fact. “Failure to obtain
+authorization in time” is a known cause of denial in many hospitals’ revenue cycle analyses 37 .
+Essentially, any breakdown in the sequence – not realizing an auth was needed, not submitting all info,
+insurer dragging feet, or care being done prematurely – can result in a denial or at least a delay.
+4. Payer Variability and Complexity: Each insurance payer has its own set of rules, and in many cases uses
+third-party vendors to manage prior authorizations (e.g., radiology benefits managers or pharmacy benefit
+managers). This creates a fragmented landscape of requirements that providers must navigate. One insurer
+might require prior auth for all specialist referrals, another only for certain procedures; one might use an
+online portal form, another requires a phone call. Some payers also notoriously have more complex or
+onerous requirements. For instance, a particular insurer might deny a higher fraction of requests simply
+because their internal policy is more restrictive or they use a stricter review vendor. Data from Medicare
+Advantage (where reporting is required) shows how denial rates vary: while the overall denial rate is around
+6%, UnitedHealthcare (the largest MA insurer) denied about 9.1% of requests in 2023, whereas
+Humana denied only ~3.5% 38 11 . Meanwhile, a company like Centene had a denial rate over 13%. This
+suggests that providers dealing with Centene or similar plans face a much higher chance of denial and
+likely more complex criteria, whereas working with a payer like Humana might be relatively smoother.
+Another aspect is gold-carding and waivers – some insurers waive PA requirements for certain
+“trusted” providers or in risk-based contracts 39 , meaning those providers can skip auth for some
+services. If you’re not in that category, however, you must go through the full process. From a provider’s
+perspective, keeping track of which payer requires what (and the nuances of each) is itself a root cause of
+administrative burden; confusion or lack of specific knowledge can lead to mistakes and denials.
+5. Inadequate Technology and Communication: A lot of prior authorization delays boil down to the fact
+that, in 2025, this process is still not fully digitized or integrated. Only about 31% of medical prior auth
+transactions were fully electronic (machine-to-machine) as of 2022 40 , meaning the majority are
+handled via manual methods like phone, fax, or logging into web portals. This lack of interoperability
+causes huge inefficiencies. When a PA request is sent by fax, someone on the insurer’s end has to transcribe
+or review it, increasing turnaround time. When an insurer needs clinical notes, they often have to ask and
+wait for a separate fax or upload (attachments aren’t seamlessly transmitted in many cases). Moreover,
+providers often lack real-time visibility into the status of a request – many still have to call and sit on hold to
+
+6
+
+“check on” an authorization. One study noted 37% of PAs were fully manual via phone/fax and another
+~32% were partially manual via portals, leaving only a third truly electronic 40 . In an age of instant
+digital communication, the PA process has lagged behind. This technology gap is a root cause for both
+delays and denials: delays, because manual processing is slow; denials, because a lack of integrated
+systems leads to errors (e.g., info not matching or not being found). It also means that providers and payers
+often don’t share a common platform to communicate about a case, leading to back-and-forth that could be
+avoided.
+6. Lack of Transparency and Feedback: Many physicians express frustration that when a PA is denied, the
+rationale is not clear or helpful. Insurers may issue denials with cryptic codes or generic reasons, and
+often without guidance on what alternative might be approved 41 . This opaqueness can be
+considered a root cause because it impedes providers from quickly correcting course. If a denial simply
+states “not medically necessary” but doesn’t detail whether it was missing info or failing a criterion, the
+provider might have to guess what to do next or endure a long appeals process to find out. The fact that
+over 80% of appealed denials get overturned in MA 10 suggests initial decisions often lack the benefit of
+full information or appropriate review. High overturn rates could indicate that if insurers communicated
+requirements more clearly upfront (or if providers had better info on what to submit), those denials might
+not happen in the first place. In other words, the system often operates in a “deny first, explain later”
+manner, which is a root cause of inefficient cycles of resubmissions and appeals.
+7. Human Factors and Process Issues on Provider Side: Finally, it’s worth acknowledging that provider
+organizations themselves sometimes have suboptimal processes that contribute to PA woes. If there is no
+standardized workflow to handle auth, requests can fall through the cracks or be started too late. Some
+clinics may have nurses, medical assistants, and physicians all involved at different stages with no clear
+ownership, leading to duplicated or missed steps. Training gaps can also be an issue – e.g., front-desk staff
+scheduling a procedure might not realize an auth is needed, or a new clinician might not be familiar with a
+particular insurer’s rules. These internal issues can be addressed and are in fact something high-performing
+organizations focus on (as discussed later). But when such processes are not optimized, they become a root
+cause for PA delays (e.g., the request sits in someone’s inbox for days) or denials (e.g., someone didn’t
+submit the clinical documentation properly).
+In summary, prior authorization delays and denials stem from a mix of factors: stringent or inconsistent
+insurer criteria, administrative mistakes or missing info, slow communication channels, and complexity
+stemming from each payer doing things differently. The system’s design – largely manual, siloed, and often
+lacking transparency – virtually guarantees friction. Recognizing these root causes helps point toward
+solutions: streamline criteria, improve documentation and communication, enforce faster response times,
+and leverage technology to bridge gaps. The next sections will explore how interventions and new tools aim
+to tackle these issues.
+
+Intervention Effectiveness: What Works to Reduce PA Delays and
+Denials
+Over the years, healthcare organizations have tried numerous interventions to ease the prior authorization
+burden. Some are process improvements, others involve technology, and many require collaboration with
+payers. Here we evaluate several strategies and how effective they can be in addressing the issues outlined
+above:
+
+7
+
+Real-Time Eligibility & Authorization Checks: One promising approach is to check insurance
+requirements as early as possible – ideally at the time of scheduling or even ordering a service. Many
+organizations now run an eligibility and authorization check when a procedure is being scheduled. This
+involves querying the insurer’s system (through a portal or clearinghouse) to see if an auth is needed, and
+in some cases, initiating that request immediately. The benefit is obvious: if you know on Day 1 that a prior
+auth is required, you can start the clock sooner. Some advanced systems offer real-time authorization
+decisions for certain services, meaning the provider’s EHR can send a request and get an instant approval
+if criteria are met. This is not widespread yet, but it’s being piloted – for example, certain routine imaging
+tests might auto-approve if the patient’s data satisfies the insurer’s rules. CMS is encouraging this by
+mandating that insurers develop electronic interfaces for PA that could one day make real-time auth a
+norm 31 . When successful, real-time checking prevents last-minute surprises (like discovering the day
+before surgery that no auth was obtained) and can virtually eliminate the delay for straightforward cases. It
+also sets the stage for the next steps (like providing clinical info) to happen promptly. Early evidence from
+health systems that implemented upfront checks shows reduction in cancellation rates and smoother
+scheduling, a clear sign of effectiveness in reducing delays.
+Clinical Decision Support (CDS) for PA Criteria: Another intervention is embedding authorization
+requirements into the clinical workflow so that providers “get it right” when ordering. This can take the form
+of clinical decision support pop-ups or order templates in the EHR that guide physicians on what an
+insurer will need. For instance, if a doctor orders an expensive injectable drug for rheumatoid arthritis, the
+system might prompt: “This drug often requires prior auth. Has the patient tried methotrexate (first-line
+therapy)? If yes, document the outcome.” Such prompts essentially mirror the insurer’s checklist, nudging
+clinicians to provide the info that will be needed for approval. Some EHRs also allow storing common
+justification language or attaching relevant labs automatically. This approach can significantly improve firstpass approval rates, because the initial request is more likely to meet medical policy. It also educates
+clinicians over time about payer expectations. The downside is alert fatigue – doctors already inundated
+with EHR pop-ups may find these intrusive. However, when done in a targeted way for known high-friction
+orders, CDS for PA can reduce the back-and-forth with insurers. There’s evidence that this leads to fewer
+denials; for example, a hospital that implemented a checklist for elective surgeries (making sure all
+conservative measures were tried and documented per insurer guidelines) saw their auth denial rate drop
+because they were effectively pre-compliant with payer criteria. In short, embedding PA logic into point-ofcare decisions is an effective intervention to address the documentation and criteria-related root causes of
+denials.
+Automation and AI Solutions: Given the labor-intensive nature of prior auth, automation is a hot area of
+innovation. Robotic Process Automation (RPA) is being used by some providers to take over repetitive
+tasks like data entry on payer websites. An RPA “bot” can, for example, log into an insurer’s portal at
+midnight, enter patient and procedure info, upload scanned documents, and submit an auth request – all
+actions a human would normally do during the day. This can drastically cut the workload on staff and also
+speed things up (requests get in sooner, and status checks can happen frequently without someone on hold
+for hours). Automation can also reduce errors – bots don’t forget to check a box if programmed correctly.
+Several revenue cycle management companies and startups offer PA automation solutions. For instance,
+Olive and Notable are companies known for AI-driven automation in healthcare RCM, and have touted
+their ability to automate prior authorization submissions and follow-ups 21 . While not perfect, these
+systems have shown they can handle a significant share of routine requests end-to-end. The effectiveness is
+usually measured in time saved: some hospitals report hundreds of staff hours a month freed up by RPA
+bots handling PAs.
+
+8
+
+Beyond rule-based bots, artificial intelligence (AI) and machine learning are being applied to the PA
+problem in other ways. One use is denial prediction – by analyzing historical data, AI models can predict
+which auth requests are likely to face trouble. If a request is flagged as high-risk (perhaps based on
+diagnosis, insurer, or past patterns), staff can proactively double-check it or add extra documentation. This
+triaging ensures the trickiest cases get the most attention, potentially heading off denials. AI is also used to
+extract relevant info from medical records (using natural language processing) to support an auth. Instead
+of a human combing through a 50-page chart to find where it says “physical therapy failed,” an AI could
+highlight that and even populate the auth form with the supporting text. Infinitus, as an example, uses AI
+voice agents to call payers and gather status updates or submit simple auth requests via phone,
+mimicking a human caller. This tackles the communication delay without tying up staff on hold.
+What about generative AI (GenAI)? In 2025, we’re seeing early experiments where GenAI (like GPT-based
+tools) draft appeal letters or compile clinical summaries for auth. If a request is denied, an AI could draft the
+appeal citing relevant clinical evidence, which the physician then edits. This could save significant time in
+the appeals process. While it’s early to judge outcomes, these AI interventions show promise in reducing
+the human workload and potentially the denial rates (by improving documentation completeness and
+timeliness). Their effectiveness will ultimately depend on integration (how well they fit into workflow) and
+accuracy (no one wants a bot making a mistake on an auth request). But numerous case studies and vendor
+reports claim substantial improvements – e.g., one health system reported their first-pass auth approval
+rate went up several percentage points after deploying an AI-driven documentation assistant.
+Process Standardization and Best Practices: Technology aside, how a provider organizes their prior auth
+process internally can yield big improvements. High-performing organizations tend to standardize and
+streamline their PA workflows. Concretely, this might mean having a clear protocol: when a service is
+ordered, a specific person/team is immediately alerted to start the auth; they use a checklist for that service
+type (ensuring all info is gathered); they track the request on a dashboard or log; and there’s follow-up each
+day until a determination is received. Standardization can also involve batching tasks – for example, having
+a daily “PA review” time where a specialist nurse or admin goes through all new requests and all pending
+ones. Some hospitals have instituted “authorization huddles” – a short daily meeting of relevant staff to
+review any problematic cases and ensure nothing is stuck idle. These process improvements are effective in
+catching issues early (like noticing if an insurer asked for more info and responding same-day) and
+preventing things from slipping through cracks (like a surgery getting scheduled without auth). They
+address root causes related to provider-side process lapses.
+Another best practice is centralization vs. decentralization of PA tasks. Many organizations find that
+centralizing expertise in a dedicated team yields better results: those staff become very familiar with payer
+nuances and are accountable for performance. Others use a hybrid model (certain simple auths handled by
+front-desk or clinic staff, with a central team handling complex ones). The key is clarity and training –
+whoever is responsible needs to know the rules and have the bandwidth to do it right. An effective
+intervention some have reported is implementing checklists and template forms for common procedures
+(we’ll cover “quick wins” in the next section). If every knee surgery auth request uses a standardized
+template listing conservative treatments tried, relevant imaging, BMI, etc., the approval is more likely to sail
+through. Standardizing these content elements has proven effective in boosting first-pass approval rates
+and reducing the number of touchpoints with the insurer.
+Staff Education and Specialization: Ensuring that staff (both clinical and administrative) are well-educated
+about PA requirements is a low-tech but powerful intervention. This includes training physicians on
+
+9
+
+documentation that will satisfy PAs. For example, an orthopedic surgeon might be coached to always
+include in their note whether the patient did physical therapy, if they’re planning to request a joint MRI –
+because the insurance will ask. When clinicians understand the rationale and requirements, they can
+document and order more strategically, leading to fewer denials. On the administrative side, cross-training
+staff to handle auths can provide flexibility so that absences or busy times don’t halt the process. Many
+practices now have designated prior authorization specialists. These individuals often develop
+relationships with payer reps and get to know tricks like which diagnoses codes are needed for certain
+approvals, etc. They can also keep a reference of each payer’s quirks (for instance, payer X might authorize
+6 physical therapy visits at a time, whereas payer Y gives 12 – so planning differs). By investing in staff
+education and having specialists, providers can see more consistent and speedy auth outcomes. It doesn’t
+eliminate the burden, but it makes it more manageable and reduces preventable denials (those due to not
+knowing a rule).
+Payer Collaboration and Advocacy: Some interventions occur not at the individual request level but at the
+policy level through collaboration or pressure. Providers (often through their professional associations or
+large health systems) can and do meet with insurance companies to streamline PA processes. For instance,
+a hospital might negotiate a “gold-carding” arrangement: if they have a track record of 98% of their
+cardiac cath requests being approved, the insurer may agree to waive PA for those procedures for that
+hospital, at least for a period of time. This kind of arrangement can dramatically cut delays and admin work
+for those services. Gold-carding has been effective where implemented; insurers that use it have found it
+doesn’t increase costs, and providers certainly benefit from the reduced hassle 39 . However, it usually
+applies to specific high-performing providers and isn’t widespread yet (though momentum is growing, as
+discussed later).
+Another collaborative intervention is working directly with payers on pilots of electronic prior auth. Some
+provider-payer pairs have tested integrations where the EHR and insurer systems talk to each other. Results
+from those pilots (often facilitated by industry groups like CAQH CORE) show significant time savings –
+cutting response times from days to hours or minutes in some cases. They also reveal pain points that
+can be fixed (like figuring out how to send clinical attachments digitally). By engaging payers, providers can
+be early adopters of these improvements.
+Finally, advocacy for legislative and regulatory changes is an intervention at the system level. Physician
+organizations like the AMA and MGMA have been very active in pushing for PA reforms. Their efforts
+contributed to CMS’s new rules that shorten timelines and require more transparency. While not a direct
+operational intervention, these advocacy efforts are paying off in the form of rules that will enforce some
+improvements (e.g., requiring insurers to report their PA denial rates and reasons, which could shame or
+motivate them to improve).
+In evaluating effectiveness, it’s clear that no single intervention completely “solves” prior auth delays,
+but each can chip away at different parts of the problem. Real-time checks and good CDS tackle the frontend delays and criteria issues. Automation and AI tackle the labor and communication delays. Standardized
+processes and staff training tackle the preventable errors and internal bottlenecks. And collaborations with
+payers tackle the root causes that lie in insurer practices and policies. The best results often come from
+combining multiple strategies. For example, a medical group might use an automated tool to submit
+requests (tech) and have a daily review meeting (process) and have trained up their doctors on
+documentation (people). Such multi-pronged approaches have seen meaningful reductions in PA
+
+10
+
+turnaround times and improved approval rates. As we look to the future, scaling these interventions –
+especially the technology-driven ones – will be key to broader relief.
+
+Technology Landscape and Future Outlook
+Technology is poised to play a transformative role in fixing prior authorization challenges. As of 2025, we
+are at a pivotal moment: regulatory pushes for interoperability are converging with rapid advancements in
+health IT and artificial intelligence. This section maps out the current technology landscape for prior auth
+and what’s on the horizon.
+EHR-Integrated Prior Auth Workflows: One major trend is the integration of PA capabilities directly into
+Electronic Health Record systems. Vendors like Epic, Cerner (now Oracle Health), and others have been
+developing modules that allow clinicians and staff to initiate and track prior authorizations within the
+EHR interface, rather than logging into external payer portals or making phone calls. For example, Epic has
+an add-on called “Auth/Cert” and is actively working on incorporating the new FHIR-based PA standards. The
+vision is that a provider, when ordering a service, could click a button to request auth, the EHR would send
+the necessary data to the insurer automatically, and a response would come back into the EHR inbox. We’re
+already seeing steps in this direction: some pharmacy benefit PAs (for medications) are handled in workflow
+via integrations with systems like Surescripts or CoverMyMeds, where the clinician can electronically send a
+PA for a drug and often get a faster response than faxing. For medical services (procedures, tests), the
+integration is emerging. The CMS final rule on prior auth interoperability (January 2024) requires that by
+2026, Medicare Advantage, Medicaid, and ACA marketplace plans offer an electronic PA interface
+(API) that integrates with providers’ EHRs 31 . This is a big deal – it essentially forces insurers to build the
+tech infrastructure to support what we described (automated electronic exchange of PA info). It also caps
+decision times (72 hours for urgent, 7 days for routine requests) 31 , which means these EHR-integrated
+solutions will operate within set timeframes.
+What does this mean practically? By 2026 and beyond, we can expect that a lot of the PA process will
+happen behind the scenes. A doctor might not have to separately “do” a prior auth – instead, they order
+something and if criteria and documentation are sufficient, the system handles the rest (or prompts for
+more info if needed). It’s akin to how credit card approval happens online in seconds – the infrastructure will
+ideally make certain PAs instantaneous. Of course, not every request will be auto-approved; complex cases
+will still need review. But even those can be facilitated by direct messaging between EHR and payer systems
+(for example, sending clinical documents in a structured way). In summary, deep integration of PA into
+EHRs, driven by new interoperability standards, is set to streamline the process and reduce the need
+for manual intervention. We’re in early stages now, but this is one of the most promising developments on
+the horizon.
+Third-Party Authorization Platforms: Besides EHR vendors, a number of third-party companies provide
+platforms or services to help with prior auth. These range from software tools to full outsourcing services.
+On the software side, clearinghouses like Availity and Change Healthcare (Optum) have portals that
+providers can use to submit PAs to multiple payers in one place. For instance, Availity’s portal might let you
+submit an auth for Aetna, Anthem, etc., through a unified interface, which is easier than juggling many
+payer websites. Change Healthcare’s InterQual system is another important piece of the landscape:
+InterQual is a clinical criteria software used by many payers and providers. Some hospitals use InterQual
+or MCG (another criteria tool) integrated in their workflow – this helps them check if a request meets
+standard guidelines before sending to the insurer. In some cases, if a provider uses InterQual and gets a
+
+11
+
+“Medical Review Pass” (i.e., criteria met), certain payers will auto-approve that prior auth, trusting
+that the provider followed the protocol.
+There are also specialized PA management systems. For example, some radiology groups use systems that
+manage all their imaging orders and track which need auth, sending alerts if one is missing. On the
+pharmacy side, CoverMyMeds is widely used for electronic prescription prior auth, preventing a lot of
+phone calls to pharmacy benefits managers. Surescripts (known for e-prescribing) has an Electronic Prior
+Authorization service as well that integrates with many EHRs and pharmacies. The adoption of these thirdparty tools is growing because providers are desperate for relief and are willing to invest in tech that
+makes the process easier. However, these tools work best when payers participate; some payers are
+connected to certain platforms and not others, so there’s still fragmentation.
+Automation, AI, and RPA Vendors: We touched on automation and AI in the interventions section; here
+we’ll mention some key players and developments in that space. Olive is a company that gained a lot of
+attention (and funding) for promising to automate healthcare administrative tasks, including prior auth,
+using a blend of AI and RPA. They have deployed bots in many hospitals to handle things like insurance
+verification and prior auth submissions. While Olive’s trajectory has had ups and downs, it symbolizes a
+broader trend of tech startups focusing on the revenue cycle. Another company, Notable, uses AI to
+automate repetitive tasks by understanding workflows through computer vision and then executing them –
+applicable to PA forms and portals. Infinitus, as mentioned, uses a voice AI to actually call insurers’ phone
+lines (essentially an AI that can press the phone tree buttons and talk to the IVR or even a live agent to get
+info). These are creative solutions to work with payers who haven’t modernized their end. There’s also
+Cohere Health, which approaches the problem from the payer side: some insurance companies use
+Cohere’s platform to manage PAs with a more collaborative approach (providers can submit requests and
+get feedback on criteria through Cohere’s portal, which is a bit more interactive and arguably more userfriendly than traditional methods). Cohere even claims to use AI to approve certain requests instantly if they
+recognize it meets guidelines, and to help suggest alternatives if not.
+Robotic process automation (RPA) deserves a highlight: across many hospitals, teams have built or
+bought RPA bots specifically for prior auth. A typical RPA bot might automatically run every morning to do
+things like: check all upcoming scheduled patients for ones that need authorizations; log into each payer’s
+site and initiate those auths; periodically check status; and update a spreadsheet or system once approved.
+While these bots require maintenance (when payer websites update, the bot scripts often need
+adjustment), they can handle a lot of grunt work at scale. The cost of RPA has to be balanced with labor
+savings, but for large organizations the math often works out. We can expect RPA to continue playing a role
+until full integration renders it less necessary.
+Data and Analytics: Another part of the tech landscape is analytics around PA. Providers are getting more
+sophisticated in tracking metrics: which payers are causing the most delays, which service lines have high
+denial rates, how long each step takes. There are tools now that can pull data from EHRs and billing systems
+to create PA performance dashboards. This isn’t directly reducing individual delays, but it’s crucial for
+organizations to identify bottlenecks and advocate for fixes. For example, analytics might show that Payer X
+is averaging 10-day turnarounds versus Payer Y’s 3 days – armed with that data, a provider’s contracting
+team can pressure Payer X for changes (or at least be very proactive in managing those cases). Analytics
+also help in ROI justification for interventions: if a hospital invests in an automation tool, they can
+measure before/after in terms of hours saved or faster approvals.
+
+12
+
+Payer Technology and APIs: On the payer side, technology is also evolving. As mentioned, CMS is pushing
+payers to create FHIR-based APIs for prior auth. Many payers are in various stages of compliance. Some
+large insurers have already been working on API solutions – for example, Humana and UnitedHealthcare
+have been involved in the HL7 Da Vinci Project, a collaborative that develops FHIR standards for use cases
+like PA. Humana has tested something called “CRD/DTR” (Coverage Requirements Discovery /
+Documentation Templates and Rules), which basically allows an EHR to ask “does this order require auth
+and if so, what do I need to submit?” and get an answer along with a template of required data. This kind of
+smart integration is very promising. We might see commercial products soon that plug into EHRs and
+handle all those Da Vinci FHIR interactions under the hood, so the end-user just gets a notification if
+something is needed.
+Payers are also (some of them) using AI themselves to triage PA requests. For instance, they might use
+natural language processing to read a request and decide if it can be auto-approved or if it needs human
+review. The fact that over four in five appealed denials get overturned 10 suggests payers could safely
+auto-approve a lot more upfront – AI could help identify which ones are low risk to approve. Some insurers
+have publicly stated they are reducing PA volume. For example, in 2023 UnitedHealthcare announced plans
+to cut back on PA requirements for many procedures, after facing provider backlash. This trend, while
+driven by policy and sentiment, will likely be facilitated by tech – they might rely on algorithms to monitor
+utilization instead of requiring auth on each case.
+Emerging Trend: AI-Assisted Patient Advocacy: A novel angle is empowering patients with tech. There are
+startups that help patients navigate insurance approvals, some using AI chatbots. For instance, an app
+could help a patient understand if their pending procedure has an authorization and even ping the insurer
+or provider on their behalf. It’s a bit outside the typical provider workflow, but it reflects the broader tech
+landscape that even patients might soon have tools to track their PAs (especially as data must be made
+more transparent by new rules).
+Security and Compliance Considerations: With increased data sharing and automation, there are
+considerations around privacy (HIPAA) and security. The new API-based approaches are being designed
+with secure authentication and consent in mind, but providers and payers will need robust IT governance to
+implement these. Any AI or RPA tool accessing patient data must do so in a compliant manner. This is
+mostly solvable, but worth noting that tech isn’t without its implementation challenges.
+Looking to the future, by the late 2020s the hope is that prior authorization will be far less burdensome
+thanks to these technological advances. If the interoperability mandates succeed, a large portion of
+straightforward authorizations could become instant or at least same-day, with minimal manual work. The
+use of AI could cut down on inappropriate denials by making sure all relevant info is considered the first
+time and by continuously learning from past mistakes. Providers might interact with a smart assistant that
+handles most of the nitty-gritty, surfacing only the tough cases for human intervention.
+2025 Outlook – What’s New: In 2025 specifically, we’re seeing the groundwork being laid. CMS’s rule is
+final, so payers and EHR vendors are actively building these capabilities for 2026. Some payers are starting
+pilot programs that let certain providers submit PAs via new API connections. The year 2025 might not yet
+deliver sweeping changes to every doctor’s office (these things take time to roll out), but it’s a turning point
+where the alignment of policy, payer interest (many want to cut admin costs too), and provider
+demand is driving real tech investment. It’s telling that the federal government projects billions in
+savings from these changes 31 – that has caught the attention of executives across the industry.
+
+13
+
+In summary, the technology landscape for prior authorization is rapidly evolving from one of disjointed
+portals and fax machines to integrated, intelligent systems. Key components include EHR integration, thirdparty platforms to bridge gaps, RPA/AI to handle repetitive tasks and data analysis, and payer APIs to
+enable real-time decisions. While challenges remain in adoption and coordination, the direction is set: the
+future of prior auth is digital, faster, and (hopefully) much less painful than the status quo. Both
+providers and payers have strong incentives to get there – providers to reduce burnout and costs, and
+payers to demonstrate they can manage utilization without angering everyone (and to save their own
+admin costs). With the groundwork being laid in 2025, the coming years are likely to bring noticeable
+improvements. However, until these solutions are fully realized, providers will still need to employ clever
+process strategies to mitigate PA hassles. In the final section, we’ll highlight some of those practical steps
+(or “quick wins”) that organizations can take immediately.
+
+Best Practices and Quick Wins for Providers
+While we await large-scale fixes, there are several pragmatic steps that healthcare providers can implement
+now to reduce the pain of prior authorizations. These “quick wins” are drawn from best practices observed
+in high-performing organizations and can be adopted by clinics and hospitals of any size:
+• Check Requirements Early (No Surprises): Make it standard procedure to verify whether a service
+needs prior authorization at the point of scheduling or referral. For elective procedures, this
+means when the patient is being scheduled for, say, an MRI or a surgery in a few weeks, the
+scheduler or an auth specialist checks the insurance requirements that day. Many payer portals or
+clearinghouses allow a quick lookup by CPT code and plan. By doing this, you ensure the clock starts
+as soon as possible. Early checks also give time to pivot if needed – for instance, if insurance requires
+a different site of service or a different prerequisite, you can address that well before the patient is
+inconvenienced. In practical terms, some clinics use scheduling software that flags “PA required”
+based on the patient’s insurance and the ordered service. Even without fancy tools, staff can
+maintain a simple spreadsheet or cheat-sheet of common services and which payers require auth for
+them, to guide these early checks.
+• Use Templates and Checklists for Common Requests: Identify the top 10–20 services for which
+your practice most frequently needs prior auth (e.g., MRI scans, CT scans, certain surgeries, highcost drugs). Develop standardized templates or checklist forms for each of these that include
+all information payers typically want to see. For example, for an MRI of the knee, the checklist
+might include: history of injury, duration of symptoms, results of X-ray, conservative treatments tried
+(like physical therapy or meds), and the ordering provider’s rationale. By ensuring every request for a
+knee MRI contains those details (preferably in a clear, itemized way), you increase the chance of an
+immediate approval. Templates can be as simple as a Word document that the provider or nurse fills
+in and attaches to the request, or as integrated as an EHR smart set that pulls in data from the chart.
+The goal is to preempt payer questions. If most insurers deny a medication unless the patient tried
+two generics first, make sure your default PA submission for that medication explicitly states what
+was tried. This reduces back-and-forth. Organizations that have implemented such templates have
+seen improvements – for instance, one large academic center created an “authorization prep form”
+for common surgeries and reduced their initial denial rate significantly because insurers got
+what they needed upfront 42 .
+
+14
+
+• Centralize and Coordinate the PA Process: If prior authorizations are handled ad hoc by each
+physician or front-desk person, consider centralizing the function or at least coordinating it more
+formally. Dedicated prior authorization teams or coordinators can be more efficient and effective
+because they develop expertise and accountability. Even in a smaller practice, assigning one staff
+member as the point person for PAs each day can help. This person can keep a master tracking list
+of all pending authorizations, follow up on them regularly, and ensure none are forgotten. Daily or
+weekly meetings between this coordinator and clinical staff can help address any roadblocks (for
+example, if an insurer needs a specific piece of info from the physician, it’s flagged and provided
+quickly). Some clinics implement a routine like “PA rounds” each morning to go over status. The idea
+is to treat PAs as a workflow of its own – with queues, tracking, and follow-up – rather than an
+afterthought. Centralization also means fewer people need to learn the ins and outs of payer rules;
+the specialists can disseminate key info to others as needed (e.g., “payer X changed their policy on
+drug Y, we’ll handle those differently now”).
+• Empower and Educate Clinicians: Oftentimes, delays come from providers not realizing what’s
+needed until a request is denied. By educating clinicians on common PA requirements for their
+specialty, you can turn them into allies in the process. For example, let your cardiologists know that
+for nuclear stress tests, insurer A always needs to see a recent stress ECG result – so they should
+order that first or include why it’s not applicable. Surgeons might be advised: “Always document BMI
+and comorbidities in your note for bariatric surgery evals, because insurers look for those.” This type
+of targeted education can happen during meetings or via cheat-sheets. It’s also helpful to close the
+feedback loop: when a denial happens due to missing info, tell the provider specifically what was
+missing. Over time, the providers get savvy and preempt those issues. While it’s not possible for
+busy clinicians to memorize every insurer’s policy, focusing on high-volume services helps.
+Additionally, encourage providers to communicate with patients about the PA process – for
+instance, explaining to a patient, “Your insurance requires an approval for this MRI; our team will
+work on that and we expect an answer in about 5 days.” Setting expectations can reduce patient
+anxiety and phone calls, and if a patient knows the approval is pending, they sometimes can even
+add pressure by calling the insurer themselves to check (motivating the insurer to respond faster).
+Involving patients as partners (or at least keeping them informed) is a small but meaningful practice.
+• Prioritize and Escalate as Needed: Not all authorizations are equal – some are truly urgent (like a
+cancer treatment), others are routine. A best practice is to prioritize auth work based on clinical
+urgency and scheduling needs. If a patient’s health is at risk if treatment is delayed, don’t hesitate
+to mark the request as urgent with the insurer (insurers allow this for situations that meet certain
+criteria). That triggers a faster response window (often 24–72 hours) 43 . If you don’t get a timely
+response, escalate – many insurers have escalation lines or contacts for provider reps. Use them,
+especially if you feel a delay is endangering a patient. While this can be time-consuming, knowing
+when to escalate can save a patient from harm. For less urgent cases, manage patient expectations
+(as above) and focus on the ones that need pushing. Also, keep an eye on upcoming patient
+appointments or procedures – if an auth is still pending the day before, consider rescheduling the
+patient proactively rather than having them show up and be turned away. It’s about being proactive
+rather than reactive.
+• Track Metrics and Identify Hot Spots: As the saying goes, you can’t improve what you don’t
+measure. Keep track of basic metrics like average turnaround time for PAs, denial rate, and
+approval on first submission vs. after appeal. Track these overall and by payer. This will highlight
+
+15
+
+patterns: maybe Payer Z has an inordinate number of delays or denials for imaging – that might
+prompt you to contact that payer’s provider relations to ask what’s going on, or at least allocate
+more time to dealing with that payer. If you notice that a particular procedure is frequently denied,
+you can investigate why and adjust your approach or documentation. Some practices found, for
+example, that their first-pass approval rate for a certain injectable drug was only 50%; by
+reviewing the denial reasons, they discovered documentation of prior therapies was often missing,
+so they implemented a new checklist and got first-pass approvals up to, say, 80%. That kind of
+improvement directly reduces workload (fewer appeals) and speeds patient care. Sharing these
+metrics with your team also helps keep everyone focused on the goal of improvement – it can even
+be motivating, like “last month we got 70% approved without appeal, let’s see if we can hit 80% by
+following the new process.”
+• Consider Outsourcing Selectively: As a quick win, some organizations outsource the prior
+authorization process (or parts of it) to specialized service companies. Firms exist that do PA on
+behalf of providers – you send them the order and patient info, and they handle obtaining the auth.
+This can be effective if your team is overstretched, though it comes at a financial cost (they charge
+either per authorization or a flat fee/contract). The upside is they often guarantee certain
+turnaround times and have expertise. For a small practice, outsourcing might not be cost-effective
+for all PAs, but maybe for particularly laborious ones (like transplant or surgery auths that involve a
+lot of coordination). If you choose this route, still monitor performance to ensure they meet your
+standards and that communication with your office is smooth. Outsourcing isn’t “free” in terms of
+management – you need to ensure they get the clinic notes and info needed – but it can offload a lot
+of phone time from your staff. It’s essentially paying for an immediate, if external, expansion of your
+PA team.
+• Stay Updated on Policy Changes: Assign someone (perhaps the same coordinator or a manager) to
+keep abreast of changing authorization policies. Insurers update their PA lists and criteria
+annually or more, and new state laws can also change things (like a law might prohibit PA for certain
+services or mandate quicker responses). For instance, as of 2024 some states have implemented
+rules that require payers to respond within 24 hours for urgent requests 44 , or have banned PA
+for routine services like HIV medications or prenatal ultrasounds. If you’re aware of these, you can
+hold payers accountable (“State law X says you must…”) and also not waste time requesting auth for
+things that no longer require it. Being on top of policy changes is a quick win in the sense of avoiding
+unnecessary PAs or leveraging new flexibilities (like gold-carding programs). Subscribing to payer
+bulletins or utilizing AMA/MGMA resources that summarize these changes can be helpful.
+Implementing these best practices can significantly mitigate the day-to-day pain of prior authorizations.
+They won’t eliminate the burden (that requires the larger reforms and tech changes discussed earlier), but
+they can make a tangible difference in patient care and staff sanity. Many of these steps are low-cost – they
+involve reorganizing workflow or better communication – which is why we call them “quick wins.” A clinic
+that diligently applies these strategies might find, for example, that their average wait for auth goes from 5
+days to 3 days, or their denial rate drops from 15% to 5%. For the patients behind those numbers, that’s a
+meaningful improvement in access to timely care.
+
+Conclusion: Prior authorization delays represent a classic case of a well-intended policy tool gone awry at
+scale – burdening providers, frustrating patients, and even harming outcomes. The evidence is
+
+16
+
+overwhelming that the current state is unsustainable: virtually all physicians report negative impacts on
+care 45 13 , and billions are wasted on administrative churn 20 . The financial and human toll has caught
+the attention of policymakers, leading to a rare area of bipartisan agreement that PA reform is needed 46 .
+With new regulations set to enforce faster, more transparent processes and with technology innovations
+accelerating, we are on the cusp of meaningful change.
+For healthcare organizations, the challenge is to navigate the present while preparing for the future. In the
+short term, optimizing internal processes and leveraging available tools can alleviate the burden – ensuring
+fewer patients fall through the cracks due to authorization issues. In the longer term, providers should
+engage with and adopt emerging electronic prior auth solutions, as these promise to cut down turnaround
+times from days to hours and shift much of the work from humans to machines. The goal is a system
+where prior authorization is a back-end check, largely automated, that rarely impedes patient care.
+Achieving that will restore prior auth to a reasonable utilization management tactic rather than a pervasive
+barrier.
+The coming years will be telling. If all stakeholders – payers, providers, regulators, tech vendors – follow
+through on current efforts, we could soon see a reduction in the volume of PA requirements (focusing only
+on truly high-value cases), and a streamlining of those that remain (via real-time electronic approvals).
+Patients would benefit immensely from faster access and fewer abandoned treatments. Physicians and staff
+would reclaim time for clinical work, reducing burnout and costs. And yes, payers could still realize cost
+control, but in smarter ways that don’t rely on brute-force paperwork.
+In essence, fixing prior authorization delays is about striking a better balance: managing healthcare
+utilization without undermining healthcare delivery. The evidence and solutions discussed in this report
+paint a hopeful picture that such a balance is achievable. As one health executive put it, “Prior auth should
+never stand between a patient and necessary care.” The healthcare industry appears to be rediscovering
+that principle, and with concerted effort, we can ensure that “approval” for care becomes a speed bump, not
+a roadblock, on a patient’s journey to health.
+Sources:
+1. American Medical Association – 2024 survey data on prior authorization volume and impacts 1 47 .
+2. American Medical Association News – “Fixing Prior Auth: First, speed up payers’ response times” (Apr
+2025), including patient wait time statistics and new CMS rules 6 7 48 .
+3. Advisory Board – “How prior authorization impacts patient care, in 3 charts” (Mar 2023), summarizing
+AMA physician survey results (delays, abandonment, hours spent) 14 3 .
+4. Kaiser Family Foundation (KFF) – “Medicare Advantage Insurers Made Nearly 50 Million Prior
+Authorization Determinations in 2023” (Aug 2023), providing denial rates, appeals outcomes, and
+insurer variations in PA use 9 10 11 .
+5. American Society for Radiation Oncology (ASTRO) – News release on prior auth survey (Dec 2024),
+highlighting impact on cancer care (treatment delays, abandonment rates, etc.) 16 15 .
+6. Managed Healthcare Executive – “Physicians Say Prior Authorization Leads to Bad Outcomes” (June
+2024), reporting AMA survey stats on adverse events, patient abandonment, and resource diversion
+due to PAs 13 28 .
+7. AMA Leadership Viewpoint – “It is time to make prior authorization reform a reality” by Dr. Bruce Scott
+(Mar 2025), noting physician survey findings (82% patients abandoned treatment due to PA; 25%
+adverse events) 12 .
+
+17
+
+8. 4sight Health – “The Costly Lever of Prior Authorization” (Feb 2024) by David Burda, discussing CAQH
+Index data on PA automation, costs per transaction for providers vs payers, and potential savings
+21
+23
+32 .
+9. NYX Health (RCM company blog) – “The High Cost of Denials: How Prior Authorization Challenges Are
+Draining Your Bottom Line” (May 2025), citing MGMA, AMA, HFMA, Advisory Board data on revenue at
+risk, denial causes, and industry PA costs 25 20 26 .
+10. 2023 CAQH Index Report – Industry analysis of administrative transactions (as referenced in multiple
+sources), with statistics on electronic adoption of PA (31%), manual vs electronic time and cost (20+
+minutes manual vs 8 minutes electronic) 40 22 .
+
+1
+17 47 Fixing prior auth: Nearly 40 prior authorizations a week is way too many | American Medical
+Association
+
+https://www.ama-assn.org/practice-management/prior-authorization/fixing-prior-auth-nearly-40-prior-authorizations-week-way
+2
+
+3
+
+14
+
+33
+
+How prior authorization impacts patient care, in 3 charts
+
+https://www.advisory.com/daily-briefing/2023/03/30/prior-authorization
+4
+
+24
+
+2023 MGMA Regulatory Burden Report FINAL
+
+https://www.mgma.com/getkaiasset/423e0368-b834-467ca6c3-53f4d759a490/2023%20MGMA%20Regulatory%20Burden%20Report%20FINAL.pdf
+5
+
+13
+
+27
+
+28
+
+30
+
+31
+
+36
+
+45
+
+Physicians Say Prior Authorization Leads to Bad Outcomes
+
+https://www.managedhealthcareexecutive.com/view/physicians-say-prior-authorization-leads-to-bad-outcomes
+6
+
+7
+
+8
+
+43
+
+44
+
+48
+
+Fixing prior auth: First, speed up payers’ response times | American Medical
+
+Association
+https://www.ama-assn.org/practice-management/prior-authorization/fixing-prior-auth-first-speed-payers-response-times
+
+Medicare Advantage Insurers Made Nearly 50 Million Prior Authorization
+Determinations in 2023 | KFF
+9
+
+10
+
+11
+
+35
+
+38
+
+39
+
+https://www.kff.org/medicare/issue-brief/nearly-50-million-prior-authorization-requests-were-sent-to-medicare-advantageinsurers-in-2023/
+12
+
+41
+
+46
+
+It is time to make prior authorization reform a reality | American Medical Association
+
+https://www.ama-assn.org/about/leadership/it-time-make-prior-authorization-reform-reality
+
+New ASTRO survey finds that prior authorization delays lead to serious harm for people with
+cancer - American Society for Radiation Oncology (ASTRO)
+15
+
+16
+
+18
+
+19
+
+https://www.astro.org/news-and-publications/news-and-media-center/news-releases/2024/new-astro-survey-finds-that-priorauthorization-delays-lead-to-serious-harm-for-people-with-cancer
+20
+
+25
+
+26
+
+34
+
+37
+
+42
+
+Cutting Revenue Loss from Prior Authorization Denials
+
+https://nyxhealth.com/the-high-cost-of-denials-how-prior-authorization-challenges-are-draining-your-bottom-line/
+21
+
+23
+
+32
+
+40
+
+The Costly Lever of Prior Authorization - 4sight Health
+
+https://www.4sighthealth.com/the-costly-lever-of-prior-authorization/
+22
+
+PowerPoint Presentation
+
+https://www.caqh.org/sites/default/files/core/CAQH%20CORE%20CCFPAN%20PA%20Pilot%20Case%20Study%20Webinar%20Part%202%20Slides%20.pdf
+
+18
+
+29
+
+94% of patients noted a delay associated with Prior Authorization ...
+
+https://www.ncdsinc.com/statistic/94-of-patients-noted-a-delay-associated-with-prior-authorization-pa-with-79-reporting-that-padelays-can-lead-to-treatment-abandonment/
+
+19
+
+

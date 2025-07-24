@@ -1,0 +1,1426 @@
+Navigating the Prior Authorization Crisis: A Strategic Report
+on Mitigating Delays, Reducing Financial Toxicity, and
+Harnessing a New Era of Automation
+
+Executive Summary
+
+The U.S. healthcare system is contending with a prior authorization (PA) process that
+has evolved from a targeted cost-control mechanism into a pervasive source of
+administrative waste, financial strain, and direct patient harm. This report provides a
+comprehensive analysis of the PA crisis, synthesizing data from leading industry
+bodies, regulatory filings, and financial analyses to equip healthcare leadership with
+the strategic intelligence necessary to navigate this complex challenge.
+The operational burden on provider organizations is staggering and continues to
+grow. A typical physician practice now completes an average of 39 to 45 prior
+authorizations per physician each week, consuming 12 to 13 hours of physician and
+staff time—the equivalent of nearly two full business days diverted from patient care.1
+This has forced an estimated 92% of medical groups to hire or redistribute staff
+specifically to manage this workload, transforming PA management into a significant,
+non-reimbursable administrative overhead.4
+This administrative friction has dire consequences for patients. An overwhelming 94%
+of physicians report that PA processes delay access to necessary medical care.6
+These delays are a primary driver of treatment abandonment, with 78% of physicians
+reporting that patients forgo their recommended course of care due to the
+cumbersome process.8 Most alarmingly, these delays are not benign; 24% of
+physicians report that a PA delay has led to a serious adverse event for a patient,
+including hospitalization, permanent disability, or death.2
+Financially, the system is paradoxical. While intended to control costs, PA processes
+are a significant driver of financial toxicity for providers and inflationary pressure on
+the system. The direct cost of manual PA processing is estimated to be as high as
+
+$11,000 annually per clinician.11 These costs are compounded by lost revenue from
+denials, which are frequently issued for administrative reasons rather than a lack of
+medical necessity. In Medicare Advantage, 81.7% of appealed PA denials are
+overturned, proving the initial decisions were flawed.2 Yet, due to the immense burden
+of the appeals process, only 11.7% of denials are ever challenged, allowing payers to
+retain revenue that providers are rightfully owed.13 Furthermore, 88% of physicians
+report that PA leads to
+higher overall resource utilization through avoidable emergency department visits and
+hospitalizations, undermining its core purpose.1
+However, the landscape is on the cusp of a fundamental transformation. The
+confluence of landmark federal regulation and rapid technological advancement
+presents a clear path forward. The Centers for Medicare & Medicaid Services (CMS)
+Interoperability and Prior Authorization Final Rule will, by 2027, mandate standardized,
+electronic APIs for PA transactions, creating a "digital floor" for the industry and
+promising to save physician practices an estimated $15 billion over the next decade.14
+Concurrently, the maturation of Artificial Intelligence (AI), Machine Learning (ML), and
+Robotic Process Automation (RPA) offers tools to predict and prevent denials,
+automate workflows, and transform PA management from a reactive, manual burden
+into a proactive, intelligent, and integrated function.
+This report concludes with a strategic framework for provider organizations. The path
+to optimization involves a multi-pronged approach: implementing foundational
+process improvements and dedicated staffing models; adopting a sophisticated
+technology stack that leverages EHR-integrated solutions, third-party platforms, and
+AI/RPA; and engaging in forward-looking advocacy for programs like "gold-carding."
+The ultimate objective is to transition from the current dysfunctional state to a future
+where prior authorization is a seamless, real-time, and largely invisible component of
+the care delivery workflow, restoring the focus to patient outcomes and financial
+stability.
+
+I. The Pervasive Challenge of Prior Authorization: Quantifying the
+National Burden
+
+Prior authorization, a utilization management process originally designed by health
+
+plans to control costs for a narrow set of services, has expanded into a ubiquitous and
+burdensome feature of the American healthcare landscape.17 Data from recent
+national surveys of physicians and medical groups paint a stark picture of a system
+generating an unsustainable administrative load, causing demonstrable harm to
+patients, and fueling a crisis of physician burnout. The evidence demonstrates that PA
+is no longer a simple administrative checkpoint but a significant operational and
+clinical impediment.
+
+A. The Escalating Administrative Load on Healthcare Providers
+
+The volume and complexity of prior authorization requirements have surged, placing
+an immense strain on provider resources. According to the American Medical
+Association (AMA), 81% of physicians report that the number of required PAs has
+increased over the past five years.18 This is not a marginal increase; medical practices
+now complete an average of 45 prior authorizations per physician, per week, a figure
+corroborated by multiple surveys that place the average between 39 and 45.1
+This workload translates directly into a massive diversion of time and human capital
+away from clinical duties. On average, physician practices spend 12 to 13 hours per
+physician each week completing these requests.1 This equates to nearly two full
+eight-hour business days per week, per physician, dedicated solely to administrative
+tasks that do not directly contribute to patient care. The burden is so profound that a
+significant portion of the provider workforce is now dedicated to this function.
+Surveys from the Medical Group Management Association (MGMA) reveal that 92% of
+medical practices have had to hire new staff or redistribute existing staff to work on
+prior authorizations due to the increase in requests.4 Further data shows that 35% to
+40% of physicians now employ staff members who work exclusively on PA-related
+tasks.2 One practice manager noted that over 15 years, their PA-related staff grew
+from one full-time equivalent (FTE) to twelve, while the practice itself only grew by
+20%.22 This represents a substantial and growing non-reimbursable administrative
+cost that directly impacts a practice's financial viability.
+The perception of this burden among frontline clinicians is nearly universal. Across
+multiple annual surveys, an overwhelming majority of physicians and practice
+leaders—between 88% and 89.35%—describe prior authorization requirements as
+"high," "extremely high," or "very or extremely" burdensome.3 This sentiment has been
+consistently high for years, with MGMA polls showing over 80% of healthcare leaders
+
+reporting increased PA requirements annually since 2016.23
+
+B. The Human Cost: Documented Impacts on Patient Care, Safety, and Outcomes
+
+The immense administrative friction created by the PA process is the direct cause of
+quantifiable harm to patients. The most immediate and widely reported consequence
+is the delay of medically necessary care. An overwhelming 93% to 94% of physicians
+report that the PA process "sometimes, often, or always" results in delays to patient
+access to care.1 These are not insignificant pauses; 64% of physicians report waiting
+at least one business day for a PA decision, while nearly one-third (29-30%) state they
+wait three or more business days.19 For urgent requests, state laws like Michigan's
+mandate a 72-hour turnaround, but this timeframe resets if the payer requests
+additional information.29
+Faced with these delays and the associated uncertainty, a staggering number of
+patients simply give up on their prescribed treatment. Between 78% and 82% of
+physicians report that issues related to the PA process lead patients to abandon their
+recommended course of treatment altogether.6 This phenomenon of "treatment
+abandonment" represents a catastrophic failure of the care delivery system, where a
+bureaucratic process actively prevents a willing patient and a willing provider from
+proceeding with necessary care.
+The consequences of these delays and abandonments are not merely inconvenient;
+they are clinically dangerous. A consistent and alarming finding across multiple AMA
+surveys is that a significant portion of physicians—between 24% and 33%—report
+that the PA process has led to a serious adverse event for a patient in their care.2
+These events are categorized with grim specificity:
+●​ Patient Hospitalization: 18% to 23% of physicians report that a PA delay directly
+
+led to a patient's hospitalization.2
+●​ Life-Threatening Events: 13% to 19% of physicians report PA leading to a
+life-threatening event or requiring intervention to prevent permanent impairment
+or damage.2
+●​ Death or Permanent Disability: In the most tragic outcomes, 7% to 9% of
+physicians report that PA has led to a patient's disability, permanent bodily
+damage, congenital anomaly, birth defect, or death.2 A 2024 survey of radiation
+oncologists found that 7% of respondents said PA had led to a patient death, and
+
+30% said it had caused an emergency room visit, hospitalization, or permanent
+disability.33
+Beyond these acute events, the vast majority of physicians (89% to 94%) believe the
+PA process has a "somewhat or significantly" negative impact on overall patient
+clinical outcomes.1 This includes the destabilization of patients whose conditions were
+previously managed effectively on a specific treatment plan (reported by 61% of
+physicians) and a near-universal agreement (89%) that PA interferes with the
+continuity of care.17
+The data reveals a clear and destructive causal chain: the immense administrative
+burden imposed on provider organizations is not merely a "hassle." This resource
+drain directly creates processing backlogs and communication failures, which
+manifest as care delays. These delays, in turn, cause a significant percentage of
+patients to abandon necessary treatment. Finally, for a substantial subset of these
+patients, particularly those with time-sensitive conditions like cancer, the delay or
+abandonment of care leads directly to preventable, serious, and sometimes fatal
+adverse health outcomes. Addressing the administrative friction is, therefore, a direct
+patient safety imperative.
+Furthermore, the scale and consistency of these statistics across multiple years
+suggest a profound systemic failure. When over 90% of physicians consistently report
+care delays and over 75% report treatment abandonment, these outcomes are no
+longer exceptional failures. They have become a normalized, expected feature of the
+healthcare delivery system. This normalization is a dangerous form of institutional
+inertia, creating a high tolerance for process-induced patient harm and shifting the
+focus from preventing these failures to simply managing their inevitable occurrence.
+
+Table 1: Key Benchmarks of the Prior
+Authorization Burden (Synthesized AMA &
+MGMA Data, 2022-2024)
+Metric Category
+
+Key Statistic
+
+Administrative Burden
+Average PAs per Physician per Week
+
+39–45 requests 1
+
+Average Staff Time per Physician per Week
+
+12–13 hours 1
+
+Practices Hiring/Redistributing Staff for PA
+
+92% 4
+
+Practices with Staff Working Exclusively on PA
+
+35-40% 2
+
+Physicians Rating PA as "High" or "Extremely
+High" Burden
+
+88-89% 3
+
+Patient Impact
+Physicians Reporting PA-Caused Care Delays
+
+94% 6
+
+Physicians Reporting Patient Treatment
+Abandonment due to PA
+
+78-82% 8
+
+Physicians Reporting Negative Impact on
+Patient Job Performance
+
+53-58% 1
+
+Clinical Outcomes & Patient Safety
+Physicians Reporting Negative Impact on
+Clinical Outcomes
+
+93-94% 1
+
+Physicians Reporting a Serious Adverse Event
+due to PA
+
+24-33% 3
+
+...including Patient Hospitalization
+
+18-23% 2
+
+...including Life-Threatening Event or
+Permanent Impairment
+
+13-19% 2
+
+...including Patient Death or Permanent
+Disability
+
+7-9% 2
+
+C. A System in Distress: Physician Burnout and Resource Diversion
+
+The relentless pressure of the prior authorization process is a significant contributor
+
+to the national crisis of physician burnout. A near-unanimous 95% of physicians
+report that PA requirements "somewhat or significantly" increase feelings of burnout.6
+This is driven not only by the sheer volume of administrative work but also by the
+profound professional dissatisfaction and "moral injury" that arises from having their
+clinical judgment repeatedly questioned, often by reviewers with less expertise.6
+This erosion of professional autonomy is exacerbated by a pervasive lack of
+transparency in the PA system. A majority of physicians (61-65%) report that it is
+difficult to even determine whether a specific medical service or prescription requires
+a prior authorization in the first place.17 When they turn to their primary clinical tools
+for answers, the information is often unreliable; nearly one-third of physicians
+(30-33%) report that the PA requirement information provided within their Electronic
+Health Record (EHR) or e-prescribing systems is "rarely or never" accurate.6 This
+opacity creates a constant state of uncertainty, forcing staff into time-consuming
+manual verification processes (phone calls, portal searches) and fueling a
+deep-seated frustration and mistrust between providers and payers. This environment
+of inefficiency and antagonism directly undermines the collaborative relationships
+necessary for a high-functioning healthcare system.
+
+II. The Financial Toll of Inefficiency: A Multi-Layered Cost Analysis
+
+While payers champion prior authorization as a critical tool for cost containment, a
+detailed financial analysis reveals a more complex and troubling reality. The process
+imposes substantial direct costs on provider organizations, creates significant
+revenue cycle disruption, and generates system-wide economic waste that may
+ultimately counteract its intended savings. For providers, PA is not a cost-neutral
+administrative process; it is a direct drain on financial resources and a primary driver
+of revenue leakage.
+
+A. Direct Costs to Provider Organizations: Staffing, Rework, and Overhead
+
+The financial burden of managing prior authorizations begins with direct, measurable
+costs. Analyses show that the annual administrative cost of PA ranges from $2,161 to
+
+$3,430 per full-time primary care physician.32 Other studies, encompassing a broader
+range of clinicians, estimate this cost to be even higher, at approximately $11,046 per
+clinician per year, a figure that includes nurse practitioners and physician assistants
+who also generate PA requests.11 For a practice with 10 clinicians, this translates to
+over $110,000 in annual overhead dedicated solely to PA management.11
+The Council for Affordable Quality Healthcare (CAQH), which provides the industry's
+most granular transaction-level cost data, illuminates the severe cost-shifting inherent
+in the current system. According to the 2023 CAQH Index, a single manual prior
+authorization transaction (conducted via phone or fax) costs a provider organization
+an average of $10.97. In stark contrast, the cost to the payer for processing that same
+manual transaction is only $3.52. The disparity is even more pronounced for fully
+electronic transactions, which cost the provider $5.79 but cost the payer a mere five
+cents.34
+This economic structure reveals a profound asymmetry. A payer can impose a
+high-friction, manual process on a provider at a low cost to itself, knowing that the
+provider must absorb a cost that is more than three times higher to comply. This is not
+a partnership; it is a financial war of attrition where payers possess a significant
+structural advantage. This imbalance creates a powerful financial incentive for payers
+to resist moving away from manual processes, as the friction they create is largely an
+externalized cost borne by the provider network. For providers, this means that simply
+trying to "work harder" or become more efficient at manual processes is a
+fundamentally losing strategy. The only viable path to mitigating this cost is to force a
+systemic shift to automated, low-cost electronic channels where this asymmetry is
+reduced.
+The cost of rework further compounds the financial strain. Denied claims are not just
+lost revenue; they are an additional expense. The Healthcare Financial Management
+Association (HFMA) estimates that the average cost to rework a single denied claim
+falls between $25 and $118, depending on its complexity.35 A case study examining
+prior authorizations for upper endoscopy procedures provides a vivid example: a
+practice spent $9,740 in employee expenses to achieve a 97.3% first-pass approval
+rate. However, appealing the remaining 54 denials cost an additional $9,450 in lost
+clinician time, nearly doubling the total expense to secure payment for that small
+fraction of cases.11
+
+B. Revenue Cycle Disruption: The Impact of Denials, Write-Offs, and Delayed Cash
+
+Flow
+
+Beyond direct overhead, prior authorization is one of the most disruptive forces in the
+healthcare revenue cycle. Issues related to PA are a leading cause of claim denials,
+which directly impact cash flow and profitability. According to the Advisory Board, as
+much as 12% of a hospital's net revenue can be at risk due to denied claims, with
+PA-related issues being a primary culprit.35 One report found that the dollar value of
+inpatient denials driven by PA issues surged by 67% in just over a year and a half,
+growing from 1.5% to 2.5% of gross revenue.36
+The industry-average claim denial rate hovers between 5% and 10%, a range that
+healthy organizations strive to stay below.37 Lack of prior authorization is a major
+contributor to this rate. Some analyses indicate that up to 25% of all denied claims are
+due to utilization management issues like missing PA codes.38 Another source
+suggests that in a staggering 81% of cases where a claim is denied, the prior
+authorization was either not obtained or was handled improperly.28 This leads to
+significant and often avoidable revenue loss. The healthcare industry as a whole is
+estimated to lose up to $5 billion annually from PA-related denials alone.39 For an
+average-sized health system, this can translate into 110,000 unpaid claims in a single
+year due to denials from PA and other factors.36
+
+C. System-Wide Economic Waste: The Paradox of Cost Control
+
+The most profound financial indictment of the prior authorization system is the
+evidence that it often fails at its primary objective: controlling overall healthcare costs.
+Instead of reducing spending, it frequently shifts costs and drives up total resource
+utilization. A remarkable 86% to 88% of physicians report that PA requirements lead to
+higher overall utilization of healthcare resources, resulting in unnecessary waste.1
+This paradoxical effect is not abstract; it is driven by specific, quantifiable diversions
+of care that occur as a direct result of PA-induced delays and denials:
+●​ Ineffective Initial Treatments: 64% to 69% of physicians report that
+
+step-therapy requirements force patients to try and fail on less effective or poorly
+tolerated treatments before the originally prescribed therapy is approved.3 This
+generates costs for ineffective care.
+
+●​ Additional Office Visits: 62% to 68% of physicians report that managing PA
+
+issues leads to additional, otherwise unnecessary office visits.3
+●​ Escalation to Urgent/Emergency Care: 42% to 46% of physicians report that PA
+delays have forced patients to seek care in more expensive settings, such as an
+urgent care center or emergency department.3
+●​ Avoidable Hospitalizations: 29% of physicians report that PA delays have
+directly led to patient hospitalizations that could have been avoided with timely
+outpatient treatment.3
+This evidence points to PA acting as an inflationary force within the healthcare
+system. It increases direct provider overhead, which must be factored into cost
+structures and payer contract negotiations. More critically, by delaying or preventing
+appropriate, lower-cost outpatient care, it directly causes a shift to higher-acuity,
+higher-cost settings. The "savings" generated by denying a $500 imaging study are
+often dwarfed by the eventual cost of a $20,000 emergency admission that results
+from the delayed diagnosis. This transforms prior authorization from a
+cost-containment tool into a mechanism for cost-shifting and, ultimately,
+cost-inflation. The total administrative spending on PA in the U.S. is estimated to be
+$35 billion, a colossal figure that does not even include these downstream costs of
+escalated care.12
+
+D. Quantifying the Automation Opportunity: An Analysis of CAQH Benchmarks
+
+While the financial picture is bleak, the data also clearly illuminates the path to
+recovery: automation. The CAQH Index is the definitive source for quantifying the
+financial opportunity available through administrative simplification. The 2023 report
+found that the U.S. healthcare industry has the potential to save an additional $18.3
+billion annually by converting all remaining manual and partially electronic
+administrative transactions to fully electronic, standardized formats.43
+The power of automation is not theoretical; it is proven. The industry is already
+avoiding an estimated $193 billion to $222 billion in annual administrative costs thanks
+to the electronic transactions currently in place.43 This figure represents a 15%
+increase in avoided costs compared to the previous year, demonstrating the
+accelerating value of automation.44
+For prior authorization specifically, the savings are substantial. When a specialty
+
+practice switches from a completely manual PA process to a fully electronic one, it
+can save an average of $8.51 per transaction.45 Extrapolated across the entire medical
+industry, if all PA transactions were conducted electronically, the system would realize
+an estimated
+$494 million in annual savings.34 While this is a significant figure, it is dwarfed by the
+potential savings in higher-volume transactions, such as the $9.3 billion opportunity in
+eligibility and benefit verification and the $3.2 billion opportunity in claim status
+inquiries.46 This suggests that a comprehensive automation strategy targeting the
+entire administrative workflow can yield transformative financial results.
+
+Table 2: Financial Impact Analysis: Provider and
+System-Level Costs (CAQH & HFMA Data)
+Cost Category
+
+Value
+
+Provider-Borne Costs
+Average Cost of a Manual PA Transaction
+(Provider)
+
+$10.97 34
+
+Average Cost of a Fully Electronic PA
+Transaction (Provider)
+
+$5.79 34
+
+Estimated Annual Cost per Clinician
+
+$2,161 – $11,046 11
+
+Average Cost to Rework a Denied Claim
+
+$25 – $118 35
+
+Payer-Borne Costs (for comparison)
+Average Cost of a Manual PA Transaction
+(Payer)
+
+$3.52 34
+
+Average Cost of a Fully Electronic PA
+Transaction (Payer)
+
+$0.05 34
+
+System-Wide Opportunity
+Total Annual Savings from Full Automation (All
+
+$18.3 Billion 43
+
+Transactions)
+Annual PA-Specific Automation Savings
+Opportunity
+
+$494 Million 34
+
+Annual Eligibility & Benefit Verification Savings
+Opportunity
+
+$9.3 Billion 46
+
+Annual Claim Status Inquiry Savings
+Opportunity
+
+$3.2 Billion 46
+
+III. Deconstructing the Delays: A Root Cause Analysis of PA
+Failures
+
+To effectively solve the prior authorization crisis, it is essential to move beyond
+documenting its symptoms and conduct a rigorous root cause analysis of its failures.
+The evidence overwhelmingly indicates that the system is not failing because
+clinicians are consistently ordering inappropriate care. Rather, it is failing due to a
+combination of flawed administrative processes, a lack of standardization, opaque
+and inconsistent payer policies, and perverse incentives that reward friction over
+efficiency.
+
+A. The Anatomy of a Denial: Administrative, Documentation, and Clinical Criteria
+Failures
+
+A deep dive into denial reasons reveals that the vast majority of PA rejections are
+rooted in administrative and procedural errors, not fundamental disagreements over
+medical necessity. The most commonly cited reasons for denial include:
+●​ Incomplete or Incorrect Information: This is a primary driver of denials. Simple
+
+clerical errors such as missing patient demographic details, incorrect or
+transposed insurance ID numbers, mismatched provider NPIs, or outdated
+information are frequent and avoidable culprits.28
+●​ Failure to Provide Medical Necessity Documentation: While payers often list
+
+"lack of medical necessity" as a top denial reason, this is frequently a misnomer.39
+The issue is typically not that the service is clinically inappropriate, but that the
+provider failed to submit the specific, and often extensive, documentation
+required by the payer to​
+prove necessity. This can include a comprehensive packet of medical records,
+recent clinical notes, diagnostic test results, or evidence of failed conservative
+treatments (step therapy).39
+●​ Incorrect Coding: Mismatched Current Procedural Terminology (CPT) or
+International Classification of Diseases, 10th Revision (ICD-10) codes are a
+common cause for automatic rejection.39
+●​ Procedural Errors: A significant number of denials occur simply because a
+provider's office failed to obtain a required authorization before a non-emergency
+service was rendered.47
+Data from Affordable Care Act (ACA) marketplace plans powerfully reinforces this
+point. An analysis of these plans found that only 6% of in-network claim denials were
+based on a lack of medical necessity. The most common reasons were the vague
+category of "Other" (34%), followed by administrative reasons (18%), the service
+being excluded from the plan's benefits (16%), and a lack of prior authorization or
+referral (9%).54 This confirms that the PA process is breaking down on administrative
+and procedural grounds long before clinical judgment comes into play.
+The "documentation gap" is perhaps the most critical point of failure. However, this is
+not merely a matter of provider carelessness. It is a direct and inevitable symptom of a
+deeper, systemic problem: the "standardization gap." A single provider organization
+may work with dozens of different payers, each with its own unique and constantly
+changing set of rules, submission portals, and required forms.18 It is operationally
+infeasible for any practice, especially one relying on manual processes, to perfectly
+track and execute dozens of disparate documentation protocols without error. The
+high rate of documentation-related denials is not an indictment of provider
+competence, but rather an expected outcome of a chaotic, non-standardized system.
+The root cause is not provider error in a vacuum; it is provider error induced by
+systemic complexity.
+
+B. The Payer Black Box: Inconsistent Policies and Manual Bottlenecks
+
+The lack of standardization is the central design flaw of the entire PA ecosystem. Each
+
+payer operates within its own silo, establishing proprietary rules, clinical guidelines,
+and submission mechanisms.18 These requirements often change with little notice,
+forcing provider staff to rely on ad-hoc "cheat sheets" that quickly become
+outdated.56 This fragmentation makes automation difficult and perpetuates a reliance
+on outdated, inefficient technology.
+Despite advances in healthcare IT, the PA process remains stubbornly manual.
+Physicians consistently report that the telephone is the most common method for
+completing PA requests, a process notorious for long hold times and inefficiency.17
+Faxes and a constellation of unique, non-standardized payer web portals are also
+prevalent methods of submission.4 As a result, only 28% to 31% of medical PA
+transactions are conducted in a fully electronic, standardized format (the
+HIPAA-mandated X12-278 transaction).21 This reliance on antiquated, manual
+workflows is a primary bottleneck that introduces errors and delays.59
+When a denial does occur and a clinical discussion is required, the peer-to-peer (P2P)
+review process often fails to live up to its name. Intended to be a discussion between
+clinical equals, it is frequently a source of intense frustration for treating physicians.
+According to AMA surveys, only 15% of physicians report that the health plan's "peer"
+often or always has the appropriate qualifications and specialty expertise to evaluate
+their clinical decision.6 This transforms what should be a productive clinical
+conversation into yet another administrative hurdle, where a specialist must justify
+their decision to a non-specialist reviewer.62
+
+C. The Appeals Paradox: Why High Overturn Rates Signal a Flawed Front-End
+Process
+
+Perhaps the most damning evidence of a broken system lies in the "appeals paradox":
+the chasm between an extremely high rate of successful appeals and an extremely
+low rate of attempted appeals.
+Across the Medicare Advantage landscape, an astounding 81.7% of prior
+authorization denials that are appealed are subsequently partially or fully overturned
+by the payer.2 This figure has remained consistently high for years. This statistic is an
+unambiguous admission that the vast majority of initial denials are incorrect. They are
+not based on firm, defensible clinical reasoning but on administrative technicalities,
+
+missing paperwork that is later supplied, or flawed initial reviews.
+Despite this high probability of success, only a tiny fraction of denials—just 11.7% in
+Medicare Advantage—are ever appealed.2 This gap is the result of "administrative
+surrender." The burden of navigating the appeals process—gathering additional
+documentation, writing letters, and engaging in time-consuming P2P calls—is so
+immense that providers make a rational economic decision to simply give up.1 They
+are forced to write off revenue they are legitimately owed because the cost and effort
+of fighting for it are prohibitively high.
+This dynamic suggests that for some payers, a high initial denial rate may be a
+deliberate financial strategy, not an operational flaw. By issuing a large volume of
+easily reversible denials, a payer can leverage the low appeal rate to its advantage. For
+every 100 denials issued, if only 12 are appealed, the payer successfully avoids
+payment on the other 88. Even if 82% of the appealed cases (about 10) are
+overturned, the payer still achieves a net "win" on 88% of its initial denials. The denial
+itself, regardless of its clinical validity, becomes the cost-saving tool because of the
+high administrative barrier to challenging it. This represents a strategic weaponization
+of administrative burden.
+
+D. Payer-Specific Performance: A Comparative Analysis of Denial and Appeal
+Metrics
+
+The burden of prior authorization is not distributed evenly. Data analysis reveals
+significant variation in the utilization management strategies and denial rates of major
+national payers. A KFF analysis of 2023 Medicare Advantage data, reported by outlets
+like Becker's Hospital Review, provides actionable, comparative intelligence for
+providers.65
+●​ Denial Rates: The average denial rate for PA requests in MA was 6.4% in 2023.
+
+However, this average masks a wide range, from a low of 3.5% for Humana to a
+high of 13.6% for Centene. CVS Health (Aetna) was also high at 11%.13
+●​ Intensity of Utilization Management: The number of PA requests per enrollee
+also varied dramatically, indicating different philosophies on managing care.
+Humana and Anthem/Elevance Health were the most aggressive, with 3.1 requests
+per member, while Kaiser Permanente was the least, at just 0.5.65
+●​ Appeal and Overturn Rates: The data for payers with the highest denial rates is
+
+particularly telling. Centene, with its 13.6% denial rate, also had one of the highest
+overturn rates on appeal at a staggering 93.6%. CVS Health, with an 11% denial
+rate, had an 89.7% overturn rate.65 This combination of high initial denials and
+extremely high overturn rates strongly supports the hypothesis that denials are
+being used as an administrative filter rather than a precise clinical tool.
+
+Table 3:
+Medicare
+Advantage
+Payer
+Scorecard:
+Denial and
+Appeal
+Metrics
+(2023 Data)
+Payer Name
+
+Requests
+per Enrollee
+
+Initial
+Denial Rate
+(%)
+
+Appeal Rate
+(%)
+
+Overturn
+Rate on
+Appeal (%)
+
+Centene
+
+2.4
+
+13.6%
+
+8.8%
+
+93.6%
+
+CVS Health
+(Aetna)
+
+1.3
+
+11.0%
+
+16.8%
+
+89.7%
+
+Kaiser
+Permanente
+
+0.5
+
+10.0%
+
+1.7%
+
+42.4%
+
+UnitedHealt
+hcare
+
+1.0
+
+9.1%
+
+15.5%
+
+85.2%
+
+Cigna
+
+1.9
+
+7.7%
+
+18.0%
+
+86.0%
+
+Blue Cross
+Blue Shield
+(Aggregate)
+
+2.3
+
+5.8%
+
+10.4%
+
+80.7%
+
+Anthem/Ele
+vance
+Health
+
+3.1
+
+4.3%
+
+6.4%
+
+71.1%
+
+Humana
+
+3.1
+
+3.5%
+
+9.1%
+
+64.9%
+
+Source: KFF
+analysis of
+CMS data, as
+reported by
+Becker's
+Hospital
+Review 65
+
+This scorecard provides critical intelligence for provider organizations. It allows
+leadership to move from anecdotal complaints to data-driven conversations during
+payer negotiations. It can inform RCM resource allocation, justifying the assignment of
+more experienced staff to manage payers with higher denial rates. It also provides
+concrete evidence for advocacy efforts aimed at curbing the most egregious payer
+behaviors.
+
+IV. The Horizon of Change: The Regulatory and Technological
+Revolution in Prior Authorization
+
+While the current state of prior authorization is fraught with inefficiency and friction,
+the landscape is on the verge of a seismic shift. Two powerful forces—landmark
+federal regulation and the rapid maturation of intelligent automation
+technologies—are converging to dismantle the manual, opaque processes of the past
+and usher in a new era of electronic, transparent, and streamlined PA management.
+For provider organizations, understanding and preparing for these changes is not just
+a matter of compliance; it is a strategic imperative for survival and success.
+
+A. Landmark Legislation: The CMS Interoperability and Prior Authorization Final
+Rule (CMS-0057-F)
+
+Released by the Centers for Medicare & Medicaid Services (CMS) on January 17,
+2024, the Interoperability and Prior Authorization Final Rule (CMS-0057-F) represents
+the most significant federal intervention to reform PA to date.67 The rule targets the
+
+root causes of delays and administrative burden by mandating greater transparency,
+faster decision-making, and, most importantly, the adoption of standardized
+electronic data exchange. The rule applies to a broad swath of the market, including
+Medicare Advantage (MA) plans, state Medicaid and Children's Health Insurance
+Program (CHIP) plans (both fee-for-service and managed care), and Qualified Health
+Plan (QHP) issuers on the Federally-Facilitated Marketplaces.16
+The rule's key provisions are set to be implemented on a staggered timeline:
+●​ Stricter Turnaround Times (Compliance by January 1, 2026): Impacted payers
+
+will be required to make decisions on standard (non-urgent) PA requests within 7
+calendar days, a significant reduction from the current 14-day allowance for MA
+plans. For expedited (urgent) requests, a decision must be rendered within 72
+hours.15 This establishes a federal floor for timeliness, forcing payers to
+re-engineer their internal review processes for greater speed.
+●​ Transparency Mandates (Compliance by January 1, 2026): Payers will be
+required to provide a specific, valid reason for any PA denial, moving beyond
+cryptic codes to offer clear, actionable feedback to providers.15 They must also
+begin publicly reporting certain aggregate PA metrics, shining a light on their
+performance and enabling comparisons.
+●​ Standardized, FHIR-Based APIs (Compliance by January 1, 2027): This is the
+technological centerpiece of the rule. Payers must develop, implement, and
+maintain a suite of Application Programming Interfaces (APIs) built on the Fast
+Healthcare Interoperability Resources (FHIR) standard. These APIs are designed
+to automate the electronic exchange of PA data, breaking down the silos of
+proprietary portals and fax machines.16
+The mandated APIs will create a new, interconnected ecosystem for PA:
+●​ Prior Authorization API (PARDD): The Prior Authorization Requirements,
+
+Documentation, and Decision API will be the workhorse of the new system. It will
+allow a provider's EHR or practice management system to electronically and
+automatically query a payer to determine if a PA is required, identify the specific
+documentation needed, submit the PA request, and receive a decision in
+real-time.16
+●​ Payer-to-Payer API: To improve care continuity, this API will facilitate the secure
+transfer of a patient's data—including their history of prior authorizations—when
+they switch health plans. This will reduce the need for providers to obtain new
+authorizations for ongoing courses of treatment.16
+●​ Enhanced Patient and Provider Access APIs: The rule builds on existing API
+requirements to ensure that information about prior authorizations is included in
+
+the data shared with patients and their providers, increasing transparency and
+empowering them with a more complete view of their health information.16
+The projected impact of this rule is enormous. CMS estimates it will save physician
+practices $15 billion and 206 million hours of administrative work over the next
+decade.14 However, there is a notable tension in financial projections. The
+Congressional Budget Office (CBO), in scoring similar legislation, projected that
+simplifying PA could
+increase federal spending by $16 billion over ten years, driven by an expected
+increase in the utilization of services that were previously deterred by administrative
+hurdles.69 This highlights the fundamental conflict at the heart of PA: administrative
+burden, while harmful, is an effective, albeit blunt, tool for utilization control.
+
+B. The Rise of Intelligent Automation: AI, Machine Learning, and RPA
+
+Running parallel to the regulatory push is a technological revolution in automation.
+Advanced software solutions are now capable of addressing the core inefficiencies of
+the PA process with a sophistication that was unimaginable just a few years ago.
+●​ Artificial Intelligence (AI) and Machine Learning (ML) for Denial Prediction:
+
+A new frontier in Revenue Cycle Management (RCM) is the use of AI and ML to
+shift from a reactive to a proactive stance on denials. These systems analyze a
+provider's vast trove of historical claims data, cross-referencing it with payer rules
+and patient information to build predictive models. These models can identify
+high-risk claims before they are submitted, flagging them for review and
+correction.72 This allows staff to fix potential issues related to coding,
+documentation, or eligibility upfront, dramatically increasing the first-pass
+approval rate. Advanced tools, such as John Snow Labs' "LLM-as-a-Judge," are
+even using generative AI to read and interpret complex denial letters,
+automatically categorizing them based on their likelihood of a successful
+appeal.74
+●​ Robotic Process Automation (RPA): RPA employs software "bots" to mimic
+human actions and automate the most repetitive, rules-based tasks in the PA
+workflow. An RPA bot can be programmed to log into a payer portal, check a
+patient's eligibility, extract clinical data from an EHR, auto-populate a PA request
+form, submit the form, and then continuously check the portal for a status update
+
+until a decision is rendered.75 Case studies have demonstrated the transformative
+impact of RPA, with one rural hospital reducing its PA-related denial rate to a
+mere 0.21% and increasing its cash flow by over $2.2 million through improved
+efficiency.76
+The most powerful solutions will represent a convergence of these technologies. RPA
+bots will handle the mechanical "work" of the process, while AI/ML models provide the
+"intelligence" to guide the bots' actions, predict outcomes, and flag exceptions for
+human review.
+
+C. The Evolving Technology Stack: From EHRs to Specialized Platforms
+
+The technology to enable this automated future is evolving rapidly across several
+fronts:
+●​ EHR-Integrated Solutions: Major EHR vendors like Epic and Oracle Health
+
+(formerly Cerner) are embedding PA automation directly into their core platforms.
+Epic, for instance, offers features for real-time coding suggestions and
+automated submission of PA requests, aiming to keep the clinician within a single,
+seamless workflow.77 Oracle Health's open architecture and modern APIs are also
+designed to facilitate integration with payer systems.78 The goal for these vendors
+is to leverage the new FHIR standards mandated by the CMS rule to create a
+deeply integrated, native PA experience.77
+●​ Third-Party Intermediary Platforms: Companies like Availity and Change
+Healthcare have built extensive networks that function as clearinghouses,
+connecting millions of providers to thousands of payers through a single pipe.
+Availity, which calls itself "the largest network in healthcare," claims direct
+connections to 95% of U.S. health plans.80 Its AI-driven "Intelligent Utilization
+Management" solution reportedly handles 80% of its PA requests in a "touchless"
+manner, providing an automated response in under 90 seconds.80 These
+platforms offer a way for providers to standardize and automate their interactions
+with a wide range of payers today, even before the CMS rule's 2027 deadline.
+●​ Specialized AI and RPA Vendors: A vibrant ecosystem of niche technology
+companies (such as Olive, Notable, Infinitus, and Jorie AI) has emerged, focusing
+exclusively on solving the PA problem with targeted AI and RPA solutions.76 These
+vendors offer specialized tools that can be integrated with a provider's existing
+EHR and RCM systems, providing a focused path to automating this specific pain
+
+point.
+The CMS rule is poised to create a "digital floor" for the industry, mandating a
+baseline level of electronic interoperability that will force all payers to abandon their
+most antiquated processes. However, simple compliance with the rule will not be the
+end of the story. It will not, by itself, create the highly efficient, "touchless" automation
+that leading technology vendors already offer.81 The competitive landscape will shift.
+The advantage will no longer lie in being able to navigate manual chaos but in being
+able to optimize automated workflows. High-performing payers will use the mandated
+APIs as a foundation upon which to build more sophisticated, AI-driven services to
+reduce provider abrasion and differentiate themselves in the market.81 For providers,
+this means the future is not a single, universally simple electronic process, but a tiered
+system where they must still navigate varying levels of payer technological maturity.
+This technological and regulatory convergence will also fundamentally redefine the
+nature of PA-related work. As automation handles the vast majority of routine, "clean"
+requests, the role of the human PA specialist will evolve dramatically. They will
+transition from being manual data entry clerks to becoming highly skilled exception
+handlers. Their focus will shift from processing volume to resolving only the most
+complex, clinically nuanced cases that automation cannot handle—those requiring
+sophisticated appeal strategies, deep clinical documentation review, or direct P2P
+engagement. This necessitates a complete rethinking of staffing models, job
+descriptions, required competencies, and training programs for the RCM workforce of
+the future.
+
+Table 4: The CMS
+Interoperability & PA
+Final Rule: Key
+Provisions and
+Timelines
+Provision
+
+Requirement for
+Payers
+
+Compliance
+Deadline
+
+Strategic
+Implication for
+Providers
+
+Shortened Decision
+Timeframes
+
+Make standard PA
+decisions within 7
+calendar days;
+expedited decisions
+
+Jan 1, 2026
+
+Enables faster patient
+scheduling and
+reduces care delays;
+requires internal
+workflows to be
+
+within 72 hours. 15
+
+optimized for speed.
+Specific Denial
+Reasons
+
+Must provide a
+specific clinical or
+administrative reason
+for any denial, not
+
+Jan 1, 2026
+
+Provides clear,
+actionable data for
+appeals; enables root
+cause analysis of
+denials to improve
+future submissions.
+
+Jan 1, 2027
+
+The core of
+automation. Enables
+direct integration
+with EHRs,
+eliminating manual
+portals and faxes.
+Unlocks potential for
+real-time approvals.
+
+Jan 1, 2027
+
+Reduces the need to
+re-authorize ongoing
+care when patients
+change insurance,
+improving continuity
+and reducing
+administrative churn.
+
+just a generic code. 15
+
+Prior Authorization
+API (PARDD)
+
+Implement a
+FHIR-based API to
+allow electronic
+queries of PA
+requirements,
+submission of
+requests, and receipt
+of decisions. 16
+
+Payer-to-Payer API
+
+Implement a
+FHIR-based API to
+exchange patient
+data, including PA
+history, with a
+patient's previous or
+concurrent payer. 16
+
+V. Strategic Pathways to Optimization: An Actionable Framework
+for Provider Organizations
+
+Navigating the complexities of the prior authorization landscape requires more than
+just incremental improvements. It demands a comprehensive, multi-layered strategy
+that combines foundational process excellence, aggressive adoption of technology,
+and forward-looking policy engagement. The following framework provides an
+actionable roadmap for provider organizations to not only mitigate the current
+burdens of PA but also to position themselves to thrive in the emerging era of
+automation and interoperability.
+
+A. Foundational Strategies (Quick Wins & Process Improvement)
+
+Before significant technology investments can yield their full potential, an organization
+must first establish a solid foundation of standardized processes and optimized
+workflows. These foundational strategies can deliver immediate value and are
+prerequisites for successful automation.
+●​ Optimizing at the Point of Entry: The most effective way to reduce PA friction is
+
+to ensure every request is as clean and complete as possible from the very
+beginning. A critical "quick win" is to move PA-related tasks to the front end of the
+patient encounter. Verifying patient insurance eligibility and checking for prior
+authorization requirements at the time of scheduling, rather than after a service is
+ordered, is paramount.38 This proactive approach allows staff to initiate the PA
+process early, preventing downstream delays and last-minute scrambles. To
+combat the leading cause of denials—insufficient documentation—organizations
+should develop and implement standardized checklists and documentation
+templates for their most common procedures.39 This ensures that all necessary
+clinical notes, test results, and payer-specific information are gathered
+consistently and submitted with the initial request.
+●​ Structuring for Success: Centralized vs. Distributed PA Teams: The
+organizational structure for managing PAs has a significant impact on
+performance. While smaller practices may rely on a distributed model where
+various staff members handle PAs, a growing body of evidence and expert opinion
+supports the creation of a centralized, dedicated prior authorization team.5
+Centralization builds deep institutional knowledge and expertise. A dedicated
+team becomes fluent in the nuances of different payers, procedures, and appeal
+strategies, leading to greater efficiency and higher approval rates. This structure
+also creates a single, accountable point of contact for the organization's PA
+operations. This centralization creates a "dividend" that extends beyond mere
+efficiency. A dedicated team becomes a hub of competitive intelligence,
+systematically collecting data on payer behavior. This team can identify which
+payers have the highest denial rates, which procedures are most frequently
+challenged, and which appeal tactics are most successful. This transforms the PA
+team from a simple administrative cost center into a strategic intelligence unit
+that can provide invaluable data to inform RCM strategy, guide payer contract
+negotiations, and even influence clinical service line planning.
+●​ Investing in Human Capital: The ROI of Staff Specialization and Training:
+Regardless of the organizational model, investing in staff is critical. The role of the
+
+Prior Authorization Specialist is an emerging and vital profession.87 These
+specialists are not merely data entry clerks; they are experts who master
+payer-specific rules, complex coding requirements, and clinical documentation
+guidelines. Outsourcing to or developing these specialists internally can
+dramatically improve approval rates and streamline claim processing.87
+Comprehensive and ongoing training is essential. Well-trained staff can navigate
+complex requirements more efficiently, reduce costly errors, prevent revenue loss
+from avoidable denials, and ultimately experience higher job satisfaction and
+morale by mastering a challenging but critical function.84
+
+B. Advanced Technological Interventions
+
+With a solid process foundation in place, organizations can then leverage technology
+to achieve transformative gains in efficiency and effectiveness.
+●​ Embracing End-to-End Automation: The strategic goal should be to automate
+
+the entire PA lifecycle, from initiation to resolution. This involves a multi-pronged
+technology strategy:
+○​ Leverage Core Systems and Platforms: Organizations should first maximize
+the capabilities of their existing systems. This means fully utilizing the PA
+modules and workflow tools within their EHR, such as those offered by Epic
+and Oracle Health.77 For broader connectivity, partnering with a third-party
+intermediary platform like Availity can provide a single, standardized
+connection to a vast network of payers, effectively centralizing interactions
+even before the CMS rule takes full effect.80
+○​ Implement RPA and AI: To reach the highest levels of automation,
+organizations should deploy Robotic Process Automation (RPA) to handle the
+high-volume, repetitive "work" of PA management—tasks like checking
+eligibility, populating forms, and monitoring status.75 This should be coupled
+with Artificial Intelligence (AI) and Machine Learning (ML) to provide the
+"intelligence"—predicting the likelihood of denial, analyzing clinical
+documentation for completeness, and identifying the root causes of recurring
+denials.72
+●​ Instituting Data-Driven Performance Management: An organization cannot
+manage what it does not measure. High-performing organizations establish and
+rigorously monitor a set of Key Performance Indicators (KPIs) to track the health
+of their PA process.84 Essential metrics include:
+
+○​
+○​
+○​
+○​
+○​
+
+Turnaround Time (TAT) from request to decision.
+First-Pass Approval Rate.
+Denial Rate (broken down by payer, service line, and reason).
+Appeal Rate and Appeal Success Rate.
+Staff productivity (authorizations processed per FTE).​
+This data should be used to "follow the money," prioritizing process
+improvement and automation efforts on the high-volume, high-revenue, or
+high-denial services where the return on investment will be greatest.86
+
+C. Forward-Looking Policy and Advocacy
+
+Finally, provider organizations must engage proactively with payers and policymakers
+to shape a more rational PA environment for the future.
+●​ Championing "Gold-Carding" Programs: "Gold card" programs, which exempt
+
+physicians with a proven track record of high approval rates from PA requirements
+for certain services, are one of the most promising avenues for reducing
+administrative burden. Several states, including Texas and Michigan, have enacted
+gold-card legislation, and some payers, like UnitedHealthcare, have implemented
+their own national programs.32 However, adoption remains low, with only 10% of
+physicians reporting that they contract with a plan offering such a program.17
+Provider organizations must meticulously track their own approval rate data to
+demonstrate their eligibility for these programs and proactively advocate with
+their payer partners for their creation and expansion.2
+●​ Pursuing Strategic Payer Collaboration: While the provider-payer relationship
+is often adversarial, strategic collaboration can yield mutual benefits. By using the
+performance data gathered from internal KPI tracking, providers can approach
+payers with a data-driven business case for process improvement. Demonstrating
+how a payer's specific policies are creating unnecessary denials, delays, and
+appeals can open the door to collaborative problem-solving. Aligning on the use
+of shared, evidence-based clinical guidelines can also build trust and reduce
+friction.82
+●​ Preparing for the CMS Mandates: A Strategic Roadmap for 2025 and
+Beyond: The CMS Interoperability and Prior Authorization Final Rule is not a
+distant concern; it requires immediate strategic planning. Organizations should
+begin now to:
+1.​ Conduct a Technology Assessment: Evaluate current technology
+
+capabilities and begin engaging with EHR and third-party vendors to develop
+a clear roadmap for API implementation ahead of the 2027 deadline.
+2.​ Redesign Internal Workflows: Proactively redesign PA workflows to align
+with the faster turnaround times and automated data exchange the rule will
+enable.
+3.​ Develop a Staff Retraining Plan: Create a plan to upskill the PA workforce,
+preparing for the fundamental shift from manual data processors to skilled
+exception handlers and analysts.
+The ultimate strategic goal, enabled by this convergence of process, technology, and
+regulation, is to fundamentally redefine the prior authorization experience. The future
+state is not simply a faster version of the current transactional model. It is a proactive
+and personalized system where the PA process effectively disappears into the
+background of the clinical workflow. At the moment a service is ordered, the
+provider's EHR should be able to query a payer's API in real-time, use AI to instantly
+determine if a PA is needed and assemble the required documentation, and receive an
+automated approval in seconds. Achieving this vision will eliminate one of the greatest
+sources of friction in modern healthcare, allowing providers to reclaim billions of
+dollars in lost revenue and countless hours of wasted time, and—most importantly—to
+restore their focus to the timely and effective care of their patients.
+Works cited
+1.​ AMA Survey Highlights Growing Burden of Prior Authorization on Physicians,
+
+Patients, accessed July 18, 2025,
+https://www.ajmc.com/view/ama-survey-highlights-growing-burden-of-prior-aut
+horization-on-physicians-patients
+2.​ Fixing prior auth: Nearly 40 prior authorizations a week is way too many, accessed
+July 18, 2025,
+https://www.ama-assn.org/practice-management/prior-authorization/fixing-prior
+-auth-nearly-40-prior-authorizations-week-way
+3.​ New AMA survey finds costs and harms of prior authorization exceed alleged
+benefits, accessed July 18, 2025,
+https://www.cmadocs.org/newsroom/news/view/ArticleId/50082/New-AMA-surv
+ey-finds-costs-and-harms-of-prior-authorization-exceed-alleged-benefits
+4.​ 2023 MGMA Regulatory Burden Report FINAL, accessed July 18, 2025,
+https://www.mgma.com/getkaiasset/423e0368-b834-467c-a6c3-53f4d759a490/
+2023%20MGMA%20Regulatory%20Burden%20Report%20FINAL.pdf
+5.​ MGMA 2024 Prior Authorization Issue Brief_FINAL, accessed July 18, 2025,
+https://www.mgma.com/getkaiasset/7caa3c7f-3e0e-443d-873d-b7194673752e/
+MGMA%202024%20Prior%20Authorization%20Issue%20Brief_FINAL.pdf
+6.​ AMA survey results show ongoing issues with prior authorization process,
+
+accessed July 18, 2025,
+https://www.pharmacist.com/Blogs/CEO-Blog/Article/ama-survey-results-showongoing-issues-with-prior-authorization-process
+7.​ AMA survey shows physicians, patients heavily burdened by prior authorization |
+AHA News, accessed July 18, 2025,
+https://www.aha.org/news/headline/2024-06-20-ama-survey-shows-physicianspatients-heavily-burdened-prior-authorization
+8.​ Exhausted by prior auth, many patients abandon care: AMA survey, accessed July
+18, 2025,
+https://www.ama-assn.org/practice-management/prior-authorization/exhaustedprior-auth-many-patients-abandon-care-ama-survey
+9.​ Exhausted by Prior Auth, Many Patients Abandon Care, accessed July 18, 2025,
+https://strengthenhealthcare.org/exhausted-by-prior-auth-many-patients-aband
+on-care/
+10.​AMA prior authorization (PA) physician survey, accessed July 18, 2025,
+https://www.akleg.gov/basis/get_documents.asp?session=33&docid=33619
+11.​ How much do prior authorizations cost you? - Physicians Practice, accessed July
+18, 2025,
+https://www.physicianspractice.com/view/how-much-do-prior-authorizations-co
+st-you12.​Prior Authorization Statistics: The Impact of Prior Authorizations - TRIARQ Health,
+accessed July 18, 2025,
+https://triarqhealth.com/blog/prior-authorization-statistics
+13.​Medicare Advantage Insurers Made Nearly 50 Million Prior Authorization
+Determinations in 2023 | KFF, accessed July 18, 2025,
+https://www.kff.org/medicare/issue-brief/nearly-50-million-prior-authorization-re
+quests-were-sent-to-medicare-advantage-insurers-in-2023/
+14.​As prior authorization burden grows, so does momentum for change, accessed
+July 18, 2025,
+https://www.ama-assn.org/practice-management/prior-authorization/prior-autho
+rization-burden-grows-so-does-momentum-change
+15.​Providers & Payers: Prepare Now for CMS Prior Authorization Final Rule - HIT
+Consultant, accessed July 18, 2025,
+https://hitconsultant.net/2025/07/11/providers-payers-prepare-now-for-cms-prio
+r-authorization-final-rule/
+16.​CMS Interoperability and Prior Authorization Final Rule CMS-0057-F, accessed
+July 18, 2025,
+https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-and-prior-auth
+orization-final-rule-cms-0057-f
+17.​AMA prior authorization (PA) physician survey - American Medical Association,
+accessed July 18, 2025,
+https://www.ama-assn.org/system/files/prior-authorization-survey.pdf
+18.​PRIOR AUTHORIZATION, accessed July 18, 2025,
+https://ndlegis.gov/sites/default/files/committees/68-2023/25.5089.03000appendi
+xi.pdf
+
+19.​MGMA Poll Shows Need for Prior Authorizations Continues to Increase - VMO
+
+Tech, accessed July 18, 2025,
+https://vmotech.com/mgma-poll-shows-need-for-prior-authorizations-continues
+-to-increase/
+20.​Prior Authorizations and the Adverse Impact on Continuity of Care, accessed July
+18, 2025,
+https://www.ajmc.com/view/prior-authorizations-and-the-adverse-impact-on-co
+ntinuity-of-care
+21.​Prior authorization: How it evolved, why it burdens physicians and patients, and
+the promise of AI - Medical Economics, accessed July 18, 2025,
+https://www.medicaleconomics.com/view/prior-authorization-history-burden-ai-f
+uture
+22.​2022 MGMA Regulatory Burden Report FINAL, accessed July 18, 2025,
+https://www.mgma.com/getkaiasset/b7e88b99-8e93-44a9-8144-725ca956089e/
+10.11.2022-MGMA-Regulatory-Burden-Report-FINAL.pdf
+23.​Virtually all medical groups say payer prior authorization requirements aren't
+improving, accessed July 18, 2025,
+https://www.mgma.com/mgma-stats/virtually-all-medical-groups-say-payer-prio
+r-authorization-requirements-aren-t-improving
+24.​A Guide to Relieving Administrative Burden: Prior Authorization - AAFP, accessed
+July 18, 2025,
+https://www.aafp.org/pubs/fpm/issues/2023/1100/prior-authorization.html
+25.​Prior authorization denials up big in Medicare Advantage | American Medical
+Association, accessed July 18, 2025,
+https://www.ama-assn.org/practice-management/prior-authorization/prior-autho
+rization-denials-big-medicare-advantage
+26.​IT'S TIME TO FIX PRIOR AUTHORIZATION - Massachusetts Medical Society,
+accessed July 18, 2025,
+https://www.massmed.org/prior-authorization-fact-sheet/
+27.​A Strategic Checklist for RCM Directors to Tackle Prior Authorization Bottlenecks,
+accessed July 18, 2025,
+https://www.billingparadise.com/blog/rcm-directors-prior-authorization-checklist
+/
+28.​Top 5 Prior Authorization Challenges - Referral MD, accessed July 18, 2025,
+https://getreferralmd.com/5-reasons-why-prior-authorizations-are-challenging/
+29.​Prior authorization changes coming in June - The Record, accessed July 18, 2025,
+https://www.bcbsm.com/content/dam/microsites/corpcomm/provider/the_record
+/2023/apr/Record_0423d.shtml
+30.​Prior Authorization Is Top Administrative Challenge of 2023 - Oncology Nursing
+News, accessed July 18, 2025,
+https://www.oncnursingnews.com/view/prior-authorization-is-top-administrative
+-challenge-of-2023
+31.​Approximately 80% of physicians also said prior authorizations at least
+sometimes result in treatment abandonment - NCDS Medical Billing, accessed
+July 18, 2025,
+
+https://www.ncdsinc.com/statistic/approximately-80-of-physicians-also-said-prio
+r-authorizations-at-least-sometimes-result-in-treatment-abandonment/
+32.​Toolkit: Addressing the Administrative Burden of Prior Authorization | ACP Online,
+accessed July 18, 2025,
+https://www.acponline.org/advocacy/state-health-policy/toolkit-addressing-the-a
+dministrative-burden-of-prior-authorization
+33.​New ASTRO survey finds that prior authorization delays lead to serious harm for
+people with cancer, accessed July 18, 2025,
+https://www.astro.org/news-and-publications/news-and-media-center/news-rele
+ases/2024/new-astro-survey-finds-that-prior-authorization-delays-lead-to-serio
+us-harm-for-people-with-cancer
+34.​The Costly Lever of Prior Authorization - 4sight Health, accessed July 18, 2025,
+https://www.4sighthealth.com/the-costly-lever-of-prior-authorization/
+35.​The High Cost of Denials: How Prior Authorization Challenges Are Draining Your
+Bottom Line - NYX Health, accessed July 18, 2025,
+https://nyxhealth.com/the-high-cost-of-denials-how-prior-authorization-challen
+ges-are-draining-your-bottom-line/
+36.​Health systems plagued by payer-takeback schemes, 110000 denials, accessed
+July 18, 2025,
+https://www.ama-assn.org/practice-management/prior-authorization/health-syst
+ems-plagued-payer-takeback-schemes-110000
+37.​Five Revenue Cycle Metrics Profitable Practices Are Measuring - R1 RCM,
+accessed July 18, 2025,
+https://www.r1rcm.com/articles/5-revenue-cycle-metrics-profitable-practices-ar
+e-measuring/
+38.​Effective Pre-Authorization Processes to Reduce Claim Denials - EZClaim,
+accessed July 18, 2025,
+https://ezclaim.com/blog/effective-pre-authorization-processes-to-reduce-claim
+-denials/
+39.​Reasons for Prior Authorization Denials & How to Reduce Rates - DataMatrix
+Medical, accessed July 18, 2025,
+https://datamatrixmedical.com/reasons-for-prior-authorization-denials/
+40.​Prior authorization delays care—and increases health care costs | American
+Medical Association, accessed July 18, 2025,
+https://www.ama-assn.org/practice-management/prior-authorization/prior-autho
+rization-delays-care-and-increases-health-care
+41.​Perceptions of prior authorization burden and solutions - PMC, accessed July 18,
+2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC11425057/
+42.​A Review on the Role of Prior Authorization in Healthcare and Future Directions
+for Reform, accessed July 18, 2025,
+https://hmpi.org/2024/04/12/a-review-on-the-role-of-prior-authorization-in-healt
+hcare-and-future-directions-for-reform/
+43.​CAQH Index Report, accessed July 18, 2025,
+https://www.caqh.org/hubfs/43908627/drupal/2024-01/2023_CAQH_Index_Repor
+t.pdf
+
+44.​CAQH Index Report, accessed July 18, 2025,
+
+https://www.caqh.org/hubfs/Index/2024%20Index%20Report/CAQH_IndexReport
+_2024_FINAL.pdf
+45.​Administrative Transaction Costs by Provider Specialty - CAQH, accessed July 18,
+2025,
+https://www.caqh.org/hubfs/CAQH%20Insights_2023%20Index%20Report_Provi
+der%20Specialty%20Issue%20Brief_Final.pdf
+46.​2023 CAQH Index Report: Insights for Healthcare Providers - UHIN .org, accessed
+July 18, 2025, https://uhin.org/blog/caqh-index-2023-providers/
+47.​7 Common Prior Authorization Hurdles and How to Overcome Them |
+CoverMyMeds, accessed July 18, 2025,
+https://insights.covermymeds.com/healthcare-technology/prior-authorization/co
+mmon-prior-authorization-hurdles-and-how-to-overcome-them
+48.​common reasons prior authorization gets denied - Healthcare Outsourcing
+Services, accessed July 18, 2025,
+https://staffingly.com/common-reasons-prior-authorization-gets-denied-in-healt
+hcare/
+49.​Understanding the Common Reasons for Denial of Prior Authorizations and How
+Automation Can Mitigate These Issues | Simbo AI, accessed July 18, 2025,
+https://www.simbo.ai/blog/understanding-the-common-reasons-for-denial-of-pr
+ior-authorizations-and-how-automation-can-mitigate-these-issues-742712/
+50.​Top Reasons for Prior Authorization Denials and How to Avoid Them - expEDIum,
+accessed July 18, 2025,
+https://www.expedium.net/blog/top-reasons-for-prior-authorization-denials-and
+-how-to-avoid-them/
+51.​Precertification, Denials and Appeals: Reducing the Hassles | AAFP, accessed July
+18, 2025, https://www.aafp.org/pubs/fpm/issues/2006/0600/p45.html
+52.​Why Proper Documentation Matters for Prior Authorization - Healthcare
+Outsourcing Services, accessed July 18, 2025,
+https://staffingly.com/why-is-proper-documentation-key-to-a-successful-prior-a
+uthorization-submission/
+53.​How to Avoid Denials and Improve Approvals For Prior Authorization Practolytics, accessed July 18, 2025,
+https://practolytics.com/blog/how-to-avoid-denials-and-improve-approvals-forprior-authorization/
+54.​Claims Denials and Appeals in ACA Marketplace Plans in 2023 - KFF, accessed
+July 18, 2025,
+https://www.kff.org/private-insurance/issue-brief/claims-denials-and-appeals-inaca-marketplace-plans-in-2023/
+55.​KFF: Plans on Healthcare.gov denied 20% of claims in 2023, accessed July 18,
+2025,
+https://www.fiercehealthcare.com/payers/kff-plans-healthcaregov-denied-20-cla
+ims-2023
+56.​The Ultimate Guide to Prior Authorization - Myndshft, accessed July 18, 2025,
+https://www.myndshft.com/the-ultimate-guide-to-prior-authorization/
+
+57.​4 Ways Payers Can Simplify Prior Authorization - Medecision, accessed July 18,
+
+2025, https://www.medecision.com/simplify-prior-authorization/
+58.​Prior Authorization for Healthcare Payers: Process, Challenges, and Solutions PCH Global, accessed July 18, 2025,
+https://pchhealth.global/blog/prior-authorization-healthcare-payers-process-cha
+llenges-and-solutions
+59.​Key Challenges in Prior Authorization: Are You Ready to Overcome Them? Healthcare Outsourcing Services, accessed July 18, 2025,
+https://staffingly.com/prior-authorization-challenges-overcoming-strategies/
+60.​specialty medications prior authorization bottleneck - Healthcare Outsourcing
+Services, accessed July 18, 2025,
+https://staffingly.com/specialty-medications-prior-authorization-bottleneck/
+61.​How Slow Prior Authorizations Harm Patients: A Hidden Crisis in Healthcare,
+accessed July 18, 2025,
+https://www.productiveedge.com/blog/how-slow-prior-authorizations-harm-pati
+ents-a-hidden-crisis-in-healthcare
+62.​A Look into Peer to Peer - Prior Authorization Certified Specialist, accessed July
+18, 2025, https://www.priorauthtraining.org/a-look-into-peer-to-peer/
+63.​New KFF Report: More MA Prior Authorizations, Appeals Remain Successful LeadingAge, accessed July 18, 2025,
+https://leadingage.org/new-kff-report-more-ma-prior-authorizations-appeals-re
+main-successful/
+64.​KFF: MA insurers made nearly 50 million prior authorization determinations in
+2023 | AHA News - American Hospital Association, accessed July 18, 2025,
+https://www.aha.org/news/headline/2025-01-29-kff-ma-insurers-made-nearly-5
+0-million-prior-authorization-determinations-2023
+65.​Medicare Advantage insurers ranked by prior authorization denial rates | 2023,
+accessed July 18, 2025,
+https://www.beckerspayer.com/payer/medicare-advantage-prior-authorization-h
+ow-insurers-stack-up/
+66.​www.beckerspayer.com, accessed July 18, 2025,
+https://www.beckerspayer.com/payer/medicare-advantage-prior-authorization-h
+ow-insurers-stack-up/#:~:text=Centene%20and%20CVS%20Health%20had,to%
+20a%20report%20from%20KFF.
+67.​CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F), accessed
+July 18, 2025,
+https://www.cms.gov/priorities/burden-reduction/overview/interoperability/policie
+s-and-regulations/cms-interoperability-and-prior-authorization-final-rule-cms-0
+057-f/cms-interoperability-and-prior-authorization-final-rule-cms-0057-f
+68.​Final Prior Authorization Rules Look to Streamline the Process, but Issues Remain
+- KFF, accessed July 18, 2025,
+https://www.kff.org/private-insurance/issue-brief/final-prior-authorization-rules-l
+ook-to-streamline-the-process-but-issues-remain/
+69.​The Consequences and Future of Prior-Authorization Reform - PMC, accessed
+July 18, 2025, https://pmc.ncbi.nlm.nih.gov/articles/PMC10676707/
+
+70.​Understanding the Prior Authorization API: Requirements, deadlines, benefits and
+
+trends, accessed July 18, 2025,
+https://fire.ly/blog/understanding-the-prior-authorization-api/
+71.​Understanding the Payer-to-Payer API: Requirements, deadlines, benefits and
+trends, accessed July 18, 2025,
+https://fire.ly/blog/understanding-the-payer-to-payer-api/
+72.​How AI Can Predict & Prevent Insurance Claim Denials - Enter.Health, accessed
+July 18, 2025,
+https://www.enter.health/post/ai-predict-prevent-insurance-claim-denials
+73.​Denial Prediction Using Machine Learning | WhiteSpace Health, accessed July 18,
+2025, https://whitespacehealth.com/blogs/denial-prediction-using-ml/
+74.​AI-powered automation of appealing prior authorization denials with John Snow
+Labs' Medical LLM, accessed July 18, 2025,
+https://www.johnsnowlabs.com/ai-powered-automation-of-prior-authorization-d
+enials-with-john-snow-labs-medical-llm-as-a-judge/
+75.​Automated Prior Authorization Solutions | Agentic AI | RPA - Flobotics, accessed
+July 18, 2025,
+https://flobotics.io/rcm-automation/prior-authorization-automation/
+76.​Prior Authorization Denials Reduced to 0.21%: How RPA is Transforming
+Healthcare, accessed July 18, 2025,
+https://www.jorie.ai/post/prior-authorization-denials-reduced-to-0-21-how-rpa-i
+s-transforming-healthcare
+77.​Epic EHR vs Oracle Health (formerly Cerner) 2025 comparison, accessed July 18,
+2025, https://www.ehrinpractice.com/epic-ehr-vs-cerner-ehr-comparison.html
+78.​Epic EHR Integration vs. Cerner: Find the Right Fit - Dash Technologies Inc,
+accessed July 18, 2025,
+https://dashtechinc.com/blog/epic-ehr-integration-vs-cerner-which-ehr-systemis-better-in-2025/
+79.​Cerner vs. Epic EHR (2025 Comparison) - Forbes, accessed July 18, 2025,
+https://www.forbes.com/advisor/business/software/cerner-vs-epic/
+80.​Availity is Already Automating Prior Auths - YouTube, accessed July 18, 2025,
+https://www.youtube.com/watch?v=OuS9rwKnnUY
+81.​Availity is Already Automating Prior Auths | Healthcare IT Today, accessed July 18,
+2025,
+https://www.healthcareittoday.com/2025/07/17/availity-is-already-automating-pri
+or-auths/
+82.​Strengthening payer-provider relations through strategic data use - Wolters
+Kluwer, accessed July 18, 2025,
+https://www.wolterskluwer.com/en/expert-insights/strengthening-payer-provider
+-relations-through-strategic-data-use
+83.​How Prior Authorization Impacts Care, Cost, and Clinical Workflows?, accessed
+July 18, 2025,
+https://staffingly.com/how-prior-authorization-impacts-care-cost-and-clinical-w
+orkflows/
+84.​Best Practices for Prior Authorizations: Tailoring Solutions by Specialty - NYX
+
+Health, accessed July 18, 2025,
+https://nyxhealth.com/best-practices-for-prior-authorizations/
+85.​The Ultimate Guide to Measuring Efficiency in Prior Authorization - Portiva,
+accessed July 18, 2025,
+https://portiva.com/measuring-efficiency-in-prior-authorization/
+86.​[Blog] Prior Authorization Best Practices Reduce Extreme Administrative Burdens
+- Infinx Healthcare, accessed July 18, 2025,
+https://www.infinx.com/blog/prior-authorization-best-practices-reduce-extreme
+-administrative-burdens/
+87.​Understanding the Role of a Prior Authorization Specialist Connext, accessed July
+18, 2025,
+https://connextglobal.com/understanding-the-role-of-a-prior-authorization-spec
+ialist/
+88.​The Crucial Role of Prior Authorization Training in Healthcare - Portiva, accessed
+July 18, 2025,
+https://portiva.com/why-prior-authorization-training-is-crucial-in-healthcare/
+89.​Hospital Prior Authorization Management: 5 Best Practices - valer.health,
+accessed July 18, 2025,
+https://valer.health/hospital-prior-authorization-management/
+90.​UnitedHealthcare National Gold Card program - UHCprovider.com, accessed July
+18, 2025,
+https://www.uhcprovider.com/en/prior-auth-advance-notification/gold-card.html
+91.​Fixing prior auth: These critical changes must be made | American Medical
+Association, accessed July 18, 2025,
+https://www.ama-assn.org/practice-management/prior-authorization/fixing-prior
+-auth-these-critical-changes-must-be-made
+
+
