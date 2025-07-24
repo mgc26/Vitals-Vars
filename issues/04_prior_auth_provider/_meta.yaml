@@ -1,10 +1,10 @@
 # Publishing configuration for Issue 04
 issue_number: 4
-title: "Prior Authorization Part 1: The Provider's Playbook for Same-Day Approvals"
+title: "The $7.9 Million Surrender: How Prior Authorization Forces Providers to Abandon Earned Revenue"
 short_title: "Prior Auth: Provider Side"
 series: "Prior Authorization Mini-Series"
 series_part: 1
-publish: false
+publish: true
 target_date: "2025-01-31"  # Two weeks after Issue 03
 complexity: "quick_win"
 implementation_time: "2-4 weeks"
