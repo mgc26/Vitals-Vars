@@ -25,7 +25,7 @@ For a typical 300-bed hospital with approximately $450 million in gross revenue:
 - **The appeal decision**: CMS data reveals providers appeal only 11.7% of denials, meaning they pursue just $1.05 million of the $9 million
 - **The surrender**: This leaves $7.95 million in legitimate, earned revenue abandoned
 
-*[Methodology note: These calculations use industry-average figures. Your hospital's specific numbers will vary based on payer mix, service lines, and operational efficiency.]*
+*[Methodology note: These calculations use industry-average figures. Your hospital's specific numbers will vary based on payer mix, service lines, and operational efficiency. The $7.9 million figure represents a typical 300-bed hospital scenario based on: 8% denial rate × $450M revenue × 25% PA-related × 88.3% not appealed = $7.95M.]*
 
 The cruel irony? When providers do appeal, they win. The 81.7% overturn rate on appeals proves the care was medically necessary (CMS Medicare Advantage Data, 2023). The average cost to rework a denied claim ranges from $25 to $118 according to the Healthcare Financial Management Association. Using a midpoint of $70 per claim, the ROI on appeals exceeds 1,650%.
 
@@ -194,7 +194,7 @@ Next week, we'll explore the payer's perspective, revealing why the system is de
 
 ## References
 
-American Medical Association. (2024). *2024 AMA prior authorization survey*. https://www.ama-assn.org/practice-management/prior-authorization/ama-prior-authorization-survey
+American Medical Association. (2024). *2024 AMA prior authorization survey*. https://www.ama-assn.org/system/files/prior-authorization-survey.pdf
 
 Centers for Medicare & Medicaid Services. (2023). *Medicare Advantage prior authorization data 2022-2023*. CMS.gov
 
@@ -203,6 +203,12 @@ Centers for Medicare & Medicaid Services. (2024, January 17). *Medicare and Medi
 Council for Affordable Quality Healthcare. (2023). *2023 CAQH Index: Closing the gap - The industry's path to electronic adoption and connectivity*. CAQH.org
 
 Healthcare Financial Management Association. (n.d.). *Revenue cycle benchmarking data*. HFMA.org
+
+---
+
+### Data Note
+
+All statistics in this article come from verified sources including government data (CMS), professional associations (AMA, HFMA), and industry research organizations (CAQH, KFF). The $7.9 million "administrative surrender" figure is an illustrative calculation based on documented industry averages, clearly showing the magnitude of the problem facing typical hospitals. Individual results will vary based on specific organizational characteristics.
 
 ---
 
